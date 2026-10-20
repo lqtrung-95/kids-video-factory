@@ -1,0 +1,376 @@
+{
+ "meta": {
+  "title": "Days of the Week Song | Monday to Sunday | Song for Kids",
+  "description": "Monday, Tuesday, Wednesday too! 📅 Sing the days of the week, then learn all seven days with something fun to do on each one.\n\nWhat is YOUR favorite day? Tell us in the comments! 👇",
+  "tags": [
+   "days of the week song",
+   "days of the week",
+   "monday tuesday",
+   "learn days",
+   "calendar for kids",
+   "songs for kids",
+   "nursery rhymes",
+   "english for kids",
+   "nhac thieu nhi",
+   "be hoc tieng anh",
+   "thu trong tuan tieng anh"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Seven days in every week,"
+    },
+    {
+     "text": "let's all sing them, take a peek!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "📅"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Monday, Tuesday, Wednesday too,"
+    },
+    {
+     "text": "Thursday, Friday, here's to you!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "emojis": [
+    "🎒",
+    "🎨"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Days of the week, let's sing along,"
+    },
+    {
+     "text": "seven days in one happy song!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    },
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    }
+   ],
+   "emojis": [
+    "📅"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Saturday, Sunday, time to play,"
+    },
+    {
+     "text": "the weekend is a happy day!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    },
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    }
+   ],
+   "emojis": [
+    "⚽",
+    "🏡"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sea"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Then it's Monday, back again,"
+    },
+    {
+     "text": "count the days with all your friends!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    },
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    }
+   ],
+   "emojis": [
+    "🎒"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "globe"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Days of the week, let's sing along,"
+    },
+    {
+     "text": "seven days in one happy song!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": []
+  },
+  {
+   "type": "title",
+   "duration": 4.5,
+   "small": [
+    "Let's learn the"
+   ],
+   "big": "days of the week!",
+   "say": "Hello everyone! Let's learn the seven days of the week!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "MONDAY",
+   "sub": "Back to school",
+   "emoji": "🎒",
+   "bg": "#FFF1C9",
+   "side": "right",
+   "say": "Monday! On Monday, we go to school!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "TUESDAY",
+   "sub": "Paint a picture",
+   "emoji": "🎨",
+   "bg": "#DFF5E1",
+   "side": "left",
+   "say": "Tuesday! On Tuesday, we paint a picture!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "WEDNESDAY",
+   "sub": "Go swimming",
+   "emoji": "🏊",
+   "bg": "#FFE0EC",
+   "side": "right",
+   "say": "Wednesday! On Wednesday, we go swimming!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "THURSDAY",
+   "sub": "Read a book",
+   "emoji": "📚",
+   "bg": "#E3F0FF",
+   "side": "left",
+   "say": "Thursday! On Thursday, we read a book!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "FRIDAY",
+   "sub": "Music day",
+   "emoji": "🎵",
+   "bg": "#F3E5FF",
+   "side": "right",
+   "say": "Friday! On Friday, we sing and dance!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "SATURDAY",
+   "sub": "Play outside",
+   "emoji": "⚽",
+   "bg": "#FFE7B3",
+   "side": "left",
+   "say": "Saturday! On Saturday, we play outside!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "SUNDAY",
+   "sub": "Family day",
+   "emoji": "🏡",
+   "bg": "#C9F0FF",
+   "side": "right",
+   "say": "Sunday! On Sunday, we stay with our family!"
+  },
+  {
+   "type": "title",
+   "duration": 5,
+   "small": [
+    "Your turn!",
+    "What is your favorite"
+   ],
+   "big": "day of the week?",
+   "say": "What is your favorite day of the week? Tell us in the comments!"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "See you next week! Bye-bye!"
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}

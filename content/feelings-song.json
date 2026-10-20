@@ -1,0 +1,389 @@
+{
+ "meta": {
+  "title": "Feelings Song | Happy, Sad, Angry, Sleepy | Emotions for Kids",
+  "description": "Happy, sad, angry, scared, sleepy and silly! 😀😢😠😴 A gentle song that helps little ones name their feelings, plus 8 emotion cards with faces to copy.\n\nHow do YOU feel today? Tell us in the comments! 👇",
+  "tags": [
+   "feelings song",
+   "emotions for kids",
+   "happy sad angry",
+   "social emotional learning",
+   "songs for kids",
+   "nursery rhymes",
+   "english for kids",
+   "nhac thieu nhi",
+   "be hoc tieng anh",
+   "cam xuc cho be"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "When I'm happy, I smile so wide,"
+    },
+    {
+     "text": "I feel sunshine deep inside!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "😀"
+   ],
+   "action": "jump"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "When I'm sad, I cry boo-hoo,"
+    },
+    {
+     "text": "a big warm hug will help me through!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "emojis": [
+    "😢"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Feelings, feelings, big and small,"
+    },
+    {
+     "text": "it's okay to feel them all!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    },
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    }
+   ],
+   "emojis": [
+    "😀",
+    "😢",
+    "😠"
+   ],
+   "action": "clap"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "desert"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "When I'm angry, I stomp my feet,"
+    },
+    {
+     "text": "take a breath and count to three!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    },
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    }
+   ],
+   "emojis": [
+    "😠"
+   ],
+   "action": "stomp"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "When I'm sleepy, I yawn, ho-hum,"
+    },
+    {
+     "text": "time for bed, the night has come!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    },
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    }
+   ],
+   "emojis": [
+    "😴"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Feelings, feelings, big and small,"
+    },
+    {
+     "text": "it's okay to feel them all!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [],
+   "action": "clap"
+  },
+  {
+   "type": "title",
+   "duration": 4.5,
+   "small": [
+    "How do you feel"
+   ],
+   "big": "today?",
+   "say": "Hello everyone! How do you feel today? Let's learn our feelings!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "HAPPY",
+   "sub": "Big smile!",
+   "emoji": "😀",
+   "bg": "#FFF1C9",
+   "side": "right",
+   "say": "Happy! When I'm happy, I smile! Show me your happy face!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "SAD",
+   "sub": "Boo-hoo",
+   "emoji": "😢",
+   "bg": "#DFF5E1",
+   "side": "left",
+   "say": "Sad. When I'm sad, I need a hug."
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "ANGRY",
+   "sub": "Grrr!",
+   "emoji": "😠",
+   "bg": "#FFE0EC",
+   "side": "right",
+   "say": "Angry! When I'm angry, I take a deep breath."
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "SCARED",
+   "sub": "Oh no!",
+   "emoji": "😨",
+   "bg": "#E3F0FF",
+   "side": "left",
+   "say": "Scared! When I'm scared, I hold a hand."
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "SURPRISED",
+   "sub": "Wow!",
+   "emoji": "😲",
+   "bg": "#F3E5FF",
+   "side": "right",
+   "say": "Surprised! Wow! Show me your surprised face!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "SLEEPY",
+   "sub": "Yawn...",
+   "emoji": "😴",
+   "bg": "#FFE7B3",
+   "side": "left",
+   "say": "Sleepy. Yawn... time for bed."
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "SILLY",
+   "sub": "Hee hee!",
+   "emoji": "🤪",
+   "bg": "#C9F0FF",
+   "side": "right",
+   "say": "Silly! Hee hee! Make a silly face!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "LOVED",
+   "sub": "Big hug!",
+   "emoji": "🥰",
+   "bg": "#FFD9C7",
+   "side": "left",
+   "say": "Loved! I feel loved when you hug me!"
+  },
+  {
+   "type": "title",
+   "duration": 5,
+   "small": [
+    "Your turn!",
+    "How do YOU feel"
+   ],
+   "big": "today?",
+   "say": "How do you feel today? Tell us in the comments!"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "Big hugs! Bye-bye!"
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}

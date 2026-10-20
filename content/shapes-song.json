@@ -1,0 +1,390 @@
+{
+ "meta": {
+  "title": "Shapes Song | Circle, Square, Triangle | Learn Shapes for Kids",
+  "description": "Circle, square, triangle, star and heart! 🔵🟦🔺⭐❤️ Sing the shapes song, then learn 8 shapes with things all around us.\n\nWhat shapes can YOU find in your room? Tell us in the comments! 👇",
+  "tags": [
+   "shapes song",
+   "learn shapes",
+   "shapes for kids",
+   "circle square triangle",
+   "preschool learning",
+   "songs for kids",
+   "nursery rhymes",
+   "english for kids",
+   "nhac thieu nhi",
+   "be hoc tieng anh",
+   "hoc hinh khoi cho be"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Circle, square and triangle too,"
+    },
+    {
+     "text": "shapes are everywhere for you!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "🔺",
+    "🟦"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "desert"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "The sun is round, a circle bright,"
+    },
+    {
+     "text": "a star is twinkling in the night!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "emojis": [
+    "☀️",
+    "⭐"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Shapes, shapes, look around,"
+    },
+    {
+     "text": "so many shapes are to be found!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    },
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    }
+   ],
+   "emojis": [
+    "🔵",
+    "🔺",
+    "🟦"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "A box is square with corners four,"
+    },
+    {
+     "text": "a rectangle is like a door!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    },
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    }
+   ],
+   "emojis": [
+    "📦",
+    "🚪"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sea"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "A slice of pizza, three sides, see?"
+    },
+    {
+     "text": "A heart for you and one for me!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    },
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    }
+   ],
+   "emojis": [
+    "🍕",
+    "❤️"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "globe"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Shapes, shapes, look around,"
+    },
+    {
+     "text": "so many shapes are to be found!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": []
+  },
+  {
+   "type": "title",
+   "duration": 4.5,
+   "small": [
+    "Let's learn"
+   ],
+   "big": "Shapes!",
+   "say": "Hello everyone! Let's learn shapes!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "CIRCLE",
+   "sub": "Round like a ball",
+   "emoji": "🔵",
+   "bg": "#FFF1C9",
+   "side": "right",
+   "say": "This is a circle! A circle is round, like a ball!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "SQUARE",
+   "sub": "Four equal sides",
+   "emoji": "🟦",
+   "bg": "#DFF5E1",
+   "side": "left",
+   "say": "This is a square! A square has four equal sides!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "TRIANGLE",
+   "sub": "Three sides",
+   "emoji": "🔺",
+   "bg": "#FFE0EC",
+   "side": "right",
+   "say": "This is a triangle! A triangle has three sides!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "RECTANGLE",
+   "sub": "Long like a door",
+   "emoji": "🚪",
+   "bg": "#E3F0FF",
+   "side": "left",
+   "say": "This is a rectangle! Long, like a door!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "STAR",
+   "sub": "Five points",
+   "emoji": "⭐",
+   "bg": "#F3E5FF",
+   "side": "right",
+   "say": "This is a star! A star has five points!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "HEART",
+   "sub": "Shape of love",
+   "emoji": "❤️",
+   "bg": "#FFE7B3",
+   "side": "left",
+   "say": "This is a heart! I love you!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "OVAL",
+   "sub": "Like an egg",
+   "emoji": "🥚",
+   "bg": "#C9F0FF",
+   "side": "right",
+   "say": "This is an oval! Like an egg!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "DIAMOND",
+   "sub": "Like a kite",
+   "emoji": "🔷",
+   "bg": "#FFD9C7",
+   "side": "left",
+   "say": "This is a diamond! Like a kite in the sky!"
+  },
+  {
+   "type": "title",
+   "duration": 5,
+   "small": [
+    "Your turn!",
+    "What shapes can you find"
+   ],
+   "big": "in your room?",
+   "say": "What shapes can you find in your room? Tell us in the comments!"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "Great job! Bye-bye!"
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}

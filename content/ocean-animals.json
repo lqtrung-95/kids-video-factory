@@ -1,0 +1,391 @@
+{
+ "meta": {
+  "title": "Under the Sea Song | Ocean Animals for Kids | Whale, Dolphin, Octopus",
+  "description": "Dive under the sea! 🐳🐬🐙🦀 Sing along, then meet 8 ocean animals and learn a fun fact about each one.\n\nWhich sea animal do YOU like best? Tell us in the comments! 👇",
+  "tags": [
+   "ocean animals",
+   "sea animals for kids",
+   "under the sea song",
+   "animal song for kids",
+   "whale",
+   "dolphin",
+   "songs for kids",
+   "nursery rhymes",
+   "english for kids",
+   "nhac thieu nhi",
+   "be hoc tieng anh",
+   "dong vat bien cho be"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sea"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Down, down, under the sea,"
+    },
+    {
+     "text": "come and swim along with me!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "🐠"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sea"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Fish swim fast, the crab walks wide,"
+    },
+    {
+     "text": "the turtle has a shell to hide!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "emojis": [
+    "🐟",
+    "🦀",
+    "🐢"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Splash, splash, in the big blue sea,"
+    },
+    {
+     "text": "so many friends for you and me!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    },
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    }
+   ],
+   "emojis": [
+    "🐳",
+    "🐬"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sea"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "The octopus has arms of eight,"
+    },
+    {
+     "text": "the dolphin jumps, it's really great!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    },
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    }
+   ],
+   "emojis": [
+    "🐙",
+    "🐬"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "The whale sings, the shark swims by,"
+    },
+    {
+     "text": "the jellyfish just says hi!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    },
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    }
+   ],
+   "emojis": [
+    "🐳",
+    "🦈",
+    "🪼"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sea"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Splash, splash, in the big blue sea,"
+    },
+    {
+     "text": "so many friends for you and me!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": []
+  },
+  {
+   "type": "title",
+   "duration": 4.5,
+   "small": [
+    "Let's meet the"
+   ],
+   "big": "ocean animals!",
+   "say": "Hello everyone! Let's dive into the sea and meet the ocean animals!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5.5,
+   "word": "FISH",
+   "sub": "Swims with fins",
+   "emoji": "🐟",
+   "bg": "#FFF1C9",
+   "side": "right",
+   "say": "Fish! A fish swims with its fins!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5.5,
+   "word": "CRAB",
+   "sub": "Walks sideways",
+   "emoji": "🦀",
+   "bg": "#DFF5E1",
+   "side": "left",
+   "say": "Crab! A crab walks sideways. Snip, snip!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5.5,
+   "word": "TURTLE",
+   "sub": "Has a hard shell",
+   "emoji": "🐢",
+   "bg": "#FFE0EC",
+   "side": "right",
+   "say": "Turtle! A turtle has a hard shell!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5.5,
+   "word": "OCTOPUS",
+   "sub": "Eight long arms",
+   "emoji": "🐙",
+   "bg": "#E3F0FF",
+   "side": "left",
+   "say": "Octopus! An octopus has eight long arms!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5.5,
+   "word": "DOLPHIN",
+   "sub": "Jumps and plays",
+   "emoji": "🐬",
+   "bg": "#F3E5FF",
+   "side": "right",
+   "say": "Dolphin! A dolphin loves to jump and play!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5.5,
+   "word": "WHALE",
+   "sub": "The biggest animal",
+   "emoji": "🐳",
+   "bg": "#FFE7B3",
+   "side": "left",
+   "say": "Whale! The blue whale is the biggest animal in the world!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5.5,
+   "word": "SHARK",
+   "sub": "Sharp teeth",
+   "emoji": "🦈",
+   "bg": "#C9F0FF",
+   "side": "right",
+   "say": "Shark! A shark has lots of sharp teeth!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5.5,
+   "word": "JELLYFISH",
+   "sub": "Wobbly and see-through",
+   "emoji": "🪼",
+   "bg": "#FFD9C7",
+   "side": "left",
+   "say": "Jellyfish! A jellyfish is wobbly and see-through!"
+  },
+  {
+   "type": "title",
+   "duration": 5,
+   "small": [
+    "Your turn!",
+    "Which sea animal"
+   ],
+   "big": "do you like best?",
+   "say": "Which ocean animal do you like best? Tell us in the comments!"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "Splash! Bye-bye!"
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}

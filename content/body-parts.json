@@ -1,0 +1,392 @@
+{
+ "meta": {
+  "title": "My Body Song | Head, Eyes, Ears, Nose | Body Parts for Kids",
+  "description": "Touch your head and touch your nose! 👀👂👃👐 A movement song about body parts, then 8 cards to point along with.\n\nCan YOU touch your nose with your tongue? Tell us in the comments! 👇",
+  "tags": [
+   "body parts song",
+   "parts of the body",
+   "my body song",
+   "head eyes ears nose",
+   "movement song for kids",
+   "songs for kids",
+   "nursery rhymes",
+   "english for kids",
+   "nhac thieu nhi",
+   "be hoc tieng anh",
+   "bo phan co the cho be"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Touch your head and touch your nose,"
+    },
+    {
+     "text": "wiggle, wiggle all your toes!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "👃"
+   ],
+   "action": "wiggle"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Two little eyes to see the sky,"
+    },
+    {
+     "text": "two little ears hear birds fly by!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "emojis": [
+    "👀",
+    "👂"
+   ],
+   "action": "wave"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Head and hands and knees and feet,"
+    },
+    {
+     "text": "move your body to the beat!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    },
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    }
+   ],
+   "emojis": [
+    "👐",
+    "🦶"
+   ],
+   "action": "clap"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Clap your hands, clap, clap, clap,"
+    },
+    {
+     "text": "pat your knees, pat, pat, pat!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    },
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    }
+   ],
+   "emojis": [
+    "👐"
+   ],
+   "action": "clap"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "desert"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Stomp your feet upon the ground,"
+    },
+    {
+     "text": "shake your body all around!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    },
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    }
+   ],
+   "emojis": [
+    "🦶"
+   ],
+   "action": "stomp"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sea"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Head and hands and knees and feet,"
+    },
+    {
+     "text": "move your body to the beat!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [],
+   "action": "spin"
+  },
+  {
+   "type": "title",
+   "duration": 4.5,
+   "small": [
+    "Let's learn"
+   ],
+   "big": "my body!",
+   "say": "Hello everyone! Let's learn the parts of our body! Point along with me!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "HEAD",
+   "sub": "Pat your head",
+   "emoji": "🧒",
+   "bg": "#FFF1C9",
+   "side": "right",
+   "say": "Head! Pat, pat, pat your head!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "EYES",
+   "sub": "I see with my eyes",
+   "emoji": "👀",
+   "bg": "#DFF5E1",
+   "side": "left",
+   "say": "Eyes! Point to your eyes. I see with my eyes!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "EARS",
+   "sub": "I hear with my ears",
+   "emoji": "👂",
+   "bg": "#FFE0EC",
+   "side": "right",
+   "say": "Ears! Point to your ears. I hear with my ears!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "NOSE",
+   "sub": "I smell with my nose",
+   "emoji": "👃",
+   "bg": "#E3F0FF",
+   "side": "left",
+   "say": "Nose! Touch your nose. I smell with my nose!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "MOUTH",
+   "sub": "I eat with my mouth",
+   "emoji": "👄",
+   "bg": "#F3E5FF",
+   "side": "right",
+   "say": "Mouth! Point to your mouth. Yum, yum!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "HANDS",
+   "sub": "Clap your hands",
+   "emoji": "👐",
+   "bg": "#FFE7B3",
+   "side": "left",
+   "say": "Hands! Clap, clap, clap your hands!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "LEGS",
+   "sub": "Jump with your legs",
+   "emoji": "🦵",
+   "bg": "#C9F0FF",
+   "side": "right",
+   "say": "Legs! Jump, jump with your legs!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "FEET",
+   "sub": "Stomp your feet",
+   "emoji": "🦶",
+   "bg": "#FFD9C7",
+   "side": "left",
+   "say": "Feet! Stomp, stomp, stomp your feet!"
+  },
+  {
+   "type": "title",
+   "duration": 5,
+   "small": [
+    "Your turn!",
+    "Can you touch your nose"
+   ],
+   "big": "with your tongue?",
+   "say": "Can you touch your nose with your tongue? Tell us in the comments!"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "Great job! Bye-bye!"
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}
