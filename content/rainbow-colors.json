@@ -1,0 +1,403 @@
+{
+ "meta": {
+  "title": "Colors of the Rainbow | Learn Colors Song | Song for Kids",
+  "description": "Red, orange, yellow, green, blue and purple! 🌈 Sing the rainbow song, then learn 8 colors with fruits, animals and toys.\n\nWhat is YOUR favorite color? Tell us in the comments! 👇",
+  "tags": [
+   "colors song",
+   "rainbow song",
+   "learn colors",
+   "colors for kids",
+   "songs for kids",
+   "nursery rhymes",
+   "english for kids",
+   "nhac thieu nhi",
+   "be hoc tieng anh",
+   "hoc mau sac cho be"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Look up high, what do you see?"
+    },
+    {
+     "text": "A rainbow smiling down at me!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "🌈"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Red like apples, orange like the sun,"
+    },
+    {
+     "text": "yellow bananas, yum, yum, yum!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "emojis": [
+    "🍎",
+    "🍊",
+    "🍌"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Colors, colors, shining bright,"
+    },
+    {
+     "text": "a rainbow full of color and light!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    },
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    }
+   ],
+   "emojis": [
+    "🌈"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sea"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Green like frogs that jump and play,"
+    },
+    {
+     "text": "blue like the sea on a sunny day!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    },
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    }
+   ],
+   "emojis": [
+    "🐸",
+    "🐳"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Purple grapes and pink balloons,"
+    },
+    {
+     "text": "let's all sing a color tune!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    },
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    }
+   ],
+   "emojis": [
+    "🍇",
+    "🎈"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "globe"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Colors, colors, shining bright,"
+    },
+    {
+     "text": "a rainbow full of color and light!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": []
+  },
+  {
+   "type": "title",
+   "duration": 4.5,
+   "small": [
+    "Let's learn the"
+   ],
+   "big": "colors of the rainbow!",
+   "say": "Hello everyone! Let's learn colors!"
+  },
+  {
+   "type": "color",
+   "duration": 5,
+   "name": "Red",
+   "hex": "#E53935",
+   "items": [
+    "🍎",
+    "🚒",
+    "🍓"
+   ],
+   "say": "Red! Red! What is red?"
+  },
+  {
+   "type": "color",
+   "duration": 5,
+   "name": "Orange",
+   "hex": "#FB8C00",
+   "items": [
+    "🍊",
+    "🥕",
+    "🦊"
+   ],
+   "say": "Orange! Orange! What is orange?"
+  },
+  {
+   "type": "color",
+   "duration": 5,
+   "name": "Yellow",
+   "hex": "#FDD835",
+   "items": [
+    "🍌",
+    "🌻",
+    "🐥"
+   ],
+   "say": "Yellow! Yellow! What is yellow?"
+  },
+  {
+   "type": "color",
+   "duration": 5,
+   "name": "Green",
+   "hex": "#43A047",
+   "items": [
+    "🐸",
+    "🥦",
+    "🌳"
+   ],
+   "say": "Green! Green! What is green?"
+  },
+  {
+   "type": "color",
+   "duration": 5,
+   "name": "Blue",
+   "hex": "#1E88E5",
+   "items": [
+    "🐳",
+    "🫐",
+    "🦋"
+   ],
+   "say": "Blue! Blue! What is blue?"
+  },
+  {
+   "type": "color",
+   "duration": 5,
+   "name": "Purple",
+   "hex": "#8E24AA",
+   "items": [
+    "🍇",
+    "🍆",
+    "☂️"
+   ],
+   "say": "Purple! Purple! What is purple?"
+  },
+  {
+   "type": "color",
+   "duration": 5,
+   "name": "Pink",
+   "hex": "#EC407A",
+   "items": [
+    "🌸",
+    "🦩",
+    "🎀"
+   ],
+   "say": "Pink! Pink! What is pink?"
+  },
+  {
+   "type": "color",
+   "duration": 5,
+   "name": "Brown",
+   "hex": "#795548",
+   "items": [
+    "🐻",
+    "🍫",
+    "🌰"
+   ],
+   "say": "Brown! Brown! What is brown?"
+  },
+  {
+   "type": "title",
+   "duration": 5,
+   "small": [
+    "Your turn!",
+    "What is your favorite"
+   ],
+   "big": "color?",
+   "say": "What is your favorite color? Tell us in the comments!"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "Great job! Bye-bye!"
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}

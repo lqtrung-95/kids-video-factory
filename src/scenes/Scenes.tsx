@@ -386,6 +386,17 @@ const Burst: React.FC<{ size: number; color: string }> = ({ size, color }) => {
 
 /** text column next to the 900px picture: 1920 − 2×110 padding − 900 − 60 gap */
 const VOCAB_TEXT_W = 740;
+/** "BRUSH TEETH" → two big lines instead of one small one (single words stay on one line). */
+const vocabLines = (w: string) => {
+  const parts = w.split(" ");
+  if (parts.length < 2 || w.length <= 8) return [w];
+  let best = 1, bestD = Infinity;
+  for (let i = 1; i < parts.length; i++) {
+    const d = Math.abs(parts.slice(0, i).join(" ").length - parts.slice(i).join(" ").length);
+    if (d < bestD) [best, bestD] = [i, d];
+  }
+  return [parts.slice(0, best).join(" "), parts.slice(best).join(" ")];
+};
 
 export const VocabScene: React.FC<{ s: S<"vocab"> }> = ({ s }) => {
   const frame = useCurrentFrame();
@@ -439,9 +450,19 @@ export const VocabScene: React.FC<{ s: S<"vocab"> }> = ({ s }) => {
           ) : (
             <Sequence from={revealF} layout="none">
               <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 18 }}>
-                <PopText size={fit(s.word, VOCAB_TEXT_W, 170)} color="#FFFFFF" stroke="#1B1B1B" strokeW={11} delay={s.guess ? 2 : 10} letterBounce>
-                  {s.word}
-                </PopText>
+                {vocabLines(s.word).map((w, k, all) => (
+                  <PopText
+                    key={k}
+                    size={Math.min(...all.map((x) => fit(x, VOCAB_TEXT_W, 170)))}
+                    color="#FFFFFF"
+                    stroke="#1B1B1B"
+                    strokeW={11}
+                    delay={(s.guess ? 2 : 10) + k * 6}
+                    letterBounce
+                  >
+                    {w}
+                  </PopText>
+                ))}
                 {s.sub ? (
                   <PopText size={fit(s.sub, VOCAB_TEXT_W, 70)} color="#1B1B1B" delay={s.guess ? 10 : 18}>
                     {s.sub}

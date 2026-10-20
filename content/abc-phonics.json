@@ -1,0 +1,562 @@
+{
+ "meta": {
+  "title": "ABC Phonics Song A to Z | A is for Apple | Song for Kids",
+  "description": "A is for Apple, B is for Ball! 🍎⚽ Sing the ABC phonics song, then learn every letter and its sound from A to Z.\n\nWhich letter starts YOUR name? Tell us in the comments! 👇",
+  "tags": [
+   "abc song",
+   "phonics song",
+   "alphabet song",
+   "a is for apple",
+   "learn abc",
+   "letter sounds",
+   "songs for kids",
+   "nursery rhymes",
+   "english for kids",
+   "nhac thieu nhi",
+   "be hoc tieng anh",
+   "hoc chu cai tieng anh"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "A, B, C, come sing with me,"
+    },
+    {
+     "text": "letters are as fun as fun can be!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "🔤"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Every letter has a sound,"
+    },
+    {
+     "text": "let's go hear them all around!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "emojis": [
+    "🍎",
+    "⚽"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "A to Z, A to Z,"
+    },
+    {
+     "text": "sing the letter sounds with me!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    },
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    }
+   ],
+   "emojis": [
+    "🐱",
+    "🐶"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Apple, ball and cat and dog,"
+    },
+    {
+     "text": "hopping like a happy frog!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    },
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    }
+   ],
+   "emojis": [
+    "🍎",
+    "⚽",
+    "🐱",
+    "🐶",
+    "🐸"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sea"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Some are big and some are small,"
+    },
+    {
+     "text": "we can learn them, one and all!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    },
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    }
+   ],
+   "emojis": [
+    "🐳",
+    "🐟"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "A to Z, A to Z,"
+    },
+    {
+     "text": "sing the letter sounds with me!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": []
+  },
+  {
+   "type": "title",
+   "duration": 4.5,
+   "small": [
+    "Let's learn"
+   ],
+   "big": "ABC phonics!",
+   "say": "Hello everyone! Let's learn the ABC and the letter sounds!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "A",
+   "word": "Apple",
+   "emoji": "🍎",
+   "sound": "/æ/",
+   "bg": "#FFF1C9",
+   "say": "A is for Apple. A, A, apple!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "B",
+   "word": "Ball",
+   "emoji": "⚽",
+   "sound": "/b/",
+   "bg": "#DFF5E1",
+   "say": "B is for Ball. B, B, ball!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "C",
+   "word": "Cat",
+   "emoji": "🐱",
+   "sound": "/k/",
+   "bg": "#FFE0EC",
+   "say": "C is for Cat. C, C, cat!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "D",
+   "word": "Dog",
+   "emoji": "🐶",
+   "sound": "/d/",
+   "bg": "#E3F0FF",
+   "say": "D is for Dog. D, D, dog!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "E",
+   "word": "Egg",
+   "emoji": "🥚",
+   "sound": "/ɛ/",
+   "bg": "#F3E5FF",
+   "say": "E is for Egg. E, E, egg!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "F",
+   "word": "Fish",
+   "emoji": "🐟",
+   "sound": "/f/",
+   "bg": "#FFE7B3",
+   "say": "F is for Fish. F, F, fish!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "G",
+   "word": "Goat",
+   "emoji": "🐐",
+   "sound": "/g/",
+   "bg": "#C9F0FF",
+   "say": "G is for Goat. G, G, goat!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "H",
+   "word": "Hat",
+   "emoji": "🎩",
+   "sound": "/h/",
+   "bg": "#FFD9C7",
+   "say": "H is for Hat. H, H, hat!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "I",
+   "word": "Insect",
+   "emoji": "🐛",
+   "sound": "/ɪ/",
+   "bg": "#FFF1C9",
+   "say": "I is for Insect. I, I, insect!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "J",
+   "word": "Juice",
+   "emoji": "🧃",
+   "sound": "/dʒ/",
+   "bg": "#DFF5E1",
+   "say": "J is for Juice. J, J, juice!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "K",
+   "word": "Kite",
+   "emoji": "🪁",
+   "sound": "/k/",
+   "bg": "#FFE0EC",
+   "say": "K is for Kite. K, K, kite!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "L",
+   "word": "Lion",
+   "emoji": "🦁",
+   "sound": "/l/",
+   "bg": "#E3F0FF",
+   "say": "L is for Lion. L, L, lion!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "M",
+   "word": "Moon",
+   "emoji": "🌙",
+   "sound": "/m/",
+   "bg": "#F3E5FF",
+   "say": "M is for Moon. M, M, moon!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "N",
+   "word": "Nest",
+   "emoji": "🪺",
+   "sound": "/n/",
+   "bg": "#FFE7B3",
+   "say": "N is for Nest. N, N, nest!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "O",
+   "word": "Octopus",
+   "emoji": "🐙",
+   "sound": "/ɒ/",
+   "bg": "#C9F0FF",
+   "say": "O is for Octopus. O, O, octopus!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "P",
+   "word": "Pig",
+   "emoji": "🐷",
+   "sound": "/p/",
+   "bg": "#FFD9C7",
+   "say": "P is for Pig. P, P, pig!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "Q",
+   "word": "Queen",
+   "emoji": "👸",
+   "sound": "/kw/",
+   "bg": "#FFF1C9",
+   "say": "Q is for Queen. Q, Q, queen!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "R",
+   "word": "Rabbit",
+   "emoji": "🐰",
+   "sound": "/r/",
+   "bg": "#DFF5E1",
+   "say": "R is for Rabbit. R, R, rabbit!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "S",
+   "word": "Sun",
+   "emoji": "☀️",
+   "sound": "/s/",
+   "bg": "#FFE0EC",
+   "say": "S is for Sun. S, S, sun!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "T",
+   "word": "Tiger",
+   "emoji": "🐯",
+   "sound": "/t/",
+   "bg": "#E3F0FF",
+   "say": "T is for Tiger. T, T, tiger!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "U",
+   "word": "Umbrella",
+   "emoji": "☂️",
+   "sound": "/ʌ/",
+   "bg": "#F3E5FF",
+   "say": "U is for Umbrella. U, U, umbrella!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "V",
+   "word": "Violin",
+   "emoji": "🎻",
+   "sound": "/v/",
+   "bg": "#FFE7B3",
+   "say": "V is for Violin. V, V, violin!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "W",
+   "word": "Whale",
+   "emoji": "🐳",
+   "sound": "/w/",
+   "bg": "#C9F0FF",
+   "say": "W is for Whale. W, W, whale!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "X",
+   "word": "Xylophone",
+   "emoji": "🎶",
+   "sound": "/z/",
+   "bg": "#FFD9C7",
+   "say": "X is for Xylophone. X, X, xylophone!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "Y",
+   "word": "Yo-yo",
+   "emoji": "🪀",
+   "sound": "/j/",
+   "bg": "#FFF1C9",
+   "say": "Y is for Yo-yo. Y, Y, yo-yo!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "Z",
+   "word": "Zebra",
+   "emoji": "🦓",
+   "sound": "/z/",
+   "bg": "#DFF5E1",
+   "say": "Z is for Zebra. Z, Z, zebra!"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "Great job! Bye-bye!"
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}

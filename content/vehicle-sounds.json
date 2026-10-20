@@ -1,0 +1,413 @@
+{
+ "meta": {
+  "title": "Beep Beep! Vehicle Sounds Song | Cars, Trains & Fire Trucks | Song for Kids",
+  "description": "Beep beep! Choo choo! Wee-oo! 🚗🚂🚒 Sing along, then play the guessing game: listen to the sound and guess the vehicle!\n\nWhich vehicle do YOU like best? Tell us in the comments! 👇",
+  "tags": [
+   "vehicle sounds",
+   "vehicles for kids",
+   "car song",
+   "fire truck",
+   "train song",
+   "transportation song",
+   "guessing game for kids",
+   "songs for kids",
+   "nursery rhymes",
+   "english for kids",
+   "nhac thieu nhi",
+   "be hoc tieng anh",
+   "phuong tien giao thong cho be"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Wheels go round on the busy street,"
+    },
+    {
+     "text": "beep, beep, beep, now tap your feet!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "🚗",
+    "🚌"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "The fire truck goes wee-oo, wee-oo,"
+    },
+    {
+     "text": "rushing out to help me and you!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "emojis": [
+    "🚒"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Beep and vroom and choo-choo-choo,"
+    },
+    {
+     "text": "so many sounds for me and you!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    },
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    }
+   ],
+   "emojis": [
+    "🚗",
+    "🚂",
+    "🚒"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "The train goes chugging down the track,"
+    },
+    {
+     "text": "choo-choo forward, choo-choo back!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    },
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    }
+   ],
+   "emojis": [
+    "🚂"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sea"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "The big boat sails across the sea,"
+    },
+    {
+     "text": "toot, toot, toot, come sail with me!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    },
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    }
+   ],
+   "emojis": [
+    "🚢"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "globe"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Beep and vroom and choo-choo-choo,"
+    },
+    {
+     "text": "so many sounds for me and you!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": []
+  },
+  {
+   "type": "title",
+   "duration": 4.5,
+   "small": [
+    "Listen and guess!"
+   ],
+   "big": "What makes this sound?",
+   "say": "Hello everyone! Listen to the sound and guess the vehicle!"
+  },
+  {
+   "type": "vocab",
+   "duration": 6,
+   "word": "CAR",
+   "sub": "Beep beep!",
+   "emoji": "🚗",
+   "guess": "BEEP BEEP!",
+   "reveal": 3,
+   "bg": "#FFF1C9",
+   "side": "left",
+   "imagePrompt": "A shiny red cartoon car with big round wheels, side view, smiling headlights",
+   "say": "What goes beep beep? ... It's a car! Beep beep!"
+  },
+  {
+   "type": "vocab",
+   "duration": 6,
+   "word": "BUS",
+   "sub": "Honk honk!",
+   "emoji": "🚌",
+   "guess": "HONK HONK!",
+   "reveal": 3,
+   "bg": "#DFF5E1",
+   "side": "right",
+   "imagePrompt": "A friendly yellow cartoon school bus, side view",
+   "say": "What goes honk honk? ... It's a bus! Honk honk!"
+  },
+  {
+   "type": "vocab",
+   "duration": 6,
+   "word": "FIRE TRUCK",
+   "sub": "Wee-oo wee-oo!",
+   "emoji": "🚒",
+   "guess": "WEE-OO!",
+   "reveal": 3,
+   "bg": "#FFE0EC",
+   "side": "left",
+   "imagePrompt": "A bright red cartoon fire truck with a ladder, side view",
+   "say": "What goes wee-oo wee-oo? ... It's a fire truck! Wee-oo wee-oo!"
+  },
+  {
+   "type": "vocab",
+   "duration": 6,
+   "word": "TRAIN",
+   "sub": "Choo choo!",
+   "emoji": "🚂",
+   "guess": "CHOO CHOO!",
+   "reveal": 3,
+   "bg": "#E3F0FF",
+   "side": "right",
+   "imagePrompt": "A colorful cartoon steam train engine puffing smoke, side view",
+   "say": "What goes choo choo? ... It's a train! Choo choo!"
+  },
+  {
+   "type": "vocab",
+   "duration": 6,
+   "word": "BOAT",
+   "sub": "Toot toot!",
+   "emoji": "🚢",
+   "guess": "TOOT TOOT!",
+   "reveal": 3,
+   "bg": "#F3E5FF",
+   "side": "left",
+   "imagePrompt": "A cute cartoon ship with a blue hull on small waves",
+   "say": "What goes toot toot? ... It's a boat! Toot toot!"
+  },
+  {
+   "type": "vocab",
+   "duration": 6,
+   "word": "AIRPLANE",
+   "sub": "Zoom!",
+   "emoji": "✈️",
+   "guess": "ZOOM!",
+   "reveal": 3,
+   "bg": "#FFE7B3",
+   "side": "right",
+   "imagePrompt": "A cheerful cartoon airplane flying, white with blue stripes",
+   "say": "What goes zoom? ... It's a airplane! Zoom!"
+  },
+  {
+   "type": "vocab",
+   "duration": 6,
+   "word": "MOTORBIKE",
+   "sub": "Vroom vroom!",
+   "emoji": "🏍️",
+   "guess": "VROOM VROOM!",
+   "reveal": 3,
+   "bg": "#C9F0FF",
+   "side": "left",
+   "imagePrompt": "A cartoon motorbike, shiny and colorful, side view",
+   "say": "What goes vroom vroom? ... It's a motorbike! Vroom vroom!"
+  },
+  {
+   "type": "vocab",
+   "duration": 6,
+   "word": "BICYCLE",
+   "sub": "Ring ring!",
+   "emoji": "🚲",
+   "guess": "RING RING!",
+   "reveal": 3,
+   "bg": "#FFD9C7",
+   "side": "right",
+   "imagePrompt": "A bright cartoon bicycle with a little bell, side view",
+   "say": "What goes ring ring? ... It's a bicycle! Ring ring!"
+  },
+  {
+   "type": "title",
+   "duration": 5,
+   "small": [
+    "Your turn!",
+    "What is your favorite"
+   ],
+   "big": "vehicle?",
+   "say": "Which vehicle do you like best? Tell us in the comments!"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "Beep beep! Bye-bye!"
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}

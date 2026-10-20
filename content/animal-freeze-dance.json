@@ -1,0 +1,377 @@
+{
+ "meta": {
+  "title": "Animal Freeze Dance | Hop, Stomp, Wiggle & FREEZE! | Song for Kids",
+  "description": "Hop like a bunny, stomp like an elephant, wiggle like a worm... and FREEZE! 🐰🐘🐛 A movement song and freeze dance game to get kids up and moving.\n\nWhich animal dance is YOUR favorite? Tell us in the comments! 👇",
+  "tags": [
+   "freeze dance",
+   "animal dance song",
+   "movement song for kids",
+   "brain break",
+   "dance song for kids",
+   "songs for kids",
+   "nursery rhymes",
+   "english for kids",
+   "nhac thieu nhi",
+   "be hoc tieng anh",
+   "bai hat van dong cho be"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Hop like a bunny, hop, hop, hop,"
+    },
+    {
+     "text": "hop, hop, hop and never stop!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "🐰"
+   ],
+   "action": "jump"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "desert"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Elephant stomps, stomp, stomp, stomp,"
+    },
+    {
+     "text": "big, big feet go romp, romp, romp!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "emojis": [
+    "🐘"
+   ],
+   "action": "stomp"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Dance, dance, dance around,"
+    },
+    {
+     "text": "when I say freeze, don't make a sound!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    },
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    }
+   ],
+   "emojis": [
+    "🐰",
+    "🐘"
+   ],
+   "action": "spin"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Wiggle like a worm down on the ground,"
+    },
+    {
+     "text": "wiggle, wiggle all around!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    },
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    }
+   ],
+   "emojis": [
+    "🐛"
+   ],
+   "action": "wiggle"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Flap like a bird up in the sky,"
+    },
+    {
+     "text": "flap your wings and fly, fly, fly!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    },
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    }
+   ],
+   "emojis": [
+    "🐦"
+   ],
+   "action": "wave"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sea"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Dance, dance, dance around,"
+    },
+    {
+     "text": "when I say freeze, don't make a sound!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [],
+   "action": "spin"
+  },
+  {
+   "type": "title",
+   "duration": 4.5,
+   "small": [
+    "Animal freeze dance!",
+    "Move like an animal... then"
+   ],
+   "big": "FREEZE!",
+   "say": "Let's play animal freeze dance! Move like the animals, and when I say freeze, stop!"
+  },
+  {
+   "type": "action",
+   "duration": 4,
+   "action": "jump",
+   "word": "Hop!",
+   "say": "Hop like a bunny! Hop, hop, hop!",
+   "bg": "#DFF5E1"
+  },
+  {
+   "type": "action",
+   "duration": 5,
+   "action": "freeze",
+   "word": "Dance!",
+   "say": "Dance, dance, dance... FREEZE!"
+  },
+  {
+   "type": "action",
+   "duration": 4,
+   "action": "stomp",
+   "word": "Stomp!",
+   "say": "Stomp like an elephant! Stomp, stomp, stomp!",
+   "bg": "#FFE7B3"
+  },
+  {
+   "type": "action",
+   "duration": 5,
+   "action": "freeze",
+   "word": "Dance!",
+   "say": "Keep dancing... FREEZE!"
+  },
+  {
+   "type": "action",
+   "duration": 4,
+   "action": "wiggle",
+   "word": "Wiggle!",
+   "say": "Wiggle like a worm! Wiggle, wiggle!",
+   "bg": "#FFE0EC"
+  },
+  {
+   "type": "action",
+   "duration": 5,
+   "action": "freeze",
+   "word": "Dance!",
+   "say": "Dance, dance... FREEZE!"
+  },
+  {
+   "type": "action",
+   "duration": 4,
+   "action": "wave",
+   "word": "Flap!",
+   "say": "Flap like a bird! Flap your wings!",
+   "bg": "#E3F0FF"
+  },
+  {
+   "type": "action",
+   "duration": 5,
+   "action": "freeze",
+   "word": "Dance!",
+   "say": "Almost there... FREEZE!"
+  },
+  {
+   "type": "action",
+   "duration": 4,
+   "action": "spin",
+   "word": "Spin!",
+   "say": "Spin like a puppy chasing its tail!",
+   "bg": "#F3E5FF"
+  },
+  {
+   "type": "action",
+   "duration": 5,
+   "action": "freeze",
+   "word": "Dance!",
+   "say": "One more time... FREEZE!"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "Great dancing! Bye-bye!"
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}

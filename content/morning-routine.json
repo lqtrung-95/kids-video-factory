@@ -1,0 +1,424 @@
+{
+ "meta": {
+  "title": "Good Morning Routine Song | Brush Your Teeth, Get Dressed! | Song for Kids",
+  "description": "Wake up, stretch, brush your teeth and get dressed! ☀️🪥👕 A happy morning routine song that helps little ones get ready for the day, step by step.\n\nWhat do YOU do every morning? Tell us in the comments! 👇",
+  "tags": [
+   "morning routine song",
+   "brush your teeth song",
+   "good habits for kids",
+   "daily routine for kids",
+   "get dressed song",
+   "songs for kids",
+   "nursery rhymes",
+   "english for kids",
+   "nhac thieu nhi",
+   "be hoc tieng anh",
+   "thoi quen tot cho be"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Good morning, sun! It's time to wake,"
+    },
+    {
+     "text": "stretch up high and give a shake!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "☀️"
+   ],
+   "action": "wave"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Brush, brush, brush your teeth,"
+    },
+    {
+     "text": "top and bottom, nice and neat!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "emojis": [
+    "🪥"
+   ],
+   "action": "wiggle"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "This is how we start the day,"
+    },
+    {
+     "text": "happy, ready, on our way!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    },
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    }
+   ],
+   "emojis": [
+    "☀️",
+    "🎒"
+   ],
+   "action": "clap"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sea"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Wash your face and comb your hair,"
+    },
+    {
+     "text": "put on clothes you like to wear!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    },
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    }
+   ],
+   "emojis": [
+    "🧼",
+    "👕"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Eat your breakfast, yum, yum, yum,"
+    },
+    {
+     "text": "milk and fruit to fill your tum!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    },
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    }
+   ],
+   "emojis": [
+    "🥣",
+    "🍓"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "This is how we start the day,"
+    },
+    {
+     "text": "happy, ready, on our way!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "☀️"
+   ],
+   "action": "clap"
+  },
+  {
+   "type": "title",
+   "duration": 4.5,
+   "small": [
+    "Good morning!",
+    "Let's get ready"
+   ],
+   "big": "for the day!",
+   "say": "Good morning everyone! Let's get ready for the day!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "WAKE UP",
+   "sub": "Step 1",
+   "emoji": "⏰",
+   "bg": "#FFF1C9",
+   "side": "right",
+   "say": "Good morning! Time to wake up!",
+   "imagePrompt": "A cute cartoon child doing the morning routine step: wake up, full body, simple"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "STRETCH",
+   "sub": "Step 2",
+   "emoji": "🙆",
+   "bg": "#DFF5E1",
+   "side": "left",
+   "say": "Stretch up high, stretch up tall!",
+   "imagePrompt": "A cute cartoon child doing the morning routine step: stretch, full body, simple"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "BRUSH TEETH",
+   "sub": "Step 3",
+   "emoji": "🪥",
+   "bg": "#FFE0EC",
+   "side": "right",
+   "say": "Brush, brush, brush your teeth!",
+   "imagePrompt": "A cute cartoon child doing the morning routine step: brush teeth, full body, simple"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "WASH FACE",
+   "sub": "Step 4",
+   "emoji": "🧼",
+   "bg": "#E3F0FF",
+   "side": "left",
+   "say": "Splash, splash! Wash your face!",
+   "imagePrompt": "A cute cartoon child doing the morning routine step: wash face, full body, simple"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "COMB HAIR",
+   "sub": "Step 5",
+   "emoji": "💇",
+   "bg": "#F3E5FF",
+   "side": "right",
+   "say": "Comb, comb, comb your hair!",
+   "imagePrompt": "A cute cartoon child doing the morning routine step: comb hair, full body, simple"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "GET DRESSED",
+   "sub": "Step 6",
+   "emoji": "👕",
+   "bg": "#FFE7B3",
+   "side": "left",
+   "say": "Put on your clothes. Get dressed!",
+   "imagePrompt": "A cute cartoon child doing the morning routine step: get dressed, full body, simple"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "EAT BREAKFAST",
+   "sub": "Step 7",
+   "emoji": "🥣",
+   "bg": "#C9F0FF",
+   "side": "right",
+   "say": "Yum, yum! Eat your breakfast!",
+   "imagePrompt": "A cute cartoon child doing the morning routine step: eat breakfast, full body, simple"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "PUT ON SHOES",
+   "sub": "Step 8",
+   "emoji": "👟",
+   "bg": "#FFD9C7",
+   "side": "left",
+   "say": "Left foot, right foot. Put on your shoes!",
+   "imagePrompt": "A cute cartoon child doing the morning routine step: put on shoes, full body, simple"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "PACK YOUR BAG",
+   "sub": "Step 9",
+   "emoji": "🎒",
+   "bg": "#FFF1C9",
+   "side": "right",
+   "say": "Books and snacks. Pack your bag!",
+   "imagePrompt": "A cute cartoon child doing the morning routine step: pack your bag, full body, simple"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "SAY GOODBYE",
+   "sub": "Step 10",
+   "emoji": "👋",
+   "bg": "#DFF5E1",
+   "side": "left",
+   "say": "Give a hug and say goodbye!",
+   "imagePrompt": "A cute cartoon child doing the morning routine step: say goodbye, full body, simple"
+  },
+  {
+   "type": "title",
+   "duration": 5,
+   "small": [
+    "Your turn!",
+    "What do YOU do"
+   ],
+   "big": "every morning?",
+   "say": "What do you do every morning? Tell us in the comments!"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "Have a great day! Bye-bye!"
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}
