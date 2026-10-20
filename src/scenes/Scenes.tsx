@@ -6,7 +6,7 @@ import { Karaoke, PopText, fit, outline, usePop } from "../components/Text";
 import { DISPLAY } from "../fonts";
 import type { Character, Scene } from "../schema";
 import { ActionScene, ColorScene, CountScene, LetterScene, moveFor } from "./LearnScenes";
-import { ConfettiBurst, Particles, beatPulse, fxFor } from "../components/Motion";
+import { ConfettiBurst, Particles, fxFor } from "../components/Motion";
 
 const EMOJI_FONT = `"Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", sans-serif`;
 
@@ -188,17 +188,10 @@ export const LyricScene: React.FC<{ s: S<"lyric"> }> = ({ s }) => {
           width: s.textPosition === "left" || isGlobe ? "52%" : "100%",
         }}
       >
-        <BeatPulse beat={s.beat}>{lyric}</BeatPulse>
+        {lyric}
       </AbsoluteFill>
     </AbsoluteFill>
   );
-};
-
-/** The lyric block breathes with the music (≈3 % on every beat). */
-const BeatPulse: React.FC<{ beat: number; children: React.ReactNode }> = ({ beat, children }) => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  return <div style={{ transform: `scale(${beatPulse(frame, fps, beat, 0.03)})` }}>{children}</div>;
 };
 
 // ───────────────────────────── title card
