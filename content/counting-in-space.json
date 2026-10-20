@@ -1,0 +1,398 @@
+{
+ "meta": {
+  "title": "Counting in Space 1 to 10 | Rockets, Planets & Stars | Number Song",
+  "description": "3, 2, 1… blast off! 🚀🪐⭐ Sing the space song, then count from one to ten with planets, rockets, stars and astronauts.\n\nWould YOU like to fly to space? Tell us in the comments! 👇",
+  "tags": [
+   "counting song",
+   "numbers 1 to 10",
+   "space song for kids",
+   "rocket",
+   "planets for kids",
+   "learn to count",
+   "dem so cho be",
+   "songs for kids",
+   "nursery rhymes",
+   "english for kids",
+   "nhac thieu nhi",
+   "be hoc tieng anh"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Three, two, one, blast off with me,"
+    },
+    {
+     "text": "count the stars that we can see!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "🚀"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "One, two, three, the rockets fly,"
+    },
+    {
+     "text": "four, five, six up in the sky!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "emojis": [
+    "🚀",
+    "⭐"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Up we go to outer space,"
+    },
+    {
+     "text": "counting stars all over the place!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    },
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    }
+   ],
+   "emojis": [
+    "🪐",
+    "⭐"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "globe"
+   },
+   "textPosition": "left",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Seven, eight, the planets glow,"
+    },
+    {
+     "text": "nine and ten, and off we go!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    },
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    }
+   ],
+   "emojis": [
+    "🪐"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sea"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Moons and comets shining bright,"
+    },
+    {
+     "text": "astronauts float through the night!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    },
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    }
+   ],
+   "emojis": [
+    "🌙",
+    "☄️"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Up we go to outer space,"
+    },
+    {
+     "text": "counting stars all over the place!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": []
+  },
+  {
+   "type": "title",
+   "duration": 4.5,
+   "small": [
+    "Let's count"
+   ],
+   "big": "in outer space!",
+   "say": "Hello everyone! Let's fly to space and count from one to ten!"
+  },
+  {
+   "type": "count",
+   "duration": 5,
+   "number": 1,
+   "emoji": "🌍",
+   "word": "planet Earth",
+   "bg": "#E3F0FF",
+   "say": "One! One planet Earth!"
+  },
+  {
+   "type": "count",
+   "duration": 5,
+   "number": 2,
+   "emoji": "🌙",
+   "word": "moons",
+   "bg": "#F3E5FF",
+   "say": "One, Two! Two moons!"
+  },
+  {
+   "type": "count",
+   "duration": 5,
+   "number": 3,
+   "emoji": "🚀",
+   "word": "rockets",
+   "bg": "#FFE0EC",
+   "say": "One, Two, Three! Three rockets!"
+  },
+  {
+   "type": "count",
+   "duration": 5,
+   "number": 4,
+   "emoji": "🪐",
+   "word": "planets",
+   "bg": "#FFF1C9",
+   "say": "One, Two, Three, Four! Four planets!"
+  },
+  {
+   "type": "count",
+   "duration": 5,
+   "number": 5,
+   "emoji": "⭐",
+   "word": "stars",
+   "bg": "#DFF5E1",
+   "say": "One, Two, Three, Four, Five! Five stars!"
+  },
+  {
+   "type": "count",
+   "duration": 5,
+   "number": 6,
+   "emoji": "👽",
+   "word": "aliens",
+   "bg": "#E3F0FF",
+   "say": "One, Two, Three, Four, Five, Six! Six aliens!"
+  },
+  {
+   "type": "count",
+   "duration": 5,
+   "number": 7,
+   "emoji": "☄️",
+   "word": "comets",
+   "bg": "#F3E5FF",
+   "say": "One, Two, Three, Four, Five, Six, Seven! Seven comets!"
+  },
+  {
+   "type": "count",
+   "duration": 5,
+   "number": 8,
+   "emoji": "🛸",
+   "word": "flying saucers",
+   "bg": "#FFE0EC",
+   "say": "One, Two, Three, Four, Five, Six, Seven, Eight! Eight flying saucers!"
+  },
+  {
+   "type": "count",
+   "duration": 5,
+   "number": 9,
+   "emoji": "🛰️",
+   "word": "satellites",
+   "bg": "#FFF1C9",
+   "say": "One, Two, Three, Four, Five, Six, Seven, Eight, Nine! Nine satellites!"
+  },
+  {
+   "type": "count",
+   "duration": 5,
+   "number": 10,
+   "emoji": "👩‍🚀",
+   "word": "astronauts",
+   "bg": "#DFF5E1",
+   "say": "One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten! Ten astronauts!"
+  },
+  {
+   "type": "title",
+   "duration": 5,
+   "small": [
+    "Your turn!",
+    "Would you like to"
+   ],
+   "big": "fly to space?",
+   "say": "Would you like to fly to space? Tell us in the comments!"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "Blast off! Bye-bye!"
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}

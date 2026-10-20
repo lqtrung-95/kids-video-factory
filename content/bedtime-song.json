@@ -1,0 +1,371 @@
+{
+ "meta": {
+  "title": "Good Night Song | Bedtime Routine Lullaby | Song for Kids",
+  "description": "Bath, pajamas, teeth, story, hug… and sweet dreams! 🌙😴 A gentle bedtime song and routine to help little ones wind down at night.\n\nWhat's YOUR favorite bedtime story? Tell us in the comments! 👇",
+  "tags": [
+   "bedtime song",
+   "lullaby",
+   "good night song",
+   "bedtime routine",
+   "sleep music for kids",
+   "nhac ru be ngu",
+   "songs for kids",
+   "nursery rhymes",
+   "english for kids",
+   "nhac thieu nhi",
+   "be hoc tieng anh"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "The moon is up, the stars are out,"
+    },
+    {
+     "text": "it's time for bed without a doubt!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "🌙",
+    "⭐"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sea"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Take a bath with bubbles, splash,"
+    },
+    {
+     "text": "put pajamas on in a flash!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "emojis": [
+    "🛁",
+    "🫧"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Good night, good night, sleep tight,"
+    },
+    {
+     "text": "sweet dreams until the morning light!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    },
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    }
+   ],
+   "emojis": [
+    "🌙"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Brush your teeth, then read a book,"
+    },
+    {
+     "text": "snuggle in your cozy nook!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    },
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    }
+   ],
+   "emojis": [
+    "🪥",
+    "📖"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Close your eyes and count some sheep,"
+    },
+    {
+     "text": "now it's time to fall asleep!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    },
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    }
+   ],
+   "emojis": [
+    "🐑",
+    "😴"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Good night, good night, sleep tight,"
+    },
+    {
+     "text": "sweet dreams until the morning light!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "🌙"
+   ]
+  },
+  {
+   "type": "title",
+   "duration": 4.5,
+   "small": [
+    "Good night!",
+    "Let's get ready"
+   ],
+   "big": "for bed!",
+   "say": "Good evening everyone! Let's get ready for bed!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "BATH TIME",
+   "sub": "Splish, splash",
+   "emoji": "🛁",
+   "bg": "#FFF1C9",
+   "side": "right",
+   "say": "Bath time! Splish, splash, bubbles!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "PAJAMAS",
+   "sub": "Cozy and soft",
+   "emoji": "👚",
+   "bg": "#DFF5E1",
+   "side": "left",
+   "say": "Put on your cozy pajamas!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "BRUSH TEETH",
+   "sub": "Brush, brush",
+   "emoji": "🪥",
+   "bg": "#FFE0EC",
+   "side": "right",
+   "say": "Brush, brush, brush your teeth!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "STORY TIME",
+   "sub": "Read a book",
+   "emoji": "📖",
+   "bg": "#E3F0FF",
+   "side": "left",
+   "say": "Story time! Let's read a book together."
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "BIG HUG",
+   "sub": "Love you!",
+   "emoji": "🤗",
+   "bg": "#F3E5FF",
+   "side": "right",
+   "say": "Give a big hug. I love you!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "LIGHTS OFF",
+   "sub": "Click!",
+   "emoji": "💡",
+   "bg": "#FFE7B3",
+   "side": "left",
+   "say": "Lights off. Click!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "SWEET DREAMS",
+   "sub": "Zzz...",
+   "emoji": "😴",
+   "bg": "#C9F0FF",
+   "side": "right",
+   "say": "Close your eyes. Sweet dreams!"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "Good night! Sweet dreams!"
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}

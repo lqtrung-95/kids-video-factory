@@ -1,0 +1,426 @@
+{
+ "meta": {
+  "title": "Months of the Year Song | January to December | Song for Kids",
+  "description": "January, February, March… 🎆🌸☀️🎃🎄 Sing the 12 months of the year, then learn each month in order.\n\nWhich month is YOUR birthday? Tell us in the comments! 👇",
+  "tags": [
+   "months of the year song",
+   "months of the year",
+   "january february",
+   "calendar for kids",
+   "learn months",
+   "thang trong nam tieng anh",
+   "songs for kids",
+   "nursery rhymes",
+   "english for kids",
+   "nhac thieu nhi",
+   "be hoc tieng anh"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Twelve months make a year go round,"
+    },
+    {
+     "text": "let's all sing them, what a sound!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "📅"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "January, February, March,"
+    },
+    {
+     "text": "April, May, the flowers start!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "emojis": [
+    "🌸"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Twelve months in every year,"
+    },
+    {
+     "text": "sing them all and give a cheer!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    },
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    }
+   ],
+   "emojis": [
+    "📅"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sea"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "June and July, the summer sun,"
+    },
+    {
+     "text": "August, September, so much fun!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    },
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    }
+   ],
+   "emojis": [
+    "☀️",
+    "🍉"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "October, November, falling leaves,"
+    },
+    {
+     "text": "December, snow is on the trees!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    },
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    }
+   ],
+   "emojis": [
+    "🍂",
+    "🎄"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "globe"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Twelve months in every year,"
+    },
+    {
+     "text": "sing them all and give a cheer!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": []
+  },
+  {
+   "type": "title",
+   "duration": 4.5,
+   "small": [
+    "Let's learn the"
+   ],
+   "big": "months of the year!",
+   "say": "Hello everyone! Let's learn the twelve months of the year!"
+  },
+  {
+   "type": "vocab",
+   "duration": 4.5,
+   "word": "JANUARY",
+   "sub": "Month 1",
+   "emoji": "🎆",
+   "bg": "#FFF1C9",
+   "side": "right",
+   "say": "January! January is the first month."
+  },
+  {
+   "type": "vocab",
+   "duration": 4.5,
+   "word": "FEBRUARY",
+   "sub": "Month 2",
+   "emoji": "❤️",
+   "bg": "#DFF5E1",
+   "side": "left",
+   "say": "February! February is the second month."
+  },
+  {
+   "type": "vocab",
+   "duration": 4.5,
+   "word": "MARCH",
+   "sub": "Month 3",
+   "emoji": "🌱",
+   "bg": "#FFE0EC",
+   "side": "right",
+   "say": "March! March is the third month."
+  },
+  {
+   "type": "vocab",
+   "duration": 4.5,
+   "word": "APRIL",
+   "sub": "Month 4",
+   "emoji": "🌧️",
+   "bg": "#E3F0FF",
+   "side": "left",
+   "say": "April! April is the fourth month."
+  },
+  {
+   "type": "vocab",
+   "duration": 4.5,
+   "word": "MAY",
+   "sub": "Month 5",
+   "emoji": "🌸",
+   "bg": "#F3E5FF",
+   "side": "right",
+   "say": "May! May is the fifth month."
+  },
+  {
+   "type": "vocab",
+   "duration": 4.5,
+   "word": "JUNE",
+   "sub": "Month 6",
+   "emoji": "☀️",
+   "bg": "#FFE7B3",
+   "side": "left",
+   "say": "June! June is the sixth month."
+  },
+  {
+   "type": "vocab",
+   "duration": 4.5,
+   "word": "JULY",
+   "sub": "Month 7",
+   "emoji": "🏖️",
+   "bg": "#C9F0FF",
+   "side": "right",
+   "say": "July! July is the seventh month."
+  },
+  {
+   "type": "vocab",
+   "duration": 4.5,
+   "word": "AUGUST",
+   "sub": "Month 8",
+   "emoji": "🍉",
+   "bg": "#FFD9C7",
+   "side": "left",
+   "say": "August! August is the eighth month."
+  },
+  {
+   "type": "vocab",
+   "duration": 4.5,
+   "word": "SEPTEMBER",
+   "sub": "Month 9",
+   "emoji": "🍎",
+   "bg": "#FFF1C9",
+   "side": "right",
+   "say": "September! September is the ninth month."
+  },
+  {
+   "type": "vocab",
+   "duration": 4.5,
+   "word": "OCTOBER",
+   "sub": "Month 10",
+   "emoji": "🎃",
+   "bg": "#DFF5E1",
+   "side": "left",
+   "say": "October! October is the tenth month."
+  },
+  {
+   "type": "vocab",
+   "duration": 4.5,
+   "word": "NOVEMBER",
+   "sub": "Month 11",
+   "emoji": "🍂",
+   "bg": "#FFE0EC",
+   "side": "right",
+   "say": "November! November is the eleventh month."
+  },
+  {
+   "type": "vocab",
+   "duration": 4.5,
+   "word": "DECEMBER",
+   "sub": "Month 12",
+   "emoji": "🎄",
+   "bg": "#E3F0FF",
+   "side": "left",
+   "say": "December! December is the twelfth month."
+  },
+  {
+   "type": "title",
+   "duration": 5,
+   "small": [
+    "Your turn!",
+    "When is"
+   ],
+   "big": "your birthday?",
+   "say": "Which month is your birthday? Tell us in the comments!"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "See you next month! Bye-bye!"
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}

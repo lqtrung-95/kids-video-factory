@@ -1,0 +1,405 @@
+{
+ "meta": {
+  "title": "Jungle Animal Sounds | Guess the Animal! | Lion, Monkey, Elephant",
+  "description": "Roar! Hiss! Ooh ooh ah ah! 🦁🐒🐍🐘 Sing the jungle song, then play the guessing game: listen to the sound and guess the animal!\n\nWhich jungle animal can YOU copy? Tell us in the comments! 👇",
+  "tags": [
+   "jungle animals",
+   "animal sounds",
+   "guess the animal",
+   "wild animals for kids",
+   "lion roar",
+   "dong vat rung xanh",
+   "songs for kids",
+   "nursery rhymes",
+   "english for kids",
+   "nhac thieu nhi",
+   "be hoc tieng anh"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Deep in the jungle, what do I hear?"
+    },
+    {
+     "text": "Animal voices far and near!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "🌴"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "The lion roars, the monkey calls,"
+    },
+    {
+     "text": "the parrot chatters, the water falls!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "emojis": [
+    "🦁",
+    "🐒",
+    "🦜"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Roar and squeak and hiss, hiss, hiss,"
+    },
+    {
+     "text": "jungle sounds you cannot miss!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    },
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    }
+   ],
+   "emojis": [
+    "🐍",
+    "🐯"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "desert"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "The elephant trumpets loud and clear,"
+    },
+    {
+     "text": "the tiger growls, he's very near!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    },
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    }
+   ],
+   "emojis": [
+    "🐘",
+    "🐯"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "The zebra runs, the giraffe is tall,"
+    },
+    {
+     "text": "we love the jungle animals all!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    },
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    }
+   ],
+   "emojis": [
+    "🦓",
+    "🦒"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "globe"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Roar and squeak and hiss, hiss, hiss,"
+    },
+    {
+     "text": "jungle sounds you cannot miss!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": []
+  },
+  {
+   "type": "title",
+   "duration": 4.5,
+   "small": [
+    "Listen and guess!"
+   ],
+   "big": "Who is in the jungle?",
+   "say": "Hello everyone! Listen to the sound and guess the jungle animal!"
+  },
+  {
+   "type": "vocab",
+   "duration": 6,
+   "word": "LION",
+   "sub": "Roar!",
+   "emoji": "🦁",
+   "bg": "#FFF1C9",
+   "side": "right",
+   "say": "Who says roar? ... It's a lion! Roar!",
+   "guess": "ROAR!",
+   "reveal": 3
+  },
+  {
+   "type": "vocab",
+   "duration": 6,
+   "word": "MONKEY",
+   "sub": "Ooh ooh, ah ah!",
+   "emoji": "🐒",
+   "bg": "#DFF5E1",
+   "side": "left",
+   "say": "Who says ooh ooh, ah ah? ... It's a monkey!",
+   "guess": "OOH AH AH!",
+   "reveal": 3
+  },
+  {
+   "type": "vocab",
+   "duration": 6,
+   "word": "ELEPHANT",
+   "sub": "Pa-woo!",
+   "emoji": "🐘",
+   "bg": "#FFE0EC",
+   "side": "right",
+   "say": "Who says pa-woo? ... It's an elephant!",
+   "guess": "PA-WOO!",
+   "reveal": 3
+  },
+  {
+   "type": "vocab",
+   "duration": 6,
+   "word": "SNAKE",
+   "sub": "Hiss!",
+   "emoji": "🐍",
+   "bg": "#E3F0FF",
+   "side": "left",
+   "say": "Who says hiss? ... It's a snake! Hiss!",
+   "guess": "HISS!",
+   "reveal": 3
+  },
+  {
+   "type": "vocab",
+   "duration": 6,
+   "word": "TIGER",
+   "sub": "Grrr!",
+   "emoji": "🐯",
+   "bg": "#F3E5FF",
+   "side": "right",
+   "say": "Who says grrr? ... It's a tiger! Grrr!",
+   "guess": "GRRR!",
+   "reveal": 3
+  },
+  {
+   "type": "vocab",
+   "duration": 6,
+   "word": "PARROT",
+   "sub": "Squawk!",
+   "emoji": "🦜",
+   "bg": "#FFE7B3",
+   "side": "left",
+   "say": "Who says squawk? ... It's a parrot!",
+   "guess": "SQUAWK!",
+   "reveal": 3
+  },
+  {
+   "type": "vocab",
+   "duration": 6,
+   "word": "FROG",
+   "sub": "Ribbit!",
+   "emoji": "🐸",
+   "bg": "#C9F0FF",
+   "side": "right",
+   "say": "Who says ribbit? ... It's a frog! Ribbit!",
+   "guess": "RIBBIT!",
+   "reveal": 3
+  },
+  {
+   "type": "vocab",
+   "duration": 6,
+   "word": "OWL",
+   "sub": "Hoot hoot!",
+   "emoji": "🦉",
+   "bg": "#FFD9C7",
+   "side": "left",
+   "say": "Who says hoot hoot? ... It's an owl!",
+   "guess": "HOOT HOOT!",
+   "reveal": 3
+  },
+  {
+   "type": "title",
+   "duration": 5,
+   "small": [
+    "Your turn!",
+    "Which jungle animal"
+   ],
+   "big": "can you copy?",
+   "say": "Which jungle animal sound can you make? Tell us in the comments!"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "Roar! Bye-bye!"
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}

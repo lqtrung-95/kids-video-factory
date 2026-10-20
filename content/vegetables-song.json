@@ -1,0 +1,390 @@
+{
+ "meta": {
+  "title": "Vegetables Song | Carrot, Broccoli, Corn | Healthy Food for Kids",
+  "description": "Crunchy carrots, little broccoli trees and sweet yellow corn! 🥕🥦🌽 Sing along, then learn 8 vegetables.\n\nWhat is YOUR favorite vegetable? Tell us in the comments! 👇",
+  "tags": [
+   "vegetables song",
+   "vegetables for kids",
+   "healthy food song",
+   "eat your veggies",
+   "food vocabulary",
+   "rau cu cho be",
+   "songs for kids",
+   "nursery rhymes",
+   "english for kids",
+   "nhac thieu nhi",
+   "be hoc tieng anh"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Crunchy carrots, orange and long,"
+    },
+    {
+     "text": "veggies make us big and strong!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "🥕"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Green broccoli, like little trees,"
+    },
+    {
+     "text": "and tiny round and yummy peas!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "emojis": [
+    "🥦",
+    "🫛"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Eat your veggies every day,"
+    },
+    {
+     "text": "they help us grow and run and play!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    },
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    }
+   ],
+   "emojis": [
+    "🥕",
+    "🥦",
+    "🌽"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Red tomatoes, juicy and sweet,"
+    },
+    {
+     "text": "yellow corn is fun to eat!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    },
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    }
+   ],
+   "emojis": [
+    "🍅",
+    "🌽"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "desert"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Potatoes, pumpkins, peppers too,"
+    },
+    {
+     "text": "so many veggies, good for you!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    },
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    }
+   ],
+   "emojis": [
+    "🥔",
+    "🎃",
+    "🫑"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "globe"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Eat your veggies every day,"
+    },
+    {
+     "text": "they help us grow and run and play!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": []
+  },
+  {
+   "type": "title",
+   "duration": 4.5,
+   "small": [
+    "Let's learn"
+   ],
+   "big": "vegetables!",
+   "say": "Hello everyone! Let's learn the names of yummy vegetables!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "CARROT",
+   "sub": "Crunchy and orange",
+   "emoji": "🥕",
+   "bg": "#FFF1C9",
+   "side": "right",
+   "say": "Carrot! Crunchy, crunchy carrot!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "BROCCOLI",
+   "sub": "Like little trees",
+   "emoji": "🥦",
+   "bg": "#DFF5E1",
+   "side": "left",
+   "say": "Broccoli! It looks like little trees!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "PEAS",
+   "sub": "Small and round",
+   "emoji": "🫛",
+   "bg": "#FFE0EC",
+   "side": "right",
+   "say": "Peas! Small, round and green!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "TOMATO",
+   "sub": "Red and juicy",
+   "emoji": "🍅",
+   "bg": "#E3F0FF",
+   "side": "left",
+   "say": "Tomato! Red and juicy!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "CORN",
+   "sub": "Yellow and sweet",
+   "emoji": "🌽",
+   "bg": "#F3E5FF",
+   "side": "right",
+   "say": "Corn! Yellow and sweet!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "POTATO",
+   "sub": "Yummy fries!",
+   "emoji": "🥔",
+   "bg": "#FFE7B3",
+   "side": "left",
+   "say": "Potato! We can make yummy fries!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "PUMPKIN",
+   "sub": "Big and orange",
+   "emoji": "🎃",
+   "bg": "#C9F0FF",
+   "side": "right",
+   "say": "Pumpkin! Big and orange!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "CUCUMBER",
+   "sub": "Cool and green",
+   "emoji": "🥒",
+   "bg": "#FFD9C7",
+   "side": "left",
+   "say": "Cucumber! Cool and green!"
+  },
+  {
+   "type": "title",
+   "duration": 5,
+   "small": [
+    "Your turn!",
+    "What is your favorite"
+   ],
+   "big": "vegetable?",
+   "say": "What is your favorite vegetable? Tell us in the comments!"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "Yum yum! Bye-bye!"
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}

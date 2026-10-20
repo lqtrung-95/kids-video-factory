@@ -1,0 +1,389 @@
+{
+ "meta": {
+  "title": "Weather Song | Sunny, Rainy, Windy, Snowy | Song for Kids",
+  "description": "Sunny, rainy, windy or snowy? ☀️🌧️💨❄️ Sing the weather song, then learn 8 kinds of weather and what to wear or do.\n\nWhat's the weather like where YOU are? Tell us in the comments! 👇",
+  "tags": [
+   "weather song",
+   "weather for kids",
+   "how's the weather",
+   "sunny rainy",
+   "seasons for kids",
+   "thoi tiet cho be",
+   "songs for kids",
+   "nursery rhymes",
+   "english for kids",
+   "nhac thieu nhi",
+   "be hoc tieng anh"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "What's the weather, can you say?"
+    },
+    {
+     "text": "Let's look outside, what's today?"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "⛅"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "desert"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Sunny, sunny, hot and bright,"
+    },
+    {
+     "text": "wear your hat and feel the light!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "emojis": [
+    "☀️",
+    "👒"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Sunny, rainy, cloudy, snow,"
+    },
+    {
+     "text": "what's the weather? Off we go!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    },
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    }
+   ],
+   "emojis": [
+    "☀️",
+    "🌧️",
+    "❄️"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Rainy, rainy, splash and play,"
+    },
+    {
+     "text": "jump in puddles all the day!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    },
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    }
+   ],
+   "emojis": [
+    "🌧️",
+    "☔"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Windy, windy, kites up high,"
+    },
+    {
+     "text": "fluffy snowflakes fill the sky!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    },
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    }
+   ],
+   "emojis": [
+    "🪁",
+    "❄️"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "globe"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Sunny, rainy, cloudy, snow,"
+    },
+    {
+     "text": "what's the weather? Off we go!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": []
+  },
+  {
+   "type": "title",
+   "duration": 4.5,
+   "small": [
+    "What's the weather"
+   ],
+   "big": "like today?",
+   "say": "Hello everyone! Let's learn about the weather!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "SUNNY",
+   "sub": "Wear a sun hat",
+   "emoji": "☀️",
+   "bg": "#FFF1C9",
+   "side": "right",
+   "say": "It's sunny! Wear a sun hat!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "CLOUDY",
+   "sub": "Gray clouds",
+   "emoji": "☁️",
+   "bg": "#DFF5E1",
+   "side": "left",
+   "say": "It's cloudy. Look at the gray clouds!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "RAINY",
+   "sub": "Take an umbrella",
+   "emoji": "🌧️",
+   "bg": "#FFE0EC",
+   "side": "right",
+   "say": "It's rainy! Take an umbrella!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "WINDY",
+   "sub": "Fly a kite",
+   "emoji": "💨",
+   "bg": "#E3F0FF",
+   "side": "left",
+   "say": "It's windy! Let's fly a kite!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "SNOWY",
+   "sub": "Build a snowman",
+   "emoji": "❄️",
+   "bg": "#F3E5FF",
+   "side": "right",
+   "say": "It's snowy! Let's build a snowman!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "STORMY",
+   "sub": "Stay inside",
+   "emoji": "⛈️",
+   "bg": "#FFE7B3",
+   "side": "left",
+   "say": "It's stormy! Boom! Let's stay inside."
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "FOGGY",
+   "sub": "Hard to see",
+   "emoji": "🌫️",
+   "bg": "#C9F0FF",
+   "side": "right",
+   "say": "It's foggy. It's hard to see!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "RAINBOW",
+   "sub": "After the rain",
+   "emoji": "🌈",
+   "bg": "#FFD9C7",
+   "side": "left",
+   "say": "Look! A rainbow after the rain!"
+  },
+  {
+   "type": "title",
+   "duration": 5,
+   "small": [
+    "Your turn!",
+    "What's the weather"
+   ],
+   "big": "where you are?",
+   "say": "What's the weather like where you are today? Tell us in the comments!"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "Sunny day! Bye-bye!"
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}

@@ -1,0 +1,387 @@
+{
+ "meta": {
+  "title": "Community Helpers Song | Doctor, Firefighter, Teacher | Jobs for Kids",
+  "description": "Doctors, firefighters, teachers, farmers, chefs and pilots! 🧑‍⚕️🧑‍🚒🧑‍🏫🧑‍🌾 Sing a thank-you song for the people who help us, then learn 8 jobs in English.\n\nWhat do YOU want to be when you grow up? Tell us in the comments! 👇",
+  "tags": [
+   "community helpers",
+   "jobs for kids",
+   "occupations song",
+   "when I grow up",
+   "doctor firefighter",
+   "nghe nghiep cho be",
+   "songs for kids",
+   "nursery rhymes",
+   "english for kids",
+   "nhac thieu nhi",
+   "be hoc tieng anh"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Who helps us every single day?"
+    },
+    {
+     "text": "Let's find out, hip hip hooray!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "🙋"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "The doctor helps when we are sick,"
+    },
+    {
+     "text": "the firefighter's super quick!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "emojis": [
+    "🧑‍⚕️",
+    "🚒"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Helpers, helpers, thank you so,"
+    },
+    {
+     "text": "you help us everywhere we go!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    },
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    }
+   ],
+   "emojis": [
+    "❤️"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "The teacher helps us learn and read,"
+    },
+    {
+     "text": "the farmer grows the food we need!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    },
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    }
+   ],
+   "emojis": [
+    "📚",
+    "🌽"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "The chef can cook, the pilot flies,"
+    },
+    {
+     "text": "the builder builds up to the skies!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#E63946",
+      "bottom": "#1D3557",
+      "skin": "#F8D5B8",
+      "hair": "#8B5A2B",
+      "outfit": "dress",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#FFD166"
+     }
+    },
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    }
+   ],
+   "emojis": [
+    "🧑‍🍳",
+    "✈️"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5.5,
+   "background": {
+    "kind": "globe"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Helpers, helpers, thank you so,"
+    },
+    {
+     "text": "you help us everywhere we go!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": []
+  },
+  {
+   "type": "title",
+   "duration": 4.5,
+   "small": [
+    "Let's meet our"
+   ],
+   "big": "community helpers!",
+   "say": "Hello everyone! Let's meet the people who help us every day!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "DOCTOR",
+   "sub": "Helps us get well",
+   "emoji": "🧑‍⚕️",
+   "bg": "#FFF1C9",
+   "side": "right",
+   "say": "A doctor helps us when we are sick!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "FIREFIGHTER",
+   "sub": "Puts out fires",
+   "emoji": "🧑‍🚒",
+   "bg": "#DFF5E1",
+   "side": "left",
+   "say": "A firefighter puts out fires! Wee-oo!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "POLICE OFFICER",
+   "sub": "Keeps us safe",
+   "emoji": "👮",
+   "bg": "#FFE0EC",
+   "side": "right",
+   "say": "A police officer keeps us safe!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "TEACHER",
+   "sub": "Helps us learn",
+   "emoji": "🧑‍🏫",
+   "bg": "#E3F0FF",
+   "side": "left",
+   "say": "A teacher helps us learn and read!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "FARMER",
+   "sub": "Grows our food",
+   "emoji": "🧑‍🌾",
+   "bg": "#F3E5FF",
+   "side": "right",
+   "say": "A farmer grows the food we eat!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "CHEF",
+   "sub": "Cooks yummy food",
+   "emoji": "🧑‍🍳",
+   "bg": "#FFE7B3",
+   "side": "left",
+   "say": "A chef cooks yummy food!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "PILOT",
+   "sub": "Flies the plane",
+   "emoji": "🧑‍✈️",
+   "bg": "#C9F0FF",
+   "side": "right",
+   "say": "A pilot flies the airplane! Zoom!"
+  },
+  {
+   "type": "vocab",
+   "duration": 5,
+   "word": "BUILDER",
+   "sub": "Builds houses",
+   "emoji": "👷",
+   "bg": "#FFD9C7",
+   "side": "left",
+   "say": "A builder builds our houses!"
+  },
+  {
+   "type": "title",
+   "duration": 5,
+   "small": [
+    "Your turn!",
+    "What do you want to be"
+   ],
+   "big": "when you grow up?",
+   "say": "What do you want to be when you grow up? Tell us in the comments!"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "Thank you, helpers! Bye-bye!"
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}
