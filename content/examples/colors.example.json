@@ -1,0 +1,187 @@
+{
+ "meta": {
+  "title": "Colors Song | Learn Colors with Fruits & Animals | Song for Kids",
+  "description": "Red, orange, yellow, green, blue and purple!",
+  "tags": [
+   "colors song",
+   "learn colors",
+   "rainbow song",
+   "hoc mau sac",
+   "be hoc tieng anh"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Red and yellow, green and blue,"
+    },
+    {
+     "text": "so many colors, just for you!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "🌈"
+   ]
+  },
+  {
+   "type": "title",
+   "duration": 4,
+   "small": [
+    "Let's learn"
+   ],
+   "big": "Colors!",
+   "say": "Let's learn colors!"
+  },
+  {
+   "type": "color",
+   "duration": 5,
+   "name": "Red",
+   "hex": "#E53935",
+   "items": [
+    "🍓",
+    "🚒",
+    "🍎"
+   ],
+   "say": "Red! Red! What is red?"
+  },
+  {
+   "type": "color",
+   "duration": 5,
+   "name": "Orange",
+   "hex": "#FB8C00",
+   "items": [
+    "🥕",
+    "🍊",
+    "🦊"
+   ],
+   "say": "Orange! Orange! What is orange?"
+  },
+  {
+   "type": "color",
+   "duration": 5,
+   "name": "Yellow",
+   "hex": "#FDD835",
+   "items": [
+    "🍌",
+    "🌻",
+    "🐥"
+   ],
+   "say": "Yellow! Yellow! What is yellow?"
+  },
+  {
+   "type": "color",
+   "duration": 5,
+   "name": "Green",
+   "hex": "#43A047",
+   "items": [
+    "🐸",
+    "🥦",
+    "🌳"
+   ],
+   "say": "Green! Green! What is green?"
+  },
+  {
+   "type": "color",
+   "duration": 5,
+   "name": "Blue",
+   "hex": "#1E88E5",
+   "items": [
+    "🐳",
+    "🫐",
+    "🦋"
+   ],
+   "say": "Blue! Blue! What is blue?"
+  },
+  {
+   "type": "color",
+   "duration": 5,
+   "name": "Purple",
+   "hex": "#8E24AA",
+   "items": [
+    "🍇",
+    "🍆",
+    "☂️"
+   ],
+   "say": "Purple! Purple! What is purple?"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "Great job! Bye-bye!",
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ]
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}

@@ -1,0 +1,947 @@
+{
+  "meta": {
+    "title": "Counting Fruits 1 to 10 | Number Song | Song for Kids",
+    "description": "Count from one to ten with yummy fruits! 🍎🍌🍓 Sing along, then count with us: apples, bananas, strawberries and more.\n\nWhat is YOUR favorite fruit? Tell us in the comments! 👇",
+    "tags": [
+      "counting song",
+      "numbers 1 to 10",
+      "counting fruits",
+      "fruit song",
+      "learn to count",
+      "songs for kids",
+      "nursery rhymes",
+      "english for kids",
+      "dem so cho be",
+      "be hoc tieng anh",
+      "nhac thieu nhi",
+      "trai cay cho be"
+    ],
+    "channel": "Meo with Pi",
+    "madeForKids": true
+  },
+  "audio": {
+    "song": "counting-fruits/song.mp3",
+    "songStart": 4,
+    "songVolume": 1,
+    "songEnd": 65.72,
+    "bgm": "counting-fruits/instrumental.mp3",
+    "bgmVolume": 0.35,
+    "bgmDuck": 0.45
+  },
+  "scenes": [
+    {
+      "duration": 4,
+      "voiceOffset": 0.4,
+      "type": "intro",
+      "title": "Meo with Pi",
+      "subtitle": "KIDS CHANNEL",
+      "handle": "@MeowPi"
+    },
+    {
+      "duration": 13.55,
+      "voiceOffset": 0.4,
+      "type": "lyric",
+      "background": {
+        "kind": "meadow"
+      },
+      "characters": [
+        {
+          "look": {
+            "skin": "#8D5A3B",
+            "hair": "#1B1B1B",
+            "hairStyle": "pigtails",
+            "outfit": "dress",
+            "top": "#F26B21",
+            "bottom": "#2F86C9",
+            "accent": "#FFFFFF",
+            "hat": "none"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#F2C94C",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#4DB35E",
+            "bottom": "#6D4C41",
+            "accent": "#FFFFFF",
+            "hat": "none"
+          }
+        }
+      ],
+      "emojis": [
+        "🍎",
+        "🍌"
+      ],
+      "lines": [
+        {
+          "text": "One, two, three, let's count with me!",
+          "words": [
+            {
+              "w": "One,",
+              "start": 5.36,
+              "end": 5.52
+            },
+            {
+              "w": "two,",
+              "start": 5.78,
+              "end": 6.06
+            },
+            {
+              "w": "three,",
+              "start": 6.08,
+              "end": 6.56
+            },
+            {
+              "w": "let's",
+              "start": 7.02,
+              "end": 7.3
+            },
+            {
+              "w": "count",
+              "start": 7.32,
+              "end": 7.58
+            },
+            {
+              "w": "with",
+              "start": 7.58,
+              "end": 8.02
+            },
+            {
+              "w": "me!",
+              "start": 8.02,
+              "end": 8.58
+            }
+          ]
+        },
+        {
+          "text": "Yummy fruits from the fruit tree!",
+          "words": [
+            {
+              "w": "Yummy",
+              "start": 10.02,
+              "end": 10.44
+            },
+            {
+              "w": "fruits",
+              "start": 10.44,
+              "end": 10.96
+            },
+            {
+              "w": "from",
+              "start": 11.24,
+              "end": 11.44
+            },
+            {
+              "w": "the",
+              "start": 11.44,
+              "end": 11.94
+            },
+            {
+              "w": "fruit",
+              "start": 11.94,
+              "end": 12.38
+            },
+            {
+              "w": "tree!",
+              "start": 12.38,
+              "end": 13
+            }
+          ]
+        }
+      ],
+      "textPosition": "bottom",
+      "textStyle": "outline",
+      "beat": 0.5565
+    },
+    {
+      "duration": 8.86,
+      "voiceOffset": 0.4,
+      "type": "lyric",
+      "background": {
+        "kind": "sky"
+      },
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#F2C94C",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#4DB35E",
+            "bottom": "#6D4C41",
+            "accent": "#FFFFFF",
+            "hat": "none"
+          }
+        },
+        {
+          "look": {
+            "skin": "#C68E68",
+            "hair": "#1B1B1B",
+            "hairStyle": "bob",
+            "outfit": "dress",
+            "top": "#9B4FCB",
+            "bottom": "#1D3557",
+            "accent": "#FFD6F0",
+            "hat": "none"
+          }
+        }
+      ],
+      "emojis": [
+        "🧺"
+      ],
+      "lines": [
+        {
+          "text": "Four, five, six, pick, pick, pick!",
+          "words": [
+            {
+              "w": "Four,",
+              "start": 0.45,
+              "end": 0.87
+            },
+            {
+              "w": "five,",
+              "start": 1.13,
+              "end": 1.39
+            },
+            {
+              "w": "six,",
+              "start": 1.53,
+              "end": 1.75
+            },
+            {
+              "w": "pick,",
+              "start": 2.69,
+              "end": 3.31
+            },
+            {
+              "w": "pick,",
+              "start": 3.33,
+              "end": 3.47
+            },
+            {
+              "w": "pick!",
+              "start": 3.63,
+              "end": 5.17
+            }
+          ]
+        },
+        {
+          "text": "Put them in the basket quick!",
+          "words": [
+            {
+              "w": "Put",
+              "start": 5.47,
+              "end": 5.59
+            },
+            {
+              "w": "them",
+              "start": 5.59,
+              "end": 5.91
+            },
+            {
+              "w": "in",
+              "start": 5.91,
+              "end": 6.25
+            },
+            {
+              "w": "the",
+              "start": 6.25,
+              "end": 6.57
+            },
+            {
+              "w": "basket",
+              "start": 6.57,
+              "end": 7.43
+            },
+            {
+              "w": "quick!",
+              "start": 7.43,
+              "end": 8.23
+            }
+          ]
+        }
+      ],
+      "textPosition": "top",
+      "textStyle": "outline",
+      "beat": 0.5565
+    },
+    {
+      "duration": 13.74,
+      "voiceOffset": 0.4,
+      "type": "lyric",
+      "background": {
+        "kind": "blocks"
+      },
+      "characters": [
+        {
+          "look": {
+            "skin": "#8D5A3B",
+            "hair": "#1B1B1B",
+            "hairStyle": "pigtails",
+            "outfit": "dress",
+            "top": "#F26B21",
+            "bottom": "#2F86C9",
+            "accent": "#FFFFFF",
+            "hat": "none"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#F2C94C",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#4DB35E",
+            "bottom": "#6D4C41",
+            "accent": "#FFFFFF",
+            "hat": "none"
+          }
+        }
+      ],
+      "emojis": [
+        "🍓",
+        "🍊",
+        "🍇"
+      ],
+      "lines": [
+        {
+          "text": "Count the fruits, one by one,",
+          "words": [
+            {
+              "w": "Count",
+              "start": 0.45,
+              "end": 0.77
+            },
+            {
+              "w": "the",
+              "start": 0.77,
+              "end": 1.31
+            },
+            {
+              "w": "fruits,",
+              "start": 1.31,
+              "end": 1.89
+            },
+            {
+              "w": "one",
+              "start": 2.67,
+              "end": 2.93
+            },
+            {
+              "w": "by",
+              "start": 2.93,
+              "end": 3.59
+            },
+            {
+              "w": "one,",
+              "start": 3.59,
+              "end": 4.23
+            }
+          ]
+        },
+        {
+          "text": "counting fruits is so much fun!",
+          "words": [
+            {
+              "w": "counting",
+              "start": 5.45,
+              "end": 5.81
+            },
+            {
+              "w": "fruits",
+              "start": 5.81,
+              "end": 6.25
+            },
+            {
+              "w": "is",
+              "start": 6.25,
+              "end": 6.89
+            },
+            {
+              "w": "so",
+              "start": 6.89,
+              "end": 7.49
+            },
+            {
+              "w": "much",
+              "start": 7.49,
+              "end": 8.43
+            },
+            {
+              "w": "fun!",
+              "start": 9.22,
+              "end": 14.19
+            }
+          ]
+        }
+      ],
+      "textPosition": "bottom",
+      "textStyle": "box",
+      "beat": 0.5565
+    },
+    {
+      "duration": 8.52,
+      "voiceOffset": 0.4,
+      "type": "lyric",
+      "background": {
+        "kind": "sea"
+      },
+      "characters": [
+        {
+          "look": {
+            "skin": "#C68E68",
+            "hair": "#1B1B1B",
+            "hairStyle": "bob",
+            "outfit": "dress",
+            "top": "#9B4FCB",
+            "bottom": "#1D3557",
+            "accent": "#FFD6F0",
+            "hat": "none"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#3B2417",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#2F86C9",
+            "bottom": "#F7C31B",
+            "accent": "#FFFFFF",
+            "hat": "none"
+          }
+        }
+      ],
+      "emojis": [],
+      "lines": [
+        {
+          "text": "Seven, eight, nine and ten,",
+          "words": [
+            {
+              "w": "Seven,",
+              "start": 0.45,
+              "end": 0.71
+            },
+            {
+              "w": "eight,",
+              "start": 1.13,
+              "end": 1.23
+            },
+            {
+              "w": "nine",
+              "start": 2.21,
+              "end": 2.51
+            },
+            {
+              "w": "and",
+              "start": 2.51,
+              "end": 2.91
+            },
+            {
+              "w": "ten,",
+              "start": 2.91,
+              "end": 3.59
+            }
+          ]
+        },
+        {
+          "text": "let's count them all again!",
+          "words": [
+            {
+              "w": "let's",
+              "start": 4.97,
+              "end": 5.49
+            },
+            {
+              "w": "count",
+              "start": 5.59,
+              "end": 5.83
+            },
+            {
+              "w": "them",
+              "start": 5.83,
+              "end": 6.45
+            },
+            {
+              "w": "all",
+              "start": 6.45,
+              "end": 7.15
+            },
+            {
+              "w": "again!",
+              "start": 7.15,
+              "end": 8.15
+            }
+          ]
+        }
+      ],
+      "textPosition": "top",
+      "textStyle": "outline",
+      "beat": 0.5565
+    },
+    {
+      "duration": 8.86,
+      "voiceOffset": 0.4,
+      "type": "lyric",
+      "background": {
+        "kind": "meadow"
+      },
+      "characters": [
+        {
+          "look": {
+            "skin": "#8D5A3B",
+            "hair": "#1B1B1B",
+            "hairStyle": "pigtails",
+            "outfit": "dress",
+            "top": "#F26B21",
+            "bottom": "#2F86C9",
+            "accent": "#FFFFFF",
+            "hat": "none"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#F2C94C",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#4DB35E",
+            "bottom": "#6D4C41",
+            "accent": "#FFFFFF",
+            "hat": "none"
+          }
+        }
+      ],
+      "emojis": [
+        "🍎",
+        "🍐",
+        "🍒"
+      ],
+      "lines": [
+        {
+          "text": "Apples, pears and cherries too,",
+          "words": [
+            {
+              "w": "Apples,",
+              "start": 0.45,
+              "end": 1.33
+            },
+            {
+              "w": "pears",
+              "start": 1.33,
+              "end": 1.77
+            },
+            {
+              "w": "and",
+              "start": 1.77,
+              "end": 2.53
+            },
+            {
+              "w": "cherries",
+              "start": 2.61,
+              "end": 3.23
+            },
+            {
+              "w": "too,",
+              "start": 3.23,
+              "end": 3.97
+            }
+          ]
+        },
+        {
+          "text": "so many fruits for me and you!",
+          "words": [
+            {
+              "w": "so",
+              "start": 4.63,
+              "end": 4.77
+            },
+            {
+              "w": "many",
+              "start": 4.77,
+              "end": 5.25
+            },
+            {
+              "w": "fruits",
+              "start": 5.25,
+              "end": 5.99
+            },
+            {
+              "w": "for",
+              "start": 5.99,
+              "end": 6.59
+            },
+            {
+              "w": "me",
+              "start": 6.59,
+              "end": 7.31
+            },
+            {
+              "w": "and",
+              "start": 7.31,
+              "end": 7.81
+            },
+            {
+              "w": "you!",
+              "start": 7.81,
+              "end": 8.39
+            }
+          ]
+        }
+      ],
+      "textPosition": "bottom",
+      "textStyle": "outline",
+      "beat": 0.5565
+    },
+    {
+      "duration": 12.19,
+      "voiceOffset": 0.4,
+      "type": "lyric",
+      "background": {
+        "kind": "globe"
+      },
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#3B2417",
+            "hairStyle": "long",
+            "outfit": "tunic",
+            "top": "#D62828",
+            "bottom": "#FFFFFF",
+            "accent": "#FFD166",
+            "hat": "none",
+            "flag": "vn"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "bun",
+            "outfit": "dress",
+            "top": "#F7A1C4",
+            "bottom": "#C2185B",
+            "accent": "#FFE9A8",
+            "hat": "none",
+            "flag": "jp"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#8B5A2B",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#2B4C8C",
+            "bottom": "#1B1B1B",
+            "accent": "#FFFFFF",
+            "hat": "beret",
+            "hatColor": "#1B1B1B",
+            "flag": "fr"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#3B2417",
+            "hairStyle": "long",
+            "outfit": "dress",
+            "top": "#F06292",
+            "bottom": "#3949AB",
+            "accent": "#FFF59D",
+            "hat": "none",
+            "flag": "kr"
+          }
+        },
+        {
+          "look": {
+            "skin": "#C68E68",
+            "hair": "#2B1B12",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#FFDF00",
+            "bottom": "#00923F",
+            "accent": "#FFFFFF",
+            "hat": "none",
+            "flag": "br"
+          }
+        },
+        {
+          "look": {
+            "skin": "#8D5A3B",
+            "hair": "#1B1B1B",
+            "hairStyle": "pigtails",
+            "outfit": "dress",
+            "top": "#2E7D32",
+            "bottom": "#F9A825",
+            "accent": "#FFCC80",
+            "hat": "none",
+            "flag": "ke"
+          }
+        }
+      ],
+      "emojis": [],
+      "lines": [
+        {
+          "text": "Count the fruits, one by one,",
+          "words": [
+            {
+              "w": "Count",
+              "start": 0.45,
+              "end": 0.77
+            },
+            {
+              "w": "the",
+              "start": 0.77,
+              "end": 1.31
+            },
+            {
+              "w": "fruits,",
+              "start": 1.31,
+              "end": 1.87
+            },
+            {
+              "w": "one",
+              "start": 2.65,
+              "end": 2.95
+            },
+            {
+              "w": "by",
+              "start": 2.95,
+              "end": 3.55
+            },
+            {
+              "w": "one,",
+              "start": 3.55,
+              "end": 4.19
+            }
+          ]
+        },
+        {
+          "text": "counting fruits is so much fun!",
+          "words": [
+            {
+              "w": "counting",
+              "start": 5.47,
+              "end": 5.81
+            },
+            {
+              "w": "fruits",
+              "start": 5.81,
+              "end": 6.33
+            },
+            {
+              "w": "is",
+              "start": 6.61,
+              "end": 6.77
+            },
+            {
+              "w": "so",
+              "start": 6.77,
+              "end": 7.49
+            },
+            {
+              "w": "much",
+              "start": 7.49,
+              "end": 8.55
+            },
+            {
+              "w": "fun!",
+              "start": 8.55,
+              "end": 9.69
+            }
+          ]
+        }
+      ],
+      "textPosition": "left",
+      "textStyle": "outline",
+      "beat": 0.5565
+    },
+    {
+      "duration": 4.4,
+      "say": "Let's count from one to ten!",
+      "voice": "counting-fruits/voice-07.mp3",
+      "voiceOffset": 0.4,
+      "type": "title",
+      "small": [
+        "Let's count"
+      ],
+      "big": "from one to ten!"
+    },
+    {
+      "duration": 5,
+      "say": "One! One apple!",
+      "voice": "counting-fruits/voice-08.mp3",
+      "voiceOffset": 0.4,
+      "type": "count",
+      "number": 1,
+      "emoji": "🍎",
+      "word": "apple",
+      "bg": "#FFF1C9",
+      "startAt": 0.8
+    },
+    {
+      "duration": 5.6,
+      "say": "One, Two! Two bananas!",
+      "voice": "counting-fruits/voice-09.mp3",
+      "voiceOffset": 0.4,
+      "type": "count",
+      "number": 2,
+      "emoji": "🍌",
+      "word": "bananas",
+      "bg": "#DFF5E1",
+      "startAt": 0.8
+    },
+    {
+      "duration": 6.5,
+      "say": "One, Two, Three! Three strawberries!",
+      "voice": "counting-fruits/voice-10.mp3",
+      "voiceOffset": 0.4,
+      "type": "count",
+      "number": 3,
+      "emoji": "🍓",
+      "word": "strawberries",
+      "bg": "#FFE0EC",
+      "startAt": 0.8
+    },
+    {
+      "duration": 7.1,
+      "say": "One, Two, Three, Four! Four oranges!",
+      "voice": "counting-fruits/voice-11.mp3",
+      "voiceOffset": 0.4,
+      "type": "count",
+      "number": 4,
+      "emoji": "🍊",
+      "word": "oranges",
+      "bg": "#E3F0FF",
+      "startAt": 0.8
+    },
+    {
+      "duration": 8.5,
+      "say": "One, Two, Three, Four, Five! Five bunches of grapes!",
+      "voice": "counting-fruits/voice-12.mp3",
+      "voiceOffset": 0.4,
+      "type": "count",
+      "number": 5,
+      "emoji": "🍇",
+      "word": "bunches of grapes",
+      "bg": "#F3E5FF",
+      "startAt": 0.8
+    },
+    {
+      "duration": 9.1,
+      "say": "One, Two, Three, Four, Five, Six! Six watermelons!",
+      "voice": "counting-fruits/voice-13.mp3",
+      "voiceOffset": 0.4,
+      "type": "count",
+      "number": 6,
+      "emoji": "🍉",
+      "word": "watermelons",
+      "bg": "#FFF1C9",
+      "startAt": 0.8
+    },
+    {
+      "duration": 9.5,
+      "say": "One, Two, Three, Four, Five, Six, Seven! Seven pears!",
+      "voice": "counting-fruits/voice-14.mp3",
+      "voiceOffset": 0.4,
+      "type": "count",
+      "number": 7,
+      "emoji": "🍐",
+      "word": "pears",
+      "bg": "#DFF5E1",
+      "startAt": 0.8
+    },
+    {
+      "duration": 10,
+      "say": "One, Two, Three, Four, Five, Six, Seven, Eight! Eight cherries!",
+      "voice": "counting-fruits/voice-15.mp3",
+      "voiceOffset": 0.4,
+      "type": "count",
+      "number": 8,
+      "emoji": "🍒",
+      "word": "cherries",
+      "bg": "#FFE0EC",
+      "startAt": 0.8
+    },
+    {
+      "duration": 10.9,
+      "say": "One, Two, Three, Four, Five, Six, Seven, Eight, Nine! Nine kiwis!",
+      "voice": "counting-fruits/voice-16.mp3",
+      "voiceOffset": 0.4,
+      "type": "count",
+      "number": 9,
+      "emoji": "🥝",
+      "word": "kiwis",
+      "bg": "#E3F0FF",
+      "startAt": 0.8
+    },
+    {
+      "duration": 11.6,
+      "say": "One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten! Ten lemons!",
+      "voice": "counting-fruits/voice-17.mp3",
+      "voiceOffset": 0.4,
+      "type": "count",
+      "number": 10,
+      "emoji": "🍋",
+      "word": "lemons",
+      "bg": "#F3E5FF",
+      "startAt": 0.8
+    },
+    {
+      "duration": 4.5,
+      "voiceOffset": 0.4,
+      "type": "outro",
+      "text": "Great job! Bye-bye!",
+      "characters": [
+        {
+          "look": {
+            "skin": "#8D5A3B",
+            "hair": "#1B1B1B",
+            "hairStyle": "pigtails",
+            "outfit": "dress",
+            "top": "#F26B21",
+            "bottom": "#2F86C9",
+            "accent": "#FFFFFF",
+            "hat": "none"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#F2C94C",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#4DB35E",
+            "bottom": "#6D4C41",
+            "accent": "#FFFFFF",
+            "hat": "none"
+          }
+        },
+        {
+          "look": {
+            "skin": "#C68E68",
+            "hair": "#1B1B1B",
+            "hairStyle": "bob",
+            "outfit": "dress",
+            "top": "#9B4FCB",
+            "bottom": "#1D3557",
+            "accent": "#FFD6F0",
+            "hat": "none"
+          }
+        }
+      ]
+    },
+    {
+      "duration": 4,
+      "voiceOffset": 0.4,
+      "type": "subscribe",
+      "text": "SUBSCRIBE",
+      "sub": "OUR CHANNEL",
+      "handle": "@MeowPi"
+    }
+  ]
+}

@@ -1,0 +1,2048 @@
+{
+  "meta": {
+    "title": "Animal Sounds Around the World | What Does the Dog Say? | Song for Kids",
+    "description": "Woof, Gâu gâu, Wan wan, Meong meong! 🐶🐱🦆🐓 Did you know animals 'speak' differently in every country? Sing along and travel the world with Meo with Pi to hear how dogs, cats, ducks and roosters sound in Vietnam, Japan, Korea, France and Spain.\n\nWhat does the dog say in YOUR language? Tell us in the comments! 👇",
+    "tags": [
+      "animal sounds",
+      "animal sounds in different languages",
+      "what does the dog say",
+      "animal song for kids",
+      "songs for kids",
+      "english for kids",
+      "nursery rhymes",
+      "tieng keu con vat",
+      "nhac thieu nhi",
+      "be hoc tieng anh",
+      "con vat cho be",
+      "dog sound",
+      "rooster sound"
+    ],
+    "channel": "Meo with Pi",
+    "madeForKids": true
+  },
+  "audio": {
+    "song": "animal-sounds-around-the-world/song.mp3",
+    "songStart": 4,
+    "songVolume": 1,
+    "songEnd": 53.05,
+    "bgm": "animal-sounds-around-the-world/instrumental.mp3",
+    "bgmVolume": 0.45,
+    "bgmDuck": 0.45
+  },
+  "scenes": [
+    {
+      "duration": 4,
+      "voiceOffset": 0.4,
+      "type": "intro",
+      "title": "Meo with Pi",
+      "subtitle": "KIDS CHANNEL",
+      "handle": "@MeowPi"
+    },
+    {
+      "duration": 14.44,
+      "voiceOffset": 0.4,
+      "type": "lyric",
+      "background": {
+        "kind": "globe"
+      },
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#3B2417",
+            "hairStyle": "long",
+            "outfit": "tunic",
+            "top": "#D62828",
+            "bottom": "#FFFFFF",
+            "accent": "#FFD166",
+            "hat": "conical",
+            "hatColor": "#EAD8A4",
+            "flag": "vn"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "bun",
+            "outfit": "dress",
+            "top": "#F7A1C4",
+            "bottom": "#C2185B",
+            "accent": "#FFE9A8",
+            "hat": "none",
+            "flag": "jp"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "long",
+            "outfit": "dress",
+            "top": "#F06292",
+            "bottom": "#3949AB",
+            "accent": "#FFF59D",
+            "hat": "bow",
+            "hatColor": "#E53935",
+            "flag": "kr"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#8B5A2B",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#FFFFFF",
+            "bottom": "#1B1B1B",
+            "accent": "#D62828",
+            "hat": "beret",
+            "hatColor": "#1B1B1B",
+            "flag": "fr"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#2B1B12",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#FFFFFF",
+            "bottom": "#1B1B1B",
+            "accent": "#D62828",
+            "hat": "beret",
+            "hatColor": "#1B1B1B",
+            "flag": "es"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#3B2417",
+            "hairStyle": "short",
+            "outfit": "tunic",
+            "top": "#1D4E89",
+            "bottom": "#FFFFFF",
+            "accent": "#FFD166",
+            "hat": "none",
+            "flag": "vn"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "short",
+            "outfit": "tunic",
+            "top": "#2B3A67",
+            "bottom": "#8D99AE",
+            "accent": "#FFFFFF",
+            "hat": "none",
+            "flag": "jp"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "short",
+            "outfit": "tunic",
+            "top": "#43A047",
+            "bottom": "#90CAF9",
+            "accent": "#FFFFFF",
+            "hat": "none",
+            "flag": "kr"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#8B5A2B",
+            "hairStyle": "short",
+            "outfit": "dress",
+            "top": "#C1121F",
+            "bottom": "#1B1B1B",
+            "accent": "#FFFFFF",
+            "hat": "headscarf",
+            "hatColor": "#FFFFFF",
+            "flag": "fr"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "bun",
+            "outfit": "dress",
+            "top": "#D62828",
+            "bottom": "#1B1B1B",
+            "accent": "#FFD6D6",
+            "hat": "flowerCrown",
+            "flag": "es"
+          }
+        }
+      ],
+      "emojis": [],
+      "lines": [
+        {
+          "text": "Listen, listen, hear that sound?",
+          "words": [
+            {
+              "w": "Listen,",
+              "start": 10.64,
+              "end": 10.92
+            },
+            {
+              "w": "listen,",
+              "start": 11.04,
+              "end": 11.2
+            },
+            {
+              "w": "hear",
+              "start": 11.2,
+              "end": 11.62
+            },
+            {
+              "w": "that",
+              "start": 11.62,
+              "end": 11.9
+            },
+            {
+              "w": "sound?",
+              "start": 11.9,
+              "end": 12
+            }
+          ]
+        },
+        {
+          "text": "Animals sing the whole world round!",
+          "words": [
+            {
+              "w": "Animals",
+              "start": 12.56,
+              "end": 12.88
+            },
+            {
+              "w": "sing",
+              "start": 12.88,
+              "end": 13.32
+            },
+            {
+              "w": "the",
+              "start": 13.32,
+              "end": 13.56
+            },
+            {
+              "w": "whole",
+              "start": 13.56,
+              "end": 13.86
+            },
+            {
+              "w": "world",
+              "start": 13.86,
+              "end": 14.14
+            },
+            {
+              "w": "round!",
+              "start": 14.14,
+              "end": 14.7
+            }
+          ]
+        }
+      ],
+      "textPosition": "left",
+      "textStyle": "outline",
+      "beat": 0.5505
+    },
+    {
+      "duration": 4.42,
+      "voiceOffset": 0.4,
+      "type": "lyric",
+      "background": {
+        "kind": "meadow"
+      },
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#3B2417",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#4DB35E",
+            "bottom": "#6D4C41",
+            "accent": "#FFFFFF",
+            "hat": "none"
+          }
+        },
+        {
+          "look": {
+            "skin": "#8D5A3B",
+            "hair": "#1B1B1B",
+            "hairStyle": "pigtails",
+            "outfit": "dress",
+            "top": "#F26B21",
+            "bottom": "#2F86C9",
+            "accent": "#FFFFFF",
+            "hat": "none"
+          }
+        }
+      ],
+      "emojis": [
+        "🐶",
+        "🐱"
+      ],
+      "lines": [
+        {
+          "text": "The puppy barks, the kitty sings,",
+          "words": [
+            {
+              "w": "The",
+              "start": 0.26,
+              "end": 0.32
+            },
+            {
+              "w": "puppy",
+              "start": 0.34,
+              "end": 0.64
+            },
+            {
+              "w": "barks,",
+              "start": 0.64,
+              "end": 1.16
+            },
+            {
+              "w": "the",
+              "start": 1.34,
+              "end": 1.42
+            },
+            {
+              "w": "kitty",
+              "start": 1.46,
+              "end": 1.66
+            },
+            {
+              "w": "sings,",
+              "start": 1.66,
+              "end": 2.16
+            }
+          ]
+        },
+        {
+          "text": "the duck goes splashing, flap your wings!",
+          "words": [
+            {
+              "w": "the",
+              "start": 2.46,
+              "end": 2.56
+            },
+            {
+              "w": "duck",
+              "start": 2.56,
+              "end": 2.74
+            },
+            {
+              "w": "goes",
+              "start": 2.84,
+              "end": 3.02
+            },
+            {
+              "w": "splashing,",
+              "start": 3.02,
+              "end": 3.47
+            },
+            {
+              "w": "flap",
+              "start": 3.68,
+              "end": 3.8
+            },
+            {
+              "w": "your",
+              "start": 3.8,
+              "end": 4.12
+            },
+            {
+              "w": "wings!",
+              "start": 4.12,
+              "end": 4.8
+            }
+          ]
+        }
+      ],
+      "textPosition": "bottom",
+      "textStyle": "outline",
+      "beat": 0.5505
+    },
+    {
+      "duration": 4.35,
+      "voiceOffset": 0.4,
+      "type": "lyric",
+      "background": {
+        "kind": "sky"
+      },
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#3B2417",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#4DB35E",
+            "bottom": "#6D4C41",
+            "accent": "#FFFFFF",
+            "hat": "none"
+          }
+        },
+        {
+          "look": {
+            "skin": "#8D5A3B",
+            "hair": "#1B1B1B",
+            "hairStyle": "pigtails",
+            "outfit": "dress",
+            "top": "#F26B21",
+            "bottom": "#2F86C9",
+            "accent": "#FFFFFF",
+            "hat": "none"
+          }
+        }
+      ],
+      "emojis": [
+        "🐶",
+        "🐱",
+        "🦆",
+        "🐓"
+      ],
+      "lines": [
+        {
+          "text": "Woof and meow, quack and crow,",
+          "words": [
+            {
+              "w": "Woof",
+              "start": 0.38,
+              "end": 0.68
+            },
+            {
+              "w": "and",
+              "start": 0.68,
+              "end": 0.88
+            },
+            {
+              "w": "meow,",
+              "start": 0.88,
+              "end": 1.36
+            },
+            {
+              "w": "quack",
+              "start": 1.5,
+              "end": 1.66
+            },
+            {
+              "w": "and",
+              "start": 1.66,
+              "end": 1.94
+            },
+            {
+              "w": "crow,",
+              "start": 1.94,
+              "end": 2.36
+            }
+          ]
+        },
+        {
+          "text": "every country says it so!",
+          "words": [
+            {
+              "w": "every",
+              "start": 2.58,
+              "end": 2.98
+            },
+            {
+              "w": "country",
+              "start": 2.98,
+              "end": 3.44
+            },
+            {
+              "w": "says",
+              "start": 3.44,
+              "end": 3.82
+            },
+            {
+              "w": "it",
+              "start": 3.82,
+              "end": 4.04
+            },
+            {
+              "w": "so!",
+              "start": 4.04,
+              "end": 4.14
+            }
+          ]
+        }
+      ],
+      "textPosition": "bottom",
+      "textStyle": "box",
+      "beat": 0.5505
+    },
+    {
+      "duration": 13.24,
+      "voiceOffset": 0.4,
+      "type": "lyric",
+      "background": {
+        "kind": "sea"
+      },
+      "characters": [
+        {
+          "look": {
+            "skin": "#8D5A3B",
+            "hair": "#1B1B1B",
+            "hairStyle": "pigtails",
+            "outfit": "dress",
+            "top": "#F26B21",
+            "bottom": "#2F86C9",
+            "accent": "#FFFFFF",
+            "hat": "none"
+          }
+        },
+        {
+          "look": {
+            "skin": "#C68E68",
+            "hair": "#1B1B1B",
+            "hairStyle": "bob",
+            "outfit": "dress",
+            "top": "#9B4FCB",
+            "bottom": "#1D3557",
+            "accent": "#FFD6F0",
+            "hat": "none"
+          }
+        }
+      ],
+      "emojis": [
+        "🦆"
+      ],
+      "lines": [
+        {
+          "text": "Little duck is swimming far,",
+          "words": [
+            {
+              "w": "Little",
+              "start": 0.45,
+              "end": 0.85
+            },
+            {
+              "w": "duck",
+              "start": 0.85,
+              "end": 1.21
+            },
+            {
+              "w": "is",
+              "start": 1.27,
+              "end": 1.47
+            },
+            {
+              "w": "swimming",
+              "start": 1.47,
+              "end": 1.77
+            },
+            {
+              "w": "far,",
+              "start": 1.77,
+              "end": 2.39
+            }
+          ]
+        },
+        {
+          "text": "paddle, paddle, there you are!",
+          "words": [
+            {
+              "w": "paddle,",
+              "start": 2.69,
+              "end": 3.25
+            },
+            {
+              "w": "paddle,",
+              "start": 3.25,
+              "end": 3.57
+            },
+            {
+              "w": "there",
+              "start": 3.57,
+              "end": 3.99
+            },
+            {
+              "w": "you",
+              "start": 3.72,
+              "end": 4.19
+            },
+            {
+              "w": "are!",
+              "start": 4.19,
+              "end": 4.66
+            }
+          ]
+        }
+      ],
+      "textPosition": "top",
+      "textStyle": "outline",
+      "beat": 0.5505
+    },
+    {
+      "duration": 4.65,
+      "voiceOffset": 0.4,
+      "type": "lyric",
+      "background": {
+        "kind": "desert"
+      },
+      "characters": [
+        {
+          "look": {
+            "skin": "#C68E68",
+            "hair": "#1B1B1B",
+            "hairStyle": "bob",
+            "outfit": "dress",
+            "top": "#9B4FCB",
+            "bottom": "#1D3557",
+            "accent": "#FFD6F0",
+            "hat": "none"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#F2C94C",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#2F86C9",
+            "bottom": "#F7C31B",
+            "accent": "#FFFFFF",
+            "hat": "none"
+          }
+        }
+      ],
+      "emojis": [
+        "🐓"
+      ],
+      "lines": [
+        {
+          "text": "Sun comes up, the rooster wakes,",
+          "words": [
+            {
+              "w": "Sun",
+              "start": 0.45,
+              "end": 0.73
+            },
+            {
+              "w": "comes",
+              "start": 0.73,
+              "end": 0.99
+            },
+            {
+              "w": "up,",
+              "start": 0.99,
+              "end": 1.33
+            },
+            {
+              "w": "the",
+              "start": 1.55,
+              "end": 1.65
+            },
+            {
+              "w": "rooster",
+              "start": 1.65,
+              "end": 2.01
+            },
+            {
+              "w": "wakes,",
+              "start": 2.01,
+              "end": 2.49
+            }
+          ]
+        },
+        {
+          "text": "what a big, big noise he makes!",
+          "words": [
+            {
+              "w": "what",
+              "start": 2.73,
+              "end": 3.03
+            },
+            {
+              "w": "a",
+              "start": 3.03,
+              "end": 3.25
+            },
+            {
+              "w": "big,",
+              "start": 3.25,
+              "end": 3.55
+            },
+            {
+              "w": "big",
+              "start": 3.55,
+              "end": 3.75
+            },
+            {
+              "w": "noise",
+              "start": 3.75,
+              "end": 4.05
+            },
+            {
+              "w": "he",
+              "start": 4.05,
+              "end": 4.35
+            },
+            {
+              "w": "makes!",
+              "start": 4.35,
+              "end": 4.97
+            }
+          ]
+        }
+      ],
+      "textPosition": "bottom",
+      "textStyle": "outline",
+      "beat": 0.5505
+    },
+    {
+      "duration": 4.32,
+      "voiceOffset": 0.4,
+      "type": "lyric",
+      "background": {
+        "kind": "blocks"
+      },
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#3B2417",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#4DB35E",
+            "bottom": "#6D4C41",
+            "accent": "#FFFFFF",
+            "hat": "none"
+          }
+        },
+        {
+          "look": {
+            "skin": "#8D5A3B",
+            "hair": "#1B1B1B",
+            "hairStyle": "pigtails",
+            "outfit": "dress",
+            "top": "#F26B21",
+            "bottom": "#2F86C9",
+            "accent": "#FFFFFF",
+            "hat": "none"
+          }
+        }
+      ],
+      "emojis": [
+        "🐶",
+        "🐱",
+        "🦆",
+        "🐓"
+      ],
+      "lines": [
+        {
+          "text": "Woof and meow, quack and crow,",
+          "words": [
+            {
+              "w": "Woof",
+              "start": 0.32,
+              "end": 0.66
+            },
+            {
+              "w": "and",
+              "start": 0.66,
+              "end": 0.84
+            },
+            {
+              "w": "meow,",
+              "start": 0.84,
+              "end": 1.44
+            },
+            {
+              "w": "quack",
+              "start": 1.5,
+              "end": 1.7
+            },
+            {
+              "w": "and",
+              "start": 1.74,
+              "end": 1.92
+            },
+            {
+              "w": "crow,",
+              "start": 1.92,
+              "end": 2.42
+            }
+          ]
+        },
+        {
+          "text": "every country says it so!",
+          "words": [
+            {
+              "w": "every",
+              "start": 2.58,
+              "end": 2.94
+            },
+            {
+              "w": "country",
+              "start": 2.94,
+              "end": 3.38
+            },
+            {
+              "w": "says",
+              "start": 3.38,
+              "end": 3.78
+            },
+            {
+              "w": "it",
+              "start": 3.78,
+              "end": 4.02
+            },
+            {
+              "w": "so!",
+              "start": 4.02,
+              "end": 4.52
+            }
+          ]
+        }
+      ],
+      "textPosition": "bottom",
+      "textStyle": "box",
+      "beat": 0.5505
+    },
+    {
+      "duration": 7.63,
+      "voiceOffset": 0.4,
+      "type": "lyric",
+      "background": {
+        "kind": "globe"
+      },
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#3B2417",
+            "hairStyle": "long",
+            "outfit": "tunic",
+            "top": "#D62828",
+            "bottom": "#FFFFFF",
+            "accent": "#FFD166",
+            "hat": "conical",
+            "hatColor": "#EAD8A4",
+            "flag": "vn"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "bun",
+            "outfit": "dress",
+            "top": "#F7A1C4",
+            "bottom": "#C2185B",
+            "accent": "#FFE9A8",
+            "hat": "none",
+            "flag": "jp"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "long",
+            "outfit": "dress",
+            "top": "#F06292",
+            "bottom": "#3949AB",
+            "accent": "#FFF59D",
+            "hat": "bow",
+            "hatColor": "#E53935",
+            "flag": "kr"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#8B5A2B",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#FFFFFF",
+            "bottom": "#1B1B1B",
+            "accent": "#D62828",
+            "hat": "beret",
+            "hatColor": "#1B1B1B",
+            "flag": "fr"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#2B1B12",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#FFFFFF",
+            "bottom": "#1B1B1B",
+            "accent": "#D62828",
+            "hat": "beret",
+            "hatColor": "#1B1B1B",
+            "flag": "es"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#3B2417",
+            "hairStyle": "short",
+            "outfit": "tunic",
+            "top": "#1D4E89",
+            "bottom": "#FFFFFF",
+            "accent": "#FFD166",
+            "hat": "none",
+            "flag": "vn"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "short",
+            "outfit": "tunic",
+            "top": "#2B3A67",
+            "bottom": "#8D99AE",
+            "accent": "#FFFFFF",
+            "hat": "none",
+            "flag": "jp"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "short",
+            "outfit": "tunic",
+            "top": "#43A047",
+            "bottom": "#90CAF9",
+            "accent": "#FFFFFF",
+            "hat": "none",
+            "flag": "kr"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#8B5A2B",
+            "hairStyle": "short",
+            "outfit": "dress",
+            "top": "#C1121F",
+            "bottom": "#1B1B1B",
+            "accent": "#FFFFFF",
+            "hat": "headscarf",
+            "hatColor": "#FFFFFF",
+            "flag": "fr"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "bun",
+            "outfit": "dress",
+            "top": "#D62828",
+            "bottom": "#1B1B1B",
+            "accent": "#FFD6D6",
+            "hat": "flowerCrown",
+            "flag": "es"
+          }
+        }
+      ],
+      "emojis": [],
+      "lines": [
+        {
+          "text": "Let's fly around the world today,",
+          "words": [
+            {
+              "w": "Let's",
+              "start": 0.22,
+              "end": 0.44
+            },
+            {
+              "w": "fly",
+              "start": 0.48,
+              "end": 0.72
+            },
+            {
+              "w": "around",
+              "start": 0.72,
+              "end": 1.14
+            },
+            {
+              "w": "the",
+              "start": 1.14,
+              "end": 1.5
+            },
+            {
+              "w": "world",
+              "start": 1.5,
+              "end": 1.78
+            },
+            {
+              "w": "today,",
+              "start": 1.78,
+              "end": 2.34
+            }
+          ]
+        },
+        {
+          "text": "and hear what all the animals say!",
+          "words": [
+            {
+              "w": "and",
+              "start": 2.44,
+              "end": 2.6
+            },
+            {
+              "w": "hear",
+              "start": 2.6,
+              "end": 2.88
+            },
+            {
+              "w": "what",
+              "start": 2.88,
+              "end": 3.18
+            },
+            {
+              "w": "all",
+              "start": 3.18,
+              "end": 3.48
+            },
+            {
+              "w": "the",
+              "start": 3.48,
+              "end": 3.68
+            },
+            {
+              "w": "animals",
+              "start": 3.68,
+              "end": 4.38
+            },
+            {
+              "w": "say!",
+              "start": 4.38,
+              "end": 5.13
+            }
+          ]
+        }
+      ],
+      "textPosition": "left",
+      "textStyle": "outline",
+      "beat": 0.5505
+    },
+    {
+      "duration": 8.4,
+      "say": "Hello everyone! Let's travel around the world and listen to the animals!",
+      "voice": "animal-sounds-around-the-world/voice-08.mp3",
+      "voiceOffset": 0.4,
+      "type": "title",
+      "small": [
+        "Let's travel and listen!"
+      ],
+      "big": "Animal Sounds Around the World"
+    },
+    {
+      "duration": 9.6,
+      "say": "Who says woof! ... It's a dog! In English, the dog says: Woof woof!",
+      "voice": "animal-sounds-around-the-world/voice-09.mp3",
+      "voiceOffset": 0.4,
+      "imagePrompt": "A happy cartoon puppy, light brown with floppy ears, sitting and barking, full body",
+      "type": "vocab",
+      "word": "DOG",
+      "sub": "Woof woof!",
+      "image": "animal-sounds-around-the-world/scene-09.png",
+      "emoji": "🐶",
+      "guess": "WOOF!",
+      "reveal": 3,
+      "bg": "#FFE7B3",
+      "side": "left"
+    },
+    {
+      "duration": 5.8,
+      "say": "In Viet Nam, the dog says: Gâu gâu!",
+      "voice": "animal-sounds-around-the-world/voice-10.mp3",
+      "voiceOffset": 0.4,
+      "type": "country",
+      "layout": "poster",
+      "country": "Viet Nam",
+      "flag": "vn",
+      "greeting": "Gâu gâu!",
+      "romanization": "Gâu gâu!",
+      "bg": "#B9E4B4",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#3B2417",
+            "hairStyle": "long",
+            "outfit": "tunic",
+            "top": "#D62828",
+            "bottom": "#FFFFFF",
+            "accent": "#FFD166",
+            "hat": "conical",
+            "hatColor": "#EAD8A4",
+            "flag": "vn"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#3B2417",
+            "hairStyle": "short",
+            "outfit": "tunic",
+            "top": "#1D4E89",
+            "bottom": "#FFFFFF",
+            "accent": "#FFD166",
+            "hat": "none",
+            "flag": "vn"
+          }
+        }
+      ],
+      "pet": {
+        "emoji": "🐶"
+      },
+      "props": []
+    },
+    {
+      "duration": 5.7,
+      "say": "In Japan, the dog says: Wan wan!",
+      "voice": "animal-sounds-around-the-world/voice-11.mp3",
+      "voiceOffset": 0.4,
+      "type": "country",
+      "layout": "poster",
+      "country": "Japan",
+      "flag": "jp",
+      "greeting": "Wan wan!",
+      "native": "ワンワン",
+      "romanization": "Wan wan!",
+      "bg": "#F9C6D6",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "bun",
+            "outfit": "dress",
+            "top": "#F7A1C4",
+            "bottom": "#C2185B",
+            "accent": "#FFE9A8",
+            "hat": "none",
+            "flag": "jp"
+          }
+        }
+      ],
+      "pet": {
+        "emoji": "🐶"
+      },
+      "props": []
+    },
+    {
+      "duration": 5.9,
+      "say": "In Korea, the dog says: Meong meong!",
+      "voice": "animal-sounds-around-the-world/voice-12.mp3",
+      "voiceOffset": 0.4,
+      "type": "country",
+      "layout": "poster",
+      "country": "Korea",
+      "flag": "kr",
+      "greeting": "Meong meong!",
+      "native": "멍멍",
+      "romanization": "Meong meong!",
+      "bg": "#CFE3FF",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "long",
+            "outfit": "dress",
+            "top": "#F06292",
+            "bottom": "#3949AB",
+            "accent": "#FFF59D",
+            "hat": "bow",
+            "hatColor": "#E53935",
+            "flag": "kr"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "short",
+            "outfit": "tunic",
+            "top": "#43A047",
+            "bottom": "#90CAF9",
+            "accent": "#FFFFFF",
+            "hat": "none",
+            "flag": "kr"
+          }
+        }
+      ],
+      "pet": {
+        "emoji": "🐶"
+      },
+      "props": []
+    },
+    {
+      "duration": 5.8,
+      "say": "In France, the dog says: Ouaf ouaf!",
+      "voice": "animal-sounds-around-the-world/voice-13.mp3",
+      "voiceOffset": 0.4,
+      "type": "country",
+      "layout": "quad",
+      "country": "France",
+      "flag": "fr",
+      "greeting": "Ouaf ouaf!",
+      "romanization": "Ouaf ouaf!",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#8B5A2B",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#FFFFFF",
+            "bottom": "#1B1B1B",
+            "accent": "#D62828",
+            "hat": "beret",
+            "hatColor": "#1B1B1B",
+            "flag": "fr"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#8B5A2B",
+            "hairStyle": "short",
+            "outfit": "dress",
+            "top": "#C1121F",
+            "bottom": "#1B1B1B",
+            "accent": "#FFFFFF",
+            "hat": "headscarf",
+            "hatColor": "#FFFFFF",
+            "flag": "fr"
+          }
+        }
+      ],
+      "pet": {
+        "emoji": "🐶"
+      },
+      "props": []
+    },
+    {
+      "duration": 5.6,
+      "say": "In Spain, the dog says: ¡Guau guau!",
+      "voice": "animal-sounds-around-the-world/voice-14.mp3",
+      "voiceOffset": 0.4,
+      "type": "country",
+      "layout": "quad",
+      "country": "Spain",
+      "flag": "es",
+      "greeting": "¡Guau guau!",
+      "romanization": "¡Guau guau!",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#2B1B12",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#FFFFFF",
+            "bottom": "#1B1B1B",
+            "accent": "#D62828",
+            "hat": "beret",
+            "hatColor": "#1B1B1B",
+            "flag": "es"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "bun",
+            "outfit": "dress",
+            "top": "#D62828",
+            "bottom": "#1B1B1B",
+            "accent": "#FFD6D6",
+            "hat": "flowerCrown",
+            "flag": "es"
+          }
+        }
+      ],
+      "pet": {
+        "emoji": "🐶"
+      },
+      "props": []
+    },
+    {
+      "duration": 9.2,
+      "say": "Who says meow! ... It's a cat! In English, the cat says: Meow!",
+      "voice": "animal-sounds-around-the-world/voice-15.mp3",
+      "voiceOffset": 0.4,
+      "imagePrompt": "A cute cartoon orange kitten with big eyes, sitting and meowing, full body",
+      "type": "vocab",
+      "word": "CAT",
+      "sub": "Meow!",
+      "image": "animal-sounds-around-the-world/scene-15.png",
+      "emoji": "🐱",
+      "guess": "MEOW!",
+      "reveal": 3,
+      "bg": "#E6DBFF",
+      "side": "right"
+    },
+    {
+      "duration": 6,
+      "say": "In Viet Nam, the cat says: Meo meo!",
+      "voice": "animal-sounds-around-the-world/voice-16.mp3",
+      "voiceOffset": 0.4,
+      "type": "country",
+      "layout": "poster",
+      "country": "Viet Nam",
+      "flag": "vn",
+      "greeting": "Meo meo!",
+      "romanization": "Meo meo!",
+      "bg": "#B9E4B4",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#3B2417",
+            "hairStyle": "long",
+            "outfit": "tunic",
+            "top": "#D62828",
+            "bottom": "#FFFFFF",
+            "accent": "#FFD166",
+            "hat": "conical",
+            "hatColor": "#EAD8A4",
+            "flag": "vn"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#3B2417",
+            "hairStyle": "short",
+            "outfit": "tunic",
+            "top": "#1D4E89",
+            "bottom": "#FFFFFF",
+            "accent": "#FFD166",
+            "hat": "none",
+            "flag": "vn"
+          }
+        }
+      ],
+      "pet": {
+        "emoji": "🐱"
+      },
+      "props": []
+    },
+    {
+      "duration": 5.2,
+      "say": "In Japan, the cat says: Nyaa!",
+      "voice": "animal-sounds-around-the-world/voice-17.mp3",
+      "voiceOffset": 0.4,
+      "type": "country",
+      "layout": "poster",
+      "country": "Japan",
+      "flag": "jp",
+      "greeting": "Nyaa!",
+      "native": "ニャー",
+      "romanization": "Nyaa!",
+      "bg": "#F9C6D6",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "bun",
+            "outfit": "dress",
+            "top": "#F7A1C4",
+            "bottom": "#C2185B",
+            "accent": "#FFE9A8",
+            "hat": "none",
+            "flag": "jp"
+          }
+        }
+      ],
+      "pet": {
+        "emoji": "🐱"
+      },
+      "props": []
+    },
+    {
+      "duration": 5.3,
+      "say": "In Korea, the cat says: Yaong!",
+      "voice": "animal-sounds-around-the-world/voice-18.mp3",
+      "voiceOffset": 0.4,
+      "type": "country",
+      "layout": "poster",
+      "country": "Korea",
+      "flag": "kr",
+      "greeting": "Yaong!",
+      "native": "야옹",
+      "romanization": "Yaong!",
+      "bg": "#CFE3FF",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "long",
+            "outfit": "dress",
+            "top": "#F06292",
+            "bottom": "#3949AB",
+            "accent": "#FFF59D",
+            "hat": "bow",
+            "hatColor": "#E53935",
+            "flag": "kr"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "short",
+            "outfit": "tunic",
+            "top": "#43A047",
+            "bottom": "#90CAF9",
+            "accent": "#FFFFFF",
+            "hat": "none",
+            "flag": "kr"
+          }
+        }
+      ],
+      "pet": {
+        "emoji": "🐱"
+      },
+      "props": []
+    },
+    {
+      "duration": 5.4,
+      "say": "In France, the cat says: Miaou!",
+      "voice": "animal-sounds-around-the-world/voice-19.mp3",
+      "voiceOffset": 0.4,
+      "type": "country",
+      "layout": "quad",
+      "country": "France",
+      "flag": "fr",
+      "greeting": "Miaou!",
+      "romanization": "Miaou!",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#8B5A2B",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#FFFFFF",
+            "bottom": "#1B1B1B",
+            "accent": "#D62828",
+            "hat": "beret",
+            "hatColor": "#1B1B1B",
+            "flag": "fr"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#8B5A2B",
+            "hairStyle": "short",
+            "outfit": "dress",
+            "top": "#C1121F",
+            "bottom": "#1B1B1B",
+            "accent": "#FFFFFF",
+            "hat": "headscarf",
+            "hatColor": "#FFFFFF",
+            "flag": "fr"
+          }
+        }
+      ],
+      "pet": {
+        "emoji": "🐱"
+      },
+      "props": []
+    },
+    {
+      "duration": 5.2,
+      "say": "In Spain, the cat says: ¡Miau!",
+      "voice": "animal-sounds-around-the-world/voice-20.mp3",
+      "voiceOffset": 0.4,
+      "type": "country",
+      "layout": "quad",
+      "country": "Spain",
+      "flag": "es",
+      "greeting": "¡Miau!",
+      "romanization": "¡Miau!",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#2B1B12",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#FFFFFF",
+            "bottom": "#1B1B1B",
+            "accent": "#D62828",
+            "hat": "beret",
+            "hatColor": "#1B1B1B",
+            "flag": "es"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "bun",
+            "outfit": "dress",
+            "top": "#D62828",
+            "bottom": "#1B1B1B",
+            "accent": "#FFD6D6",
+            "hat": "flowerCrown",
+            "flag": "es"
+          }
+        }
+      ],
+      "pet": {
+        "emoji": "🐱"
+      },
+      "props": []
+    },
+    {
+      "duration": 9.8,
+      "say": "Who says quack! ... It's a duck! In English, the duck says: Quack quack!",
+      "voice": "animal-sounds-around-the-world/voice-21.mp3",
+      "voiceOffset": 0.4,
+      "imagePrompt": "A cute cartoon yellow duckling with orange beak, standing and quacking, full body",
+      "type": "vocab",
+      "word": "DUCK",
+      "sub": "Quack quack!",
+      "image": "animal-sounds-around-the-world/scene-21.png",
+      "emoji": "🦆",
+      "guess": "QUACK!",
+      "reveal": 3,
+      "bg": "#C9F0FF",
+      "side": "left"
+    },
+    {
+      "duration": 5.8,
+      "say": "In Viet Nam, the duck says: Cạp cạp!",
+      "voice": "animal-sounds-around-the-world/voice-22.mp3",
+      "voiceOffset": 0.4,
+      "type": "country",
+      "layout": "poster",
+      "country": "Viet Nam",
+      "flag": "vn",
+      "greeting": "Cạp cạp!",
+      "romanization": "Cạp cạp!",
+      "bg": "#B9E4B4",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#3B2417",
+            "hairStyle": "long",
+            "outfit": "tunic",
+            "top": "#D62828",
+            "bottom": "#FFFFFF",
+            "accent": "#FFD166",
+            "hat": "conical",
+            "hatColor": "#EAD8A4",
+            "flag": "vn"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#3B2417",
+            "hairStyle": "short",
+            "outfit": "tunic",
+            "top": "#1D4E89",
+            "bottom": "#FFFFFF",
+            "accent": "#FFD166",
+            "hat": "none",
+            "flag": "vn"
+          }
+        }
+      ],
+      "pet": {
+        "emoji": "🦆"
+      },
+      "props": []
+    },
+    {
+      "duration": 6.1,
+      "say": "In Japan, the duck says: Gaa gaa!",
+      "voice": "animal-sounds-around-the-world/voice-23.mp3",
+      "voiceOffset": 0.4,
+      "type": "country",
+      "layout": "poster",
+      "country": "Japan",
+      "flag": "jp",
+      "greeting": "Gaa gaa!",
+      "native": "ガーガー",
+      "romanization": "Gaa gaa!",
+      "bg": "#F9C6D6",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "bun",
+            "outfit": "dress",
+            "top": "#F7A1C4",
+            "bottom": "#C2185B",
+            "accent": "#FFE9A8",
+            "hat": "none",
+            "flag": "jp"
+          }
+        }
+      ],
+      "pet": {
+        "emoji": "🦆"
+      },
+      "props": []
+    },
+    {
+      "duration": 5.8,
+      "say": "In Korea, the duck says: Kkwaek kkwaek!",
+      "voice": "animal-sounds-around-the-world/voice-24.mp3",
+      "voiceOffset": 0.4,
+      "type": "country",
+      "layout": "poster",
+      "country": "Korea",
+      "flag": "kr",
+      "greeting": "Kkwaek kkwaek!",
+      "native": "꽥꽥",
+      "romanization": "Kkwaek kkwaek!",
+      "bg": "#CFE3FF",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "long",
+            "outfit": "dress",
+            "top": "#F06292",
+            "bottom": "#3949AB",
+            "accent": "#FFF59D",
+            "hat": "bow",
+            "hatColor": "#E53935",
+            "flag": "kr"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "short",
+            "outfit": "tunic",
+            "top": "#43A047",
+            "bottom": "#90CAF9",
+            "accent": "#FFFFFF",
+            "hat": "none",
+            "flag": "kr"
+          }
+        }
+      ],
+      "pet": {
+        "emoji": "🦆"
+      },
+      "props": []
+    },
+    {
+      "duration": 5.7,
+      "say": "In France, the duck says: Coin-coin!",
+      "voice": "animal-sounds-around-the-world/voice-25.mp3",
+      "voiceOffset": 0.4,
+      "type": "country",
+      "layout": "quad",
+      "country": "France",
+      "flag": "fr",
+      "greeting": "Coin-coin!",
+      "romanization": "Coin-coin!",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#8B5A2B",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#FFFFFF",
+            "bottom": "#1B1B1B",
+            "accent": "#D62828",
+            "hat": "beret",
+            "hatColor": "#1B1B1B",
+            "flag": "fr"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#8B5A2B",
+            "hairStyle": "short",
+            "outfit": "dress",
+            "top": "#C1121F",
+            "bottom": "#1B1B1B",
+            "accent": "#FFFFFF",
+            "hat": "headscarf",
+            "hatColor": "#FFFFFF",
+            "flag": "fr"
+          }
+        }
+      ],
+      "pet": {
+        "emoji": "🦆"
+      },
+      "props": []
+    },
+    {
+      "duration": 5.7,
+      "say": "In Spain, the duck says: ¡Cuac cuac!",
+      "voice": "animal-sounds-around-the-world/voice-26.mp3",
+      "voiceOffset": 0.4,
+      "type": "country",
+      "layout": "quad",
+      "country": "Spain",
+      "flag": "es",
+      "greeting": "¡Cuac cuac!",
+      "romanization": "¡Cuac cuac!",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#2B1B12",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#FFFFFF",
+            "bottom": "#1B1B1B",
+            "accent": "#D62828",
+            "hat": "beret",
+            "hatColor": "#1B1B1B",
+            "flag": "es"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "bun",
+            "outfit": "dress",
+            "top": "#D62828",
+            "bottom": "#1B1B1B",
+            "accent": "#FFD6D6",
+            "hat": "flowerCrown",
+            "flag": "es"
+          }
+        }
+      ],
+      "pet": {
+        "emoji": "🦆"
+      },
+      "props": []
+    },
+    {
+      "duration": 10.9,
+      "say": "Who says cock-a-doodle-doo! ... It's a rooster! In English, the rooster says: Cock-a-doodle-doo!",
+      "voice": "animal-sounds-around-the-world/voice-27.mp3",
+      "voiceOffset": 0.4,
+      "imagePrompt": "A proud cartoon rooster with red comb and colorful tail, crowing, full body",
+      "type": "vocab",
+      "word": "ROOSTER",
+      "sub": "Cock-a-doodle-doo!",
+      "image": "animal-sounds-around-the-world/scene-27.png",
+      "emoji": "🐓",
+      "guess": "COCK-A-DOODLE-DOO!",
+      "reveal": 3,
+      "bg": "#FFD9C7",
+      "side": "right"
+    },
+    {
+      "duration": 6,
+      "say": "In Viet Nam, the rooster says: Ò ó o!",
+      "voice": "animal-sounds-around-the-world/voice-28.mp3",
+      "voiceOffset": 0.4,
+      "type": "country",
+      "layout": "poster",
+      "country": "Viet Nam",
+      "flag": "vn",
+      "greeting": "Ò ó o!",
+      "romanization": "Ò ó o!",
+      "bg": "#B9E4B4",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#3B2417",
+            "hairStyle": "long",
+            "outfit": "tunic",
+            "top": "#D62828",
+            "bottom": "#FFFFFF",
+            "accent": "#FFD166",
+            "hat": "conical",
+            "hatColor": "#EAD8A4",
+            "flag": "vn"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#3B2417",
+            "hairStyle": "short",
+            "outfit": "tunic",
+            "top": "#1D4E89",
+            "bottom": "#FFFFFF",
+            "accent": "#FFD166",
+            "hat": "none",
+            "flag": "vn"
+          }
+        }
+      ],
+      "pet": {
+        "emoji": "🐓"
+      },
+      "props": []
+    },
+    {
+      "duration": 5.8,
+      "say": "In Japan, the rooster says: Kokekokkō!",
+      "voice": "animal-sounds-around-the-world/voice-29.mp3",
+      "voiceOffset": 0.4,
+      "type": "country",
+      "layout": "poster",
+      "country": "Japan",
+      "flag": "jp",
+      "greeting": "Kokekokkō!",
+      "native": "コケコッコー",
+      "romanization": "Kokekokkō!",
+      "bg": "#F9C6D6",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "bun",
+            "outfit": "dress",
+            "top": "#F7A1C4",
+            "bottom": "#C2185B",
+            "accent": "#FFE9A8",
+            "hat": "none",
+            "flag": "jp"
+          }
+        }
+      ],
+      "pet": {
+        "emoji": "🐓"
+      },
+      "props": []
+    },
+    {
+      "duration": 5.6,
+      "say": "In Korea, the rooster says: Kkokkio!",
+      "voice": "animal-sounds-around-the-world/voice-30.mp3",
+      "voiceOffset": 0.4,
+      "type": "country",
+      "layout": "poster",
+      "country": "Korea",
+      "flag": "kr",
+      "greeting": "Kkokkio!",
+      "native": "꼬끼오",
+      "romanization": "Kkokkio!",
+      "bg": "#CFE3FF",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "long",
+            "outfit": "dress",
+            "top": "#F06292",
+            "bottom": "#3949AB",
+            "accent": "#FFF59D",
+            "hat": "bow",
+            "hatColor": "#E53935",
+            "flag": "kr"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "short",
+            "outfit": "tunic",
+            "top": "#43A047",
+            "bottom": "#90CAF9",
+            "accent": "#FFFFFF",
+            "hat": "none",
+            "flag": "kr"
+          }
+        }
+      ],
+      "pet": {
+        "emoji": "🐓"
+      },
+      "props": []
+    },
+    {
+      "duration": 5.9,
+      "say": "In France, the rooster says: Cocorico!",
+      "voice": "animal-sounds-around-the-world/voice-31.mp3",
+      "voiceOffset": 0.4,
+      "type": "country",
+      "layout": "quad",
+      "country": "France",
+      "flag": "fr",
+      "greeting": "Cocorico!",
+      "romanization": "Cocorico!",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#8B5A2B",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#FFFFFF",
+            "bottom": "#1B1B1B",
+            "accent": "#D62828",
+            "hat": "beret",
+            "hatColor": "#1B1B1B",
+            "flag": "fr"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#8B5A2B",
+            "hairStyle": "short",
+            "outfit": "dress",
+            "top": "#C1121F",
+            "bottom": "#1B1B1B",
+            "accent": "#FFFFFF",
+            "hat": "headscarf",
+            "hatColor": "#FFFFFF",
+            "flag": "fr"
+          }
+        }
+      ],
+      "pet": {
+        "emoji": "🐓"
+      },
+      "props": []
+    },
+    {
+      "duration": 5.8,
+      "say": "In Spain, the rooster says: ¡Quiquiriquí!",
+      "voice": "animal-sounds-around-the-world/voice-32.mp3",
+      "voiceOffset": 0.4,
+      "type": "country",
+      "layout": "quad",
+      "country": "Spain",
+      "flag": "es",
+      "greeting": "¡Quiquiriquí!",
+      "romanization": "¡Quiquiriquí!",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#2B1B12",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#FFFFFF",
+            "bottom": "#1B1B1B",
+            "accent": "#D62828",
+            "hat": "beret",
+            "hatColor": "#1B1B1B",
+            "flag": "es"
+          }
+        },
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#1B1B1B",
+            "hairStyle": "bun",
+            "outfit": "dress",
+            "top": "#D62828",
+            "bottom": "#1B1B1B",
+            "accent": "#FFD6D6",
+            "hat": "flowerCrown",
+            "flag": "es"
+          }
+        }
+      ],
+      "pet": {
+        "emoji": "🐓"
+      },
+      "props": []
+    },
+    {
+      "duration": 9.7,
+      "say": "Now it's your turn! What does the dog say in your language? Tell us in the comments!",
+      "voice": "animal-sounds-around-the-world/voice-33.mp3",
+      "voiceOffset": 0.4,
+      "type": "title",
+      "small": [
+        "Your turn!",
+        "What does the dog say"
+      ],
+      "big": "in your language?"
+    },
+    {
+      "duration": 4.5,
+      "voiceOffset": 0.4,
+      "type": "outro",
+      "text": "Woof! Meow! Quack! Bye-bye!",
+      "characters": [
+        {
+          "look": {
+            "skin": "#F8D5B8",
+            "hair": "#3B2417",
+            "hairStyle": "short",
+            "outfit": "shirtPants",
+            "top": "#4DB35E",
+            "bottom": "#6D4C41",
+            "accent": "#FFFFFF",
+            "hat": "none"
+          }
+        },
+        {
+          "look": {
+            "skin": "#8D5A3B",
+            "hair": "#1B1B1B",
+            "hairStyle": "pigtails",
+            "outfit": "dress",
+            "top": "#F26B21",
+            "bottom": "#2F86C9",
+            "accent": "#FFFFFF",
+            "hat": "none"
+          }
+        },
+        {
+          "look": {
+            "skin": "#C68E68",
+            "hair": "#1B1B1B",
+            "hairStyle": "bob",
+            "outfit": "dress",
+            "top": "#9B4FCB",
+            "bottom": "#1D3557",
+            "accent": "#FFD6F0",
+            "hat": "none"
+          }
+        }
+      ]
+    },
+    {
+      "duration": 4,
+      "voiceOffset": 0.4,
+      "type": "subscribe",
+      "text": "SUBSCRIBE",
+      "sub": "OUR CHANNEL",
+      "handle": "@MeowPi"
+    }
+  ]
+}

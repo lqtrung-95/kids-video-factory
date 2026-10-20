@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Dinosaur Song | Names of Dinosaurs | Song for Kids",
+    "description": "Stomp, roar and learn dinosaur names!",
+    "tags": ["dinosaur song", "dinosaurs for kids", "khung long", "be hoc tieng anh"],
+    "channel": "Meo with Pi"
+  },
+  "scenes": [
+    { "type": "intro", "duration": 4, "title": "Meo with Pi", "handle": "@MeowPi" },
+    {
+      "type": "lyric", "duration": 5, "background": { "kind": "meadow" }, "textPosition": "bottom",
+      "lines": [{ "text": "Stomp, stomp, stomp," }, { "text": "the dinosaurs are here!" }],
+      "characters": [{ "look": { "top": "#4DB35E", "bottom": "#6D4C41" } }, { "look": { "outfit": "dress", "top": "#F26B21", "hairStyle": "pigtails", "skin": "#8D5A3B", "hair": "#1B1B1B" } }]
+    },
+    { "type": "title", "duration": 4, "small": ["Let's learn"], "big": "Dinosaur names" },
+    {
+      "type": "vocab", "duration": 5, "word": "T-Rex", "sub": "The king of dinosaurs!", "bg": "#FFE7B3", "side": "left",
+      "say": "This is a T-Rex! T-Rex!",
+      "imagePrompt": "A friendly cartoon Tyrannosaurus Rex, green with orange belly, smiling, standing, full body"
+    },
+    {
+      "type": "vocab", "duration": 5, "word": "Triceratops", "sub": "Three big horns!", "bg": "#CFE3FF", "side": "right",
+      "say": "This is a Triceratops! Triceratops!",
+      "imagePrompt": "A friendly cartoon Triceratops, blue with yellow frill, smiling, full body"
+    },
+    { "type": "subscribe", "duration": 4, "handle": "@MeowPi" }
+  ]
+}

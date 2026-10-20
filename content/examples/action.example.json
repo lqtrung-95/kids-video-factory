@@ -1,0 +1,369 @@
+{
+ "meta": {
+  "title": "Freeze Dance | Jump, Clap and Spin! | Song for Kids",
+  "description": "Move your body, then FREEZE! A dance song for little ones.",
+  "tags": [
+   "freeze dance",
+   "action song for kids",
+   "movement song",
+   "brain break",
+   "nhac thieu nhi"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Jump, jump, jump up high,"
+    },
+    {
+     "text": "jump up high and touch the sky!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "action": "jump"
+  },
+  {
+   "type": "lyric",
+   "duration": 5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Clap, clap, clap your hands,"
+    },
+    {
+     "text": "clap along with all your friends!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "action": "clap"
+  },
+  {
+   "type": "lyric",
+   "duration": 5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Spin, spin, spin around,"
+    },
+    {
+     "text": "spin and spin and touch the ground!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "action": "spin"
+  },
+  {
+   "type": "lyric",
+   "duration": 5,
+   "background": {
+    "kind": "sea"
+   },
+   "textPosition": "top",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Wiggle, wiggle, wiggle, go!"
+    },
+    {
+     "text": "Wiggle fast and wiggle slow!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "action": "wiggle"
+  },
+  {
+   "type": "lyric",
+   "duration": 5,
+   "background": {
+    "kind": "desert"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Stomp, stomp, stomp your feet,"
+    },
+    {
+     "text": "stomp, stomp to the beat!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ],
+   "action": "stomp"
+  },
+  {
+   "type": "title",
+   "duration": 4,
+   "small": [
+    "Freeze dance!",
+    "Move... and then"
+   ],
+   "big": "FREEZE!",
+   "say": "Now let's play freeze dance! When I say freeze, stop!"
+  },
+  {
+   "type": "action",
+   "duration": 4,
+   "action": "wiggle",
+   "word": "Wiggle!",
+   "say": "Wiggle, wiggle, wiggle!"
+  },
+  {
+   "type": "action",
+   "duration": 5,
+   "action": "freeze",
+   "word": "Dance!",
+   "say": "Dance, dance, dance... FREEZE!"
+  },
+  {
+   "type": "action",
+   "duration": 4,
+   "action": "jump",
+   "word": "Jump!",
+   "say": "Jump, jump, jump!",
+   "bg": "#E3F0FF"
+  },
+  {
+   "type": "action",
+   "duration": 5,
+   "action": "freeze",
+   "word": "Dance!",
+   "say": "Keep dancing... FREEZE!"
+  },
+  {
+   "type": "action",
+   "duration": 4,
+   "action": "spin",
+   "word": "Spin!",
+   "say": "Spin around, spin around!",
+   "bg": "#DFF5E1"
+  },
+  {
+   "type": "action",
+   "duration": 5,
+   "action": "freeze",
+   "word": "Dance!",
+   "say": "Dance, dance... FREEZE!"
+  },
+  {
+   "type": "action",
+   "duration": 4,
+   "action": "clap",
+   "word": "Clap!",
+   "say": "Clap, clap, clap your hands!",
+   "bg": "#FFF1C9"
+  },
+  {
+   "type": "action",
+   "duration": 5,
+   "action": "freeze",
+   "word": "Dance!",
+   "say": "One more time... FREEZE!"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "Great job! Bye-bye!",
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ]
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}

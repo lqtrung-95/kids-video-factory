@@ -1,0 +1,40 @@
+# dependencies
+node_modules/
+
+# secrets (API keys, YouTube refresh token)
+.env
+.env.*
+!.env.example
+client_secret*.json
+
+# render output
+out/
+build/
+
+# per-video generated assets (songs, stems, voices, images) — regenerate with the pipeline
+public/*/
+!public/fonts/
+!public/flags/
+!public/demo/
+!public/brand/
+public/demo/*.wav
+
+# Demucs stems / alignment intermediates
+separated/
+content/*.align.json
+content/*.align-vocals.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+.remotion/

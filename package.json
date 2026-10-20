@@ -1,0 +1,41 @@
+{
+  "name": "kids-video-factory",
+  "version": "1.0.0",
+  "description": "AI-assisted pipeline for MeowPi-style kids song videos (Claude + ElevenLabs + Suno + Remotion)",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "make": "tsx scripts/make.ts",
+    "render": "tsx scripts/05-render.ts",
+    "upload": "tsx scripts/06-upload.ts",
+    "youtube:auth": "tsx scripts/youtube-auth.ts",
+    "stills": "node scripts/stills.mjs",
+    "typecheck": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@fontsource/baloo-2": "^5.3.0",
+    "@fontsource/fredoka": "^5.3.0",
+    "@fontsource/noto-sans-arabic": "^5.3.0",
+    "@fontsource/noto-sans-jp": "^5.3.1",
+    "@fontsource/noto-sans-kr": "^5.3.1",
+    "@fontsource/noto-sans-thai": "^5.3.0",
+    "@remotion/bundler": "^4.0.300",
+    "@remotion/cli": "^4.0.300",
+    "@remotion/media-utils": "^4.0.300",
+    "@remotion/renderer": "^4.0.300",
+    "flag-icons": "^7.2.3",
+    "googleapis": "^140.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.300",
+    "zod": "^3.23.8"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  }
+}

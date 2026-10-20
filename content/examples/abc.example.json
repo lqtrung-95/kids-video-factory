@@ -1,0 +1,157 @@
+{
+ "meta": {
+  "title": "ABC Phonics Song | A is for Apple | Song for Kids",
+  "description": "Learn letters and their sounds!",
+  "tags": [
+   "abc song",
+   "phonics song",
+   "alphabet",
+   "hoc chu cai tieng anh",
+   "be hoc tieng anh"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "A, B, C, sing with me,"
+    },
+    {
+     "text": "letters are fun, one, two, three!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "duration": 4,
+   "small": [
+    "Let's learn"
+   ],
+   "big": "ABC phonics!",
+   "say": "Let's learn the ABC!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "A",
+   "word": "Apple",
+   "emoji": "🍎",
+   "sound": "/æ/",
+   "say": "A is for Apple. A, A, apple!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "B",
+   "word": "Ball",
+   "emoji": "⚽",
+   "sound": "/b/",
+   "say": "B is for Ball. B, B, ball!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "C",
+   "word": "Cat",
+   "emoji": "🐱",
+   "sound": "/k/",
+   "say": "C is for Cat. C, C, cat!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "D",
+   "word": "Dog",
+   "emoji": "🐶",
+   "sound": "/d/",
+   "say": "D is for Dog. D, D, dog!"
+  },
+  {
+   "type": "letter",
+   "duration": 5,
+   "letter": "E",
+   "word": "Egg",
+   "emoji": "🥚",
+   "sound": "/ɛ/",
+   "say": "E is for Egg. E, E, egg!"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "Great job! Bye-bye!",
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ]
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}

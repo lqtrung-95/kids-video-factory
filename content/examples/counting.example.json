@@ -1,0 +1,283 @@
+{
+ "meta": {
+  "title": "Counting Fruits 1 to 10 | Number Song | Song for Kids",
+  "description": "Count from one to ten with yummy fruits!",
+  "tags": [
+   "counting song",
+   "numbers 1 to 10",
+   "fruit song",
+   "dem so cho be",
+   "be hoc tieng anh"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true
+ },
+ "audio": {},
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
+  },
+  {
+   "type": "lyric",
+   "duration": 5,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "One, two, three, let's count with me!"
+    },
+    {
+     "text": "Yummy fruits from the fruit tree!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "🍎",
+    "🍌"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5,
+   "background": {
+    "kind": "sky"
+   },
+   "textPosition": "bottom",
+   "textStyle": "outline",
+   "lines": [
+    {
+     "text": "Four, five, six, pick, pick, pick!"
+    },
+    {
+     "text": "Put them in the basket quick!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ],
+   "emojis": [
+    "🧺"
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 5,
+   "background": {
+    "kind": "blocks"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Seven, eight, nine and ten,"
+    },
+    {
+     "text": "let's count them all again!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "duration": 4,
+   "small": [
+    "Let's count"
+   ],
+   "big": "from one to ten!",
+   "say": "Let's count from one to ten!"
+  },
+  {
+   "type": "count",
+   "duration": 5,
+   "number": 1,
+   "emoji": "🍎",
+   "word": "apple",
+   "say": "One! One apple!",
+   "bg": "#FFF1C9"
+  },
+  {
+   "type": "count",
+   "duration": 5,
+   "number": 2,
+   "emoji": "🍌",
+   "word": "bananas",
+   "say": "One, Two! Two bananas!",
+   "bg": "#DFF5E1"
+  },
+  {
+   "type": "count",
+   "duration": 5,
+   "number": 3,
+   "emoji": "🍓",
+   "word": "strawberries",
+   "say": "One, Two, Three! Three strawberries!",
+   "bg": "#FFE0EC"
+  },
+  {
+   "type": "count",
+   "duration": 5,
+   "number": 4,
+   "emoji": "🍊",
+   "word": "oranges",
+   "say": "One, Two, Three, Four! Four oranges!",
+   "bg": "#E3F0FF"
+  },
+  {
+   "type": "count",
+   "duration": 5,
+   "number": 5,
+   "emoji": "🍇",
+   "word": "bunches of grapes",
+   "say": "One, Two, Three, Four, Five! Five bunches of grapes!",
+   "bg": "#F3E5FF"
+  },
+  {
+   "type": "count",
+   "duration": 5,
+   "number": 6,
+   "emoji": "🍉",
+   "word": "watermelons",
+   "say": "One, Two, Three, Four, Five, Six! Six watermelons!",
+   "bg": "#FFF1C9"
+  },
+  {
+   "type": "count",
+   "duration": 5,
+   "number": 7,
+   "emoji": "🍐",
+   "word": "pears",
+   "say": "One, Two, Three, Four, Five, Six, Seven! Seven pears!",
+   "bg": "#DFF5E1"
+  },
+  {
+   "type": "count",
+   "duration": 5,
+   "number": 8,
+   "emoji": "🍒",
+   "word": "cherries",
+   "say": "One, Two, Three, Four, Five, Six, Seven, Eight! Eight cherries!",
+   "bg": "#FFE0EC"
+  },
+  {
+   "type": "count",
+   "duration": 5,
+   "number": 9,
+   "emoji": "🥝",
+   "word": "kiwis",
+   "say": "One, Two, Three, Four, Five, Six, Seven, Eight, Nine! Nine kiwis!",
+   "bg": "#E3F0FF"
+  },
+  {
+   "type": "count",
+   "duration": 5,
+   "number": 10,
+   "emoji": "🍋",
+   "word": "lemons",
+   "say": "One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten! Ten lemons!",
+   "bg": "#F3E5FF"
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "Great job! Bye-bye!",
+   "characters": [
+    {
+     "look": {
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "hairStyle": "bob",
+      "accent": "#FFD6F0"
+     }
+    }
+   ]
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "handle": "@MeowPi"
+  }
+ ]
+}
