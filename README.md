@@ -90,6 +90,13 @@ Bài hát (khoảng 1 phút) **chỉ phủ phần hát**. Phần học phía sau
 - Tốt nhất là dùng **bản không lời của chính bài hát**: trên Suno, mở bài hát → *Get Stems* (hoặc tạo lại bài với nút *Instrumental*). Lưu thành `public/<slug>/instrumental.mp3`, bước 04 sẽ tự nhận file này.
 - Nhạc nền tự nhỏ lại khi có giọng đọc (`bgmDuck`), tắt dần khi bài hát bắt đầu và mờ dần ở cuối video.
 
+## Bước render tự làm thêm những gì (`05-render`)
+
+- **Cân âm lượng:** bài hát, giọng đọc và nhạc nền được đưa về cùng độ to (−16 LUFS, bản copy nằm ở `public/.norm/`), sau đó cả video được chỉnh về −14 LUFS theo chuẩn YouTube. Phần học không còn nhỏ hơn phần hát.
+- **Hát lại và điệp khúc xen kẽ** (`src/arrange.ts`): điệp khúc chen vào giữa các nhóm thẻ học (tối đa 3 lần), và cả bài được hát lại một lần trước phần chào tạm biệt ("Let's sing it again!"). Các cảnh này chỉ thêm lúc render, không ghi vào file JSON. Muốn tắt thì thêm vào JSON: `"extras": { "singAgain": false, "chorusBreaks": false }`.
+- **Chapters:** mỗi nhóm thẻ là một chapter riêng (Dog 🐶, Numbers 1–3, Sing Along Again 🎤…), ghi trong `out/<slug>/youtube.json`.
+- **Thumbnail riêng** (`src/Thumbnail.tsx`): tiêu đề chữ to nhiều màu, 3 hình chủ đề và 2 bé trên nền tia nắng. Muốn đổi thì thêm `"thumbnail": { "title": "…", "items": ["🌸", "🎂", "🎄"] }` vào `meta`.
+
 ## Các loại cảnh (`src/schema.ts`)
 
 | type | Dùng cho | Trường chính |

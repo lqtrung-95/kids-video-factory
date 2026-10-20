@@ -10,6 +10,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
+import { arrange } from "../src/arrange";
 import { sceneStarts } from "../src/schema";
 import { ROOT, audioSeconds, load, log } from "./lib";
 
@@ -36,7 +37,7 @@ let clock = 0;
 list.forEach((slug, k) => {
   const src = path.join(ROOT, "out", slug, `${slug}.mp4`);
   if (!fs.existsSync(src)) throw new Error(`Render it first: ${path.relative(ROOT, src)}`);
-  const v = load(slug);
+  const v = arrange(load(slug)); // same timeline as the rendered video (chorus breaks, sing-again)
   v.meta.tags.forEach((t) => tags.add(t));
   const { starts, total } = sceneStarts(v.scenes);
   const introIdx = v.scenes.findIndex((s) => s.type === "intro");

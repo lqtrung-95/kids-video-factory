@@ -16,7 +16,14 @@
    "be hoc tieng anh"
   ],
   "channel": "Meo with Pi",
-  "madeForKids": true
+  "madeForKids": true,
+  "thumbnail": {
+   "items": [
+    "🌸",
+    "🎂",
+    "🎄"
+   ]
+  }
  },
  "audio": {},
  "scenes": [

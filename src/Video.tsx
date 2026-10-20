@@ -44,13 +44,15 @@ export const KidsVideo: React.FC<VideoProps> = ({ scenes, audio }) => {
   const { fps } = useVideoConfig();
   const { starts, total } = sceneStarts(scenes);
   const songStart = audio?.songStart ?? 0;
-  const lyricIdx = scenes.flatMap((s, i) => (s.type === "lyric" ? [i] : []));
-  const last = lyricIdx[lyricIdx.length - 1];
-  const songEnd = lyricIdx.length ? starts[last] + scenes[last].duration : 0;
+  const lyricIdx = scenes.flatMap((s, i) => (s.type === "lyric" && !s.id?.startsWith("auto:") ? [i] : []));
+  const songPart = lyricIdx.reduce((t, i) => t + scenes[i].duration, 0);
+  // every time the song is heard (main song part + chorus breaks + "sing again", see arrange.ts)
+  const plays = audio?.song ? (audio.songPlays ?? [{ at: songStart, from: 0, dur: audio.songEnd ?? songPart }]) : [];
 
   const bgmVolumeAt = (t: number) => {
+    // bgm steps aside (0.6 s ramps) whenever the song is playing
     let v = 1;
-    if (audio?.song) v = Math.min(1, Math.max(0, (songStart - t) / 0.6, (t - songEnd) / 0.6));
+    for (const p of plays) v = Math.min(v, Math.max(0, (p.at - t) / 0.6, (t - (p.at + p.dur)) / 0.6));
     const i = starts.findIndex((st, k) => t >= st && t < st + scenes[k].duration);
     const duck = scenes[i]?.voice ? audio.bgmDuck : 1;
     const fadeOut = Math.min(1, Math.max(0, (total - t) / 1.5));
@@ -81,18 +83,27 @@ export const KidsVideo: React.FC<VideoProps> = ({ scenes, audio }) => {
           ) : null}
         </Sequence>
       ))}
-      {audio?.song ? (
-        <Sequence
-          from={Math.round(songStart * fps)}
-          durationInFrames={audio.songEnd ? Math.round(audio.songEnd * fps) : undefined}
-          name="song"
-        >
-          <Audio
-            src={staticFile(audio.song)}
-            volume={(f) => audio.songVolume * (audio.songEnd ? Math.min(1, Math.max(0, (audio.songEnd - f / fps) / 1.2)) : 1)}
-          />
-        </Sequence>
-      ) : null}
+      {plays.map((p, k) => {
+        // a full play keeps the song's own ending (fade only where 04-song trimmed a long tail);
+        // a chorus break fades in/out quickly so it doesn't start or stop mid-note
+        const partial = p.from > 0 || (k > 0 && p.dur < songPart - 0.5);
+        const fadeIn = partial ? 0.15 : 0;
+        const fadeOut = partial ? 0.35 : audio.songEnd ? 1.2 : 0;
+        return (
+          <Sequence key={`song${k}`} from={Math.round(p.at * fps)} durationInFrames={Math.max(1, Math.round(p.dur * fps))} name={k ? `song again ${k}` : "song"}>
+            <Audio
+              src={staticFile(audio.song!)}
+              startFrom={Math.round(p.from * fps)}
+              volume={(f) => {
+                const t = f / fps;
+                const a = fadeIn ? Math.min(1, t / fadeIn) : 1;
+                const b = fadeOut ? Math.min(1, Math.max(0, (p.dur - t) / fadeOut)) : 1;
+                return audio.songVolume * a * b;
+              }}
+            />
+          </Sequence>
+        );
+      })}
       {/* explicit loops rather than <Audio loop>, so the volume curve sees absolute time */}
       {Array.from({ length: loops }).map((_, k) => {
         const off = Math.round(k * bgmLen! * fps);

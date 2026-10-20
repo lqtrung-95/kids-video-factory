@@ -4,6 +4,8 @@ import { getAudioDurationInSeconds } from "@remotion/media-utils";
 import demo from "../content/hello-around-the-world.json";
 import { KidsShort, type ShortProps } from "./Short";
 import { KidsVideo } from "./Video";
+import { Thumbnail } from "./Thumbnail";
+import { arrange } from "./arrange";
 import { FPS, sceneStarts, videoSchema, type VideoProps } from "./schema";
 
 const withBgmDuration = async (parsed: VideoProps) => {
@@ -26,9 +28,20 @@ export const RemotionRoot: React.FC = () => (
     height={1080}
     durationInFrames={FPS * 10}
     calculateMetadata={async ({ props }) => {
-      const parsed = await withBgmDuration(videoSchema.parse(props));
+      // arrange(): chorus breaks + "sing again" ending, added at render time (src/arrange.ts)
+      const parsed = arrange(await withBgmDuration(videoSchema.parse(props)));
       return { props: parsed, durationInFrames: Math.ceil(sceneStarts(parsed.scenes).total * FPS) };
     }}
+  />
+  <Composition
+    id="Thumbnail"
+    component={Thumbnail}
+    schema={videoSchema}
+    defaultProps={videoSchema.parse(demo) as VideoProps}
+    fps={FPS}
+    width={1280}
+    height={720}
+    durationInFrames={1}
   />
   {/* vertical Shorts cut from a video: props = video JSON + { short: { from, to, title } } (scripts/07-shorts.ts) */}
   <Composition

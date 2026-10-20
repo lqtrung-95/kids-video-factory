@@ -197,6 +197,8 @@ export const videoSchema = z.object({
     tags: z.array(z.string()).default([]),
     channel: z.string().default("Meo with Pi"),
     madeForKids: z.boolean().default(true),
+    // optional thumbnail overrides (defaults: title before "|", pictures taken from the scenes)
+    thumbnail: z.object({ title: z.string().optional(), items: z.array(z.string()).optional() }).optional(),
   }),
   audio: z
     .object({
@@ -208,9 +210,19 @@ export const videoSchema = z.object({
       bgmVolume: z.number().default(0.35),
       bgmDuck: z.number().default(0.45), // bgm multiplier while a narration scene plays
       bgmDuration: z.number().optional(), // filled automatically at render time
+      // every time the song is heard: the main song part, chorus breaks, "sing again" (src/arrange.ts)
+      songPlays: z.array(z.object({ at: z.number(), from: z.number(), dur: z.number() })).optional(),
     })
     .default({}),
   scenes: z.array(scene).min(1),
+  // structure added at render time (src/arrange.ts) — never written back to the JSON
+  extras: z
+    .object({
+      singAgain: z.boolean().default(true), // replay the whole song before the outro
+      chorusBreaks: z.boolean().default(true), // short chorus between groups of learning cards
+      maxBreaks: z.number().int().min(0).default(3),
+    })
+    .default({}),
 });
 export type VideoProps = z.infer<typeof videoSchema>;
 
