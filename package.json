@@ -1,7 +1,7 @@
 {
   "name": "kids-video-factory",
   "version": "1.0.0",
-  "description": "AI-assisted pipeline for MeowPi-style kids song videos (Claude + ElevenLabs + Suno + Remotion)",
+  "description": "AI-assisted pipeline for Meo with Pi kids song videos (Groq/Claude + edge-tts + Mureka + Remotion)",
   "scripts": {
     "studio": "remotion studio src/index.ts",
     "make": "tsx scripts/make.ts",
@@ -9,7 +9,8 @@
     "upload": "tsx scripts/06-upload.ts",
     "youtube:auth": "tsx scripts/youtube-auth.ts",
     "stills": "node scripts/stills.mjs",
-    "typecheck": "tsc -p ."
+    "typecheck": "tsc -p .",
+    "status": "tsx scripts/status.ts"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

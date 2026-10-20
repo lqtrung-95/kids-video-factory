@@ -1,124 +1,175 @@
-# Kids Video Factory: làm video thiếu nhi kiểu MeowPi bằng AI
+# Kids Video Factory: video thiếu nhi kiểu "Meo with Pi" bằng AI
 
-Từ một chủ đề, pipeline tạo ra kịch bản, hình, giọng đọc và nhạc, sau đó dựng video bằng code (Remotion/React) rồi upload YouTube ở chế độ private.
-Template đi theo đúng cấu trúc video mẫu của kênh:
+Pipeline làm video bài hát thiếu nhi cho kênh **Meo with Pi** (@MeowPi): viết nội dung, giọng đọc, căn lời karaoke theo nhạc, dựng video bằng code (Remotion/React), làm thumbnail, chapters, Shorts và upload YouTube.
 
-`Intro "Meo with Pi"` → `Bài hát (lời karaoke chạy theo nhạc)` → `Thẻ tiêu đề` → `Thẻ học (quốc gia / từ vựng)` → `Spread the love` → `Subscribe`
+Cấu trúc một video:
+
+`Intro` → `Bài hát (karaoke)` → `Thẻ tiêu đề` → `Thẻ học` (điệp khúc chen giữa các nhóm) → `Let's sing it again!` (hát lại cả bài) → `Spread the love` → `Subscribe`
 
 ```
-topic ─▶ 01 Claude ─▶ content/<slug>.json ◀── nguồn sự thật, sửa tay được
-             │
-             ├─▶ 02 hình AI (OpenAI, tuỳ chọn)        public/<slug>/scene-XX.png
-             ├─▶ 03 giọng đọc (ElevenLabs)            public/<slug>/voice-XX.mp3
-             ├─▶ 04 bài hát (Suno, thủ công) + căn lời (stable-ts)
-             ├─▶ 05 render MP4 + thumbnail + chapters (Remotion)
-             └─▶ 06 upload YouTube (private, Made for Kids)
+ý tưởng ─▶ 01 nội dung (Groq/Claude) ─▶ content/<slug>.json   ◀── nguồn sự thật, sửa tay được
+               ├─▶ 02 hình AI (OpenAI, tuỳ chọn)            public/<slug>/scene-XX.png
+               ├─▶ 03 giọng đọc (edge-tts miễn phí)          public/<slug>/voice-XX.mp3
+   Mureka (web) ─▶ public/<slug>/song.mp3
+               ├─▶ 04 tách giọng (Demucs) + căn lời (stable-ts) → thời gian từng chữ
+               ├─▶ 05 render: cân âm lượng, hát lại, chapters, thumbnail, MP4 1080p
+               ├─▶ 06 upload YouTube (private, Made for Kids) — tuỳ chọn
+               ├─▶ 07 Shorts dọc (tuỳ chọn)
+               └─▶ 08 video tổng hợp 20–60 phút (tuỳ chọn)
 ```
 
-## Cài đặt (một lần)
+Danh sách video và ý tưởng: [docs/VIDEOS.md](docs/VIDEOS.md). Xem tiến độ từng video: `npm run status`.
+
+---
+
+## 1. Cài đặt (một lần)
 
 ```bash
-npm install                      # Node ≥ 22
-pip install -U stable-ts         # để căn lời theo nhạc (cần ffmpeg)
-cp .env.example .env             # điền API key
-npm run studio                   # mở trình xem trước, chỉnh trực tiếp
+npm install                                   # Node ≥ 22, cần ffmpeg (brew install ffmpeg)
+cp .env.example .env                          # mặc định đã là cấu hình miễn phí
+
+# Python cho căn lời + giọng đọc (Python 3.11; 3.13 làm stable-ts crash trên macOS)
+conda create -y -n align python=3.11
+conda run -n align pip install stable-ts pocketsphinx demucs edge-tts
 ```
 
-## Xem thử video ngay, không cần API key nào
+Trong `.env`, trỏ `PYTHON` tới môi trường vừa tạo:
+
+```
+PYTHON=/opt/miniconda3/envs/align/bin/python
+```
+
+Không cần API key nào để làm video: không có `OPENAI_API_KEY` thì dùng emoji thay hình, giọng đọc dùng edge-tts miễn phí. Chỉ bước 1 (viết nội dung tự động) cần `GROQ_API_KEY` (miễn phí) hoặc `ANTHROPIC_API_KEY`.
+
+## 2. Quy trình làm một video
+
+**Bước A. Nội dung.** Có 2 cách:
+- Tự động: `npm run make -- "Dinosaurs" --style=vocab`. Bước 1 viết `content/dinosaurs.json`, sau đó chạy tiếp bước 2–3 rồi dừng chờ bài hát.
+- Có sẵn: các file trong `content/` (xem [docs/VIDEOS.md](docs/VIDEOS.md)). Mỗi video có thêm:
+  - `<slug>.mureka-lyrics.txt`: lời có đánh dấu [Verse]/[Chorus], dán vào ô Lyrics của Mureka
+  - `<slug>.mureka-style.txt`: style, dán vào ô Style
+  - `<slug>.lyrics.txt`: lời trần, dùng để căn lời
+
+**Bước B. Bài hát (Mureka, trang web).** Vào mureka.ai, chọn Create, tab Custom:
+1. Dán lời vào **Lyrics** và style vào **Style**, chọn giọng **Female**, đặt tên bài, bấm **Create**. Mỗi lần tạo tốn khoảng 20 Gold và ra 2 bản.
+2. Nghe cả 2 bản, chọn bản hát đủ và rõ lời. Thường bản dài 1:05–1:25 là ổn; bản quá dài hay lặp lại hoặc kéo dài phần nhạc cuối.
+3. Bấm biểu tượng tải xuống, chọn **MP3**, rồi lưu thành `public/<slug>/song.mp3`.
+4. Ở cùng menu đó, chọn **Commercial License** để tải giấy phép thương mại, lưu vào `licenses/<slug>.pdf`. Xem mục 7.
+
+**Bước C. Căn lời và render.**
 
 ```bash
-pip install edge-tts              # giọng đọc miễn phí
-cp .env.example .env              # mặc định đã là cấu hình miễn phí
-npm run make -- animal-sounds-around-the-world --from=2
-```
-Lệnh trên chạy bước 2 → 5 rồi dừng, **không upload**. Video ra ở `out/animal-sounds-around-the-world/`.
-- Bước 2 (hình AI) tự bỏ qua khi chưa có `OPENAI_API_KEY`, video dùng emoji thay hình.
-- Bước 3 dùng giọng edge miễn phí. `TTS_PROVIDER=kokoro` chạy offline, `none` bỏ hẳn lời dẫn.
-- Bước 4 căn lời theo nhạc, chọn cách tốt nhất đang có:
-  1. `stable-ts` (`pip install -U stable-ts`): khớp từng chữ.
-  2. Không có stable-ts (hoặc đặt `ALIGNER=vocals`) nhưng có **vocals stem** (`demucs --two-stems=vocals song.mp3`, file `vocals.wav` nằm bất kỳ đâu trong `public/<slug>/`): tự nhận nhịp bài hát, đặt mỗi âm tiết vào một phách rồi khớp với chỗ giọng hát bắt đầu. Không cần tải model.
-  3. Không có cả hai: chia đều, karaoke sẽ lệch.
-  Phần nhạc dạo dài ở cuối bài Suno được cắt bớt và nhỏ dần (`SONG_TAIL`, mặc định 2.5 giây sau câu hát cuối).
-- Bước 6 (upload) chỉ chạy khi thêm `--upload`.
-
-## Làm một video mới
-
-```bash
-# 1→4: viết nội dung, tạo hình, giọng đọc, xuất lời cho Suno (rồi tạm dừng)
-npm run make -- "Dinosaurs" --style=vocab        # bước 1 dùng Groq (miễn phí) hoặc Claude, xem .env
-npm run make -- "Hello around the world" --style=countries --items=10
-
-# Lên Suno (Create → Custom), dán nội dung content/<slug>.suno.txt,
-# chọn bản hay nhất rồi lưu thành public/<slug>/song.mp3
-
-# 4→6: căn lời, render, upload
-npm run make -- <slug> --from=4 --upload
+npm run make -- <slug> --from=3      # giọng đọc → căn lời → render
+npm run make -- <slug> --from=5      # chỉ render lại (sau khi sửa JSON hoặc code)
+npm run make -- <slug> --from=4 --force   # căn lời lại từ đầu (đã thay song.mp3)
 ```
 
-Trước bước render, nên mở `npm run studio` để xem lại. Chỗ nào chưa ưng thì sửa thẳng trong `content/<slug>.json` (lời, màu, trang phục, thời lượng), preview sẽ cập nhật ngay.
+Kết quả nằm trong `out/<slug>/`:
+- `<slug>.mp4`: video 1080p, 30fps, âm lượng −14 LUFS
+- `thumbnail.jpg`: thumbnail 1280×720
+- `youtube.json`: tiêu đề, mô tả có chapters, tags
 
-## Các định dạng (`--style`)
+**Bước D. Xem lại rồi đăng.**
+- `npm run studio` để xem và sửa trực tiếp, không cần render. Composition **KidsVideo** là video, **Thumbnail** là ảnh thumbnail.
+- `--preview` render ở nửa độ phân giải để xem nhanh.
+- Upload: `npm run make -- <slug> --from=6 --upload` (cần `npm run youtube:auth` một lần), hoặc tự đăng trong YouTube Studio. Xem checklist ở mục 8.
 
-Chọn dựa trên những gì đang hút view nhất trên YouTube thiếu nhi năm 2026 (D Billions, ChuChu TV, Super Simple Songs, Cocomelon…):
+## 3. Bước render tự làm thêm những gì
 
-| `--style` | Video | Phần học |
+| Phần | Làm gì | Ở đâu |
 |---|---|---|
-| `vocab` | Từ vựng theo chủ đề (con vật, khủng long…), có thể thêm trò đoán "Who says MOO?" | thẻ `vocab` |
-| `countries` | Chào hỏi / văn hoá các nước | thẻ `country` |
-| `counting` | Đếm số 1 → 10 | thẻ `count`: đồ vật hiện lần lượt, số đếm tăng dần |
-| `colors` | Học màu sắc | thẻ `color`: vệt màu và 3 đồ vật cùng màu |
-| `abc` | ABC / phonics "A is for Apple" | thẻ `letter` |
-| `action` | Bài hát vận động / freeze dance: các bé nhảy, vỗ tay, xoay theo nhịp, rồi "FREEZE!" | thẻ `action` + lời bài hát có `action` |
+| Cân âm lượng | Bài hát, giọng đọc và nhạc nền về cùng −16 LUFS (bản copy trong `public/.norm/`). Cả video sau đó chỉnh về −14 LUFS theo chuẩn YouTube, nên phần học không còn nhỏ hơn phần hát. | `scripts/audio.ts` |
+| Điệp khúc chen giữa | Điệp khúc (có karaoke) quay lại giữa các nhóm thẻ học, tối đa 3 lần | `src/arrange.ts` |
+| Hát lại | "Let's sing it again!" rồi hát lại cả bài trước phần chào tạm biệt | `src/arrange.ts` |
+| Chapters | Mỗi nhóm thẻ một chapter (Dog 🐶, Numbers 1–3, Sing Along Again 🎤…) | `src/arrange.ts` |
+| Thumbnail | Tiêu đề chữ to nhiều màu, 3 hình chủ đề, 2 bé, nền tia nắng (màu đổi theo video) | `src/Thumbnail.tsx` |
+| Hiệu ứng | Chuyển cảnh (pop/slide/iris/zoom/swing), camera trôi nhẹ, hạt bay theo nền, pháo giấy ở điệp khúc, các bé lắc lư theo nhịp | `src/components/Motion.tsx` |
 
-Các thẻ mới chỉ dùng emoji nên không tốn tiền tạo hình. Mỗi định dạng có file mẫu trong `content/examples/`.
+Các phần chen giữa và hát lại chỉ được thêm lúc render, không ghi vào JSON. Tuỳ chỉnh từng video trong JSON:
 
-```bash
-npm run make -- "Counting fruits" --style=counting
-npm run make -- "Freeze dance" --style=action
+```jsonc
+"extras": { "singAgain": false, "chorusBreaks": false, "maxBreaks": 2 },
+"meta": { "thumbnail": { "title": "Months of the Year", "items": ["🌸", "🎂", "🎄"] } }
+// mỗi cảnh: "transition": "iris" | "pop" | "slide" | "slideUp" | "zoom" | "swing"
+//           "fx": "bubbles" | "petals" | "sparkles" | "confetti" | "snow" | "hearts" | "notes" | "none"
 ```
 
-Với bài hát vận động, bước 4 tự đo nhịp bài hát rồi cho các bé nhảy hoặc vỗ tay đúng phách.
+## 4. Căn lời (bước 4)
 
-## Shorts và video tổng hợp
+Tự chọn cách tốt nhất đang có:
+1. **stable-ts (Whisper)** chạy trên **vocals stem**: khớp từng chữ. Demucs tự tách giọng mỗi khi `song.mp3` mới hơn file stem cũ. Sau đó có một bước dọn: chữ bị đặt vào đoạn nhạc dạo sẽ được kéo về đúng chỗ, và một câu không được vắt qua quãng nghỉ dài.
+2. **Vocals stem, không cần model** (`ALIGNER=vocals`): tự đo nhịp bài, đặt âm tiết theo phách, rồi dùng PocketSphinx neo những chữ nghe chắc chắn.
+3. **Chia đều**: chỉ dùng khi không có cả hai cách trên, karaoke sẽ lệch.
 
-- **Shorts** (`npx tsx scripts/07-shorts.ts <slug>`, hoặc thêm `--shorts` vào `make`): tự cắt video thành các Short dọc dưới 59 giây, gồm một Short bài hát và mỗi nhóm thẻ học một Short (ví dụ "Who says WOOF? 🤔"). Thêm `--list` để chỉ xem trước kế hoạch cắt. Nên dùng Shorts để kéo người xem về video dài.
-- **Video tổng hợp** (`npx tsx scripts/08-compile.ts <tên> <slug> <slug> … [--repeat=2]`): nối nhiều video thành một video 20–60 phút có chapters. Chỉ giữ intro của video đầu và nút subscribe của video cuối. Video dài là nơi kênh thiếu nhi kiếm được nhiều thời gian xem nhất.
+Ngoài ra:
+- Phần nhạc dạo dài ở cuối bài được cắt bớt (`SONG_TAIL`, mặc định 2.5 giây sau câu hát cuối).
+- Phần học dùng **bản không lời của chính bài hát** (`instrumental.mp3`, tách tự động) làm nhạc nền. Nhạc nền nhỏ lại khi có lời dẫn.
 
-## Âm thanh: vì sao bài hát ngắn hơn video?
+Nếu lời vẫn lệch ở vài chữ, mở `content/<slug>.json` và sửa `start` của chữ đó (tính bằng giây từ đầu cảnh), rồi render lại với `--from=5`.
 
-Bài hát (khoảng 1 phút) **chỉ phủ phần hát**. Phần học phía sau dài hơn nhiều, gồm thẻ quốc gia/từ vựng và lời dẫn, và được phát trên **nhạc nền lặp lại** (`audio.bgm`).
-- Tốt nhất là dùng **bản không lời của chính bài hát**: trên Suno, mở bài hát → *Get Stems* (hoặc tạo lại bài với nút *Instrumental*). Lưu thành `public/<slug>/instrumental.mp3`, bước 04 sẽ tự nhận file này.
-- Nhạc nền tự nhỏ lại khi có giọng đọc (`bgmDuck`), tắt dần khi bài hát bắt đầu và mờ dần ở cuối video.
+## 5. Các định dạng (`--style`)
 
-## Bước render tự làm thêm những gì (`05-render`)
-
-- **Cân âm lượng:** bài hát, giọng đọc và nhạc nền được đưa về cùng độ to (−16 LUFS, bản copy nằm ở `public/.norm/`), sau đó cả video được chỉnh về −14 LUFS theo chuẩn YouTube. Phần học không còn nhỏ hơn phần hát.
-- **Hát lại và điệp khúc xen kẽ** (`src/arrange.ts`): điệp khúc chen vào giữa các nhóm thẻ học (tối đa 3 lần), và cả bài được hát lại một lần trước phần chào tạm biệt ("Let's sing it again!"). Các cảnh này chỉ thêm lúc render, không ghi vào file JSON. Muốn tắt thì thêm vào JSON: `"extras": { "singAgain": false, "chorusBreaks": false }`.
-- **Chapters:** mỗi nhóm thẻ là một chapter riêng (Dog 🐶, Numbers 1–3, Sing Along Again 🎤…), ghi trong `out/<slug>/youtube.json`.
-- **Thumbnail riêng** (`src/Thumbnail.tsx`): tiêu đề chữ to nhiều màu, 3 hình chủ đề và 2 bé trên nền tia nắng. Muốn đổi thì thêm `"thumbnail": { "title": "…", "items": ["🌸", "🎂", "🎄"] }` vào `meta`.
-
-## Các loại cảnh (`src/schema.ts`)
-
-| type | Dùng cho | Trường chính |
+| `--style` | Video | Thẻ học |
 |---|---|---|
-| `intro` | Thẻ mở đầu kênh | `title`, `subtitle`, `handle` |
-| `lyric` | Phần bài hát | `lines` (karaoke), `background.kind`: sky / meadow / sea / desert / globe / blocks / image / video, `textPosition`, `textStyle`: outline / box |
-| `title` | "Hello everyone, welcome to…" | `small[]`, `big` |
-| `country` | Chào hỏi theo quốc gia | `layout`: poster / quad, `flag` (mã ISO), `greeting`, `native`, `romanization` |
-| `vocab` | Từ vựng (khủng long, con vật…) | `word`, `sub`, `image` |
-| `outro`, `subscribe` | Kết video | |
+| `vocab` | Từ vựng theo chủ đề, có thể thêm trò đoán "Who says MOO?" | `vocab` (có `guess` thì là trò đoán) |
+| `countries` | Chào hỏi hoặc tiếng kêu theo từng nước | `country` |
+| `counting` | Đếm 1 → 10 | `count`: đồ vật hiện lần lượt |
+| `colors` | Màu sắc | `color`: vệt màu và 3 đồ vật |
+| `abc` | ABC / phonics | `letter`: "A is for Apple /æ/" |
+| `action` | Bài vận động / freeze dance | `action` + lời hát có `action` |
 
-**Nhân vật:** nếu không có ảnh AI, video dùng một bé vector có sẵn, chỉnh qua `look` (da, tóc, kiểu tóc, `outfit`: shirtPants / dress / tunic, mũ: conical (nón lá), beret, kokoshnik, flowerCrown, bow, headscarf…, `flag`).
-Nếu đã có ảnh, đặt `characters: [{ "image": "slug/xxx.png" }]`.
+Các loại cảnh khác: `intro`, `lyric` (nền: sky, meadow, sea, desert, globe, blocks, image, video), `title`, `outro`, `subscribe`. Định nghĩa đầy đủ trong `src/schema.ts`. Nhân vật là các bé vẽ vector chỉnh qua `look` (da, tóc, trang phục, mũ, cờ), hoặc ảnh AI qua `characters: [{ "image": "slug/x.png" }]`.
 
-**Giữ style hình đồng nhất:** bỏ 1–3 ảnh mẫu theo đúng style kênh vào `public/brand/ref-*.png`. Bước 02 sẽ gửi các ảnh này làm tham chiếu cho mọi lần tạo hình.
+## 6. Shorts và video tổng hợp
 
-## Chi phí ước tính cho mỗi video
+- **Shorts:** `npx tsx scripts/07-shorts.ts <slug>` (thêm `--list` để chỉ xem kế hoạch cắt). Script tự cắt các Short dọc dưới 59 giây: một Short bài hát và mỗi nhóm thẻ một Short. Dùng Shorts để kéo người xem về video dài.
+- **Video tổng hợp:** `npx tsx scripts/08-compile.ts <tên> <slug> <slug> … [--repeat=2]` ghép nhiều video thành một video 20–60 phút có chapters. Video dài là nơi kênh thiếu nhi có nhiều thời gian xem nhất.
 
-Claude khoảng $0.1 · ảnh khoảng $0.04/ảnh · ElevenLabs và Suno tính theo gói tháng (cần gói trả phí thì mới được dùng thương mại) · render chạy trên máy nhà.
+## 7. Chi phí và bản quyền nhạc
 
-## Lưu ý trước khi đăng
+**Chi phí cho mỗi video (thực tế):**
+- Pipeline: $0. Nội dung dùng Groq (miễn phí), giọng edge-tts miễn phí, render trên máy.
+- Hình AI (tuỳ chọn): khoảng $0.02–0.04/ảnh với `gpt-image-1-mini`.
+- Nhạc Mureka: gói Pro khoảng S$99/năm, được 5.000 Gold/tháng, mỗi lần tạo bài khoảng 20 Gold, tức khoảng 250 bài/tháng. Mỗi ngày còn có khoảng 50 Gold miễn phí, hết hạn sau 1 ngày.
+- ⚠️ **Đừng tạo video (MV) trên Mureka.** Một lần render MV tốn khoảng 400 Gold, trong khi pipeline này làm video miễn phí.
 
-- **Lời bài hát phải là sáng tác mới.** Prompt ở bước 01 đã yêu cầu vậy. Không dùng lại lời của các bài thiếu nhi còn bản quyền.
-- **Mỗi video phải có giá trị riêng.** YouTube đang siết "inauthentic content" (nội dung làm hàng loạt từ template). Pipeline này giúp bỏ bớt việc tay chân, nhưng ý tưởng, bài hát và khâu duyệt vẫn cần người làm. Đăng đều đặn với số lượng vừa phải.
-- Video được upload ở chế độ **private**. Duyệt lại trong YouTube Studio rồi mới publish.
+**Quyền thương mại:**
+- Theo điều khoản của Mureka (13/05/2026, mục 3(e)), bài tạo **trong lúc đang dùng gói trả phí** thuộc về người tạo.
+- Bài tạo ở gói miễn phí chỉ được dùng phi thương mại.
+- Bot hỗ trợ của Mureka xác nhận quyền thương mại vẫn giữ sau khi huỷ gói. Bằng chứng là **Commercial License certificate**, phải tải về **khi gói còn hiệu lực**. Lưu mỗi bài một file trong `licenses/`.
+- Phải ghi rõ nhạc do AI tạo.
+
+## 8. Checklist trước khi đăng
+
+- [ ] Xem hết video: lời khớp nhạc, chữ không bị tràn, không có cảnh trắng.
+- [ ] Đã tải Commercial License certificate của bài hát (`licenses/<slug>.pdf`).
+- [ ] Trong YouTube Studio:
+  - [ ] Chọn **Made for Kids**.
+  - [ ] Tick **Altered or synthetic content**, vì nhạc và giọng do AI tạo.
+  - [ ] Thêm end screen ở 20 giây cuối.
+- [ ] Dán mô tả có chapters từ `out/<slug>/youtube.json` và dùng `thumbnail.jpg`.
+- [ ] Lời bài hát là sáng tác mới. Không dùng lời của bài thiếu nhi còn bản quyền.
+- [ ] Đăng đều đặn với số lượng vừa phải. YouTube đang siết "inauthentic content" (nội dung làm hàng loạt). Mỗi video cần có ý tưởng và bài hát riêng, và nên đổi style nhạc giữa các video.
+
+## 9. Gỡ lỗi thường gặp
+
+| Hiện tượng | Cách xử lý |
+|---|---|
+| `OMP: Error #15` hoặc stable-ts crash | Dùng môi trường conda Python 3.11 (mục 1) và đặt `PYTHON=` trong `.env`. Có thể tạm dùng `ALIGNER=vocals`. |
+| Lời karaoke chậm hoặc nhanh hơn nhạc | `npm run make -- <slug> --from=4 --force`. Nếu vẫn lệch vài chữ thì sửa `start` trong JSON. |
+| Đổi bài hát mà lời vẫn theo bài cũ | Chạy `--from=4 --force`. Stem cũ sẽ tự bị tách lại. |
+| Phần học không có nhạc nền | Cần `instrumental.mp3`: chạy lại bước 4, Demucs sẽ tự tạo. |
+| Tải MP3 trên Mureka không ra file | Brave có thể đang hiện hộp "Save as" hoặc "cho phép tải nhiều file". Hãy cho phép, rồi chuyển file vào `public/<slug>/song.mp3`. |
+| Chữ bị nhảy dòng | Rút ngắn dòng lời. Nên giữ mỗi dòng dưới khoảng 37 ký tự. |
+
+## Cấu trúc thư mục
+
+```
+content/            <slug>.json (+ lời cho Mureka), examples/ — nguồn sự thật cho mỗi video
+public/<slug>/      song.mp3, instrumental.mp3, voice-XX.mp3, scene-XX.png (không đưa lên git)
+public/flags, fonts, demo   tài nguyên dùng chung
+src/                Remotion: Video.tsx, Thumbnail.tsx, Short.tsx, arrange.ts, schema.ts, scenes/, components/
+scripts/            01…08 các bước, make.ts (chạy cả chuỗi), status.ts, audio.ts, align*.py, tts.py
+out/<slug>/         video, thumbnail, youtube.json (không đưa lên git)
+docs/VIDEOS.md      danh sách video, ý tưởng, kế hoạch
+```
