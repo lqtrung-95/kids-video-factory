@@ -94,6 +94,29 @@ Các phần chen giữa và hát lại chỉ được thêm lúc render, không 
 //           "fx": "bubbles" | "petals" | "sparkles" | "confetti" | "snow" | "hearts" | "notes" | "none"
 ```
 
+### Intro / outro riêng của kênh (tuỳ chọn)
+
+Đặt video của bạn vào `public/brand/` (`.mp4`, `.mov`, `.webm`, `.m4v` đều được), mọi video render sau đó sẽ tự dùng:
+
+| File | Thay cho |
+|---|---|
+| `public/brand/intro.mp4` | thẻ intro "Meo with Pi" có sẵn |
+| `public/brand/outro.mp4` | thẻ "Spread the love" và "Subscribe" có sẵn |
+
+- Không có file thì video dùng intro và outro có sẵn như cũ.
+- Clip được phát nguyên vẹn, không thêm hiệu ứng. Nếu khác tỉ lệ 16:9 thì có viền đen.
+- Âm thanh của clip được cân về cùng độ to với bài hát. Nhạc nền tắt trong lúc clip chạy.
+- Chapters, thời điểm bắt đầu bài hát và video tổng hợp tự tính lại theo độ dài clip.
+- Tuỳ chỉnh từng video trong JSON:
+
+```jsonc
+"brand": { "intro": "brand/intro-halloween.mp4" }   // dùng clip khác cho video này
+"brand": { "outro": false }                         // video này dùng outro có sẵn
+"brand": { "outroReplaces": "subscribe" }           // giữ "Spread the love", chỉ thay Subscribe
+```
+
+Clip chỉ xuất hiện khi render (`--from=5` hoặc `--preview`), còn `npm run studio` vẫn hiện intro có sẵn. File clip không được đưa lên git, nên hãy giữ một bản sao ở nơi khác.
+
 ## 4. Căn lời (bước 4)
 
 Tự chọn cách tốt nhất đang có:
@@ -169,7 +192,8 @@ content/            <slug>.json (+ lời cho Mureka), examples/ — nguồn sự
 public/<slug>/      song.mp3, instrumental.mp3, voice-XX.mp3, scene-XX.png (không đưa lên git)
 public/flags, fonts, demo   tài nguyên dùng chung
 src/                Remotion: Video.tsx, Thumbnail.tsx, Short.tsx, arrange.ts, schema.ts, scenes/, components/
-scripts/            01…08 các bước, make.ts (chạy cả chuỗi), status.ts, audio.ts, align*.py, tts.py
+scripts/            01…08 các bước, make.ts (chạy cả chuỗi), status.ts, audio.ts, brand.ts, align*.py, tts.py
+public/brand/       intro.mp4 / outro.mp4 riêng của kênh (tuỳ chọn, không đưa lên git)
 out/<slug>/         video, thumbnail, youtube.json (không đưa lên git)
 docs/VIDEOS.md      danh sách video, ý tưởng, kế hoạch
 ```

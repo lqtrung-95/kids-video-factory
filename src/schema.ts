@@ -175,6 +175,15 @@ export const subscribeScene = z.object({
   handle: z.string().optional(),
 });
 
+/** Your own video clip (channel intro/outro). Added by scripts/brand.ts from public/brand/. */
+export const clipScene = z.object({
+  ...base,
+  type: z.literal("clip"),
+  src: z.string(), // path in /public
+  role: z.enum(["intro", "outro", "other"]).default("other"),
+  volume: z.number().default(1),
+});
+
 export const scene = z.discriminatedUnion("type", [
   introScene,
   lyricScene,
@@ -187,6 +196,7 @@ export const scene = z.discriminatedUnion("type", [
   actionScene,
   outroScene,
   subscribeScene,
+  clipScene,
 ]);
 export type Scene = z.infer<typeof scene>;
 
@@ -215,6 +225,16 @@ export const videoSchema = z.object({
     })
     .default({}),
   scenes: z.array(scene).min(1),
+  // your own intro/outro clips. Default: public/brand/intro.mp4 and public/brand/outro.mp4 are used
+  // automatically when they exist. A path uses that clip for this video; false turns it off.
+  brand: z
+    .object({
+      intro: z.union([z.string(), z.literal(false)]).optional(),
+      outro: z.union([z.string(), z.literal(false)]).optional(),
+      // what the outro clip replaces: "both" = the built-in outro + subscribe cards, "subscribe" = keep "Spread the love"
+      outroReplaces: z.enum(["both", "subscribe", "none"]).default("both"),
+    })
+    .default({}),
   // structure added at render time (src/arrange.ts) — never written back to the JSON
   extras: z
     .object({

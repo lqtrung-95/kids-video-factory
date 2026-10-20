@@ -9,6 +9,7 @@ import { bundle } from "@remotion/bundler";
 import { renderMedia, renderStill, selectComposition } from "@remotion/renderer";
 import { arrange, chapters } from "../src/arrange";
 import { master, normalizeProps } from "./audio";
+import { withBrand } from "./brand";
 import { ROOT, load, log } from "./lib";
 
 const slug = process.argv[2];
@@ -17,7 +18,7 @@ const preview = process.argv.includes("--preview");
 const scale = preview ? 0.5 : Number(process.argv.find((a) => a.startsWith("--scale="))?.split("=")[1] ?? 1);
 
 (async () => {
-  const v = load(slug);
+  const v = withBrand(load(slug)); // your intro/outro clips from public/brand/ (if any)
   const outDir = path.join(ROOT, "out", slug);
   fs.mkdirSync(outDir, { recursive: true });
 

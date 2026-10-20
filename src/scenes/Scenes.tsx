@@ -1,5 +1,5 @@
 import React from "react";
-import { AbsoluteFill, Img, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, Img, OffthreadVideo, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { Background, Doodles, Globe, Heart, PALETTE } from "../components/Decor";
 import { Kid } from "../components/Kid";
 import { Karaoke, PopText, fit, outline, usePop } from "../components/Text";
@@ -535,6 +535,13 @@ export const SubscribeScene: React.FC<{ s: S<"subscribe"> }> = ({ s }) => {
   );
 };
 
+/** Your own intro/outro video, letterboxed on black if its shape differs. */
+export const ClipScene: React.FC<{ s: S<"clip"> }> = ({ s }) => (
+  <AbsoluteFill style={{ background: "#000" }}>
+    <OffthreadVideo src={staticFile(s.src)} volume={s.volume} style={{ width: "100%", height: "100%", objectFit: "contain" }} />
+  </AbsoluteFill>
+);
+
 export const SceneView: React.FC<{ s: Scene }> = ({ s }) => {
   switch (s.type) {
     case "intro":
@@ -559,5 +566,7 @@ export const SceneView: React.FC<{ s: Scene }> = ({ s }) => {
       return <OutroScene s={s} />;
     case "subscribe":
       return <SubscribeScene s={s} />;
+    case "clip":
+      return <ClipScene s={s} />;
   }
 };

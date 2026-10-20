@@ -22,6 +22,8 @@ const SceneWrap: React.FC<{ s: Scene; index: number; children: React.ReactNode }
   const { fps } = useVideoConfig();
   const list = AUTO[s.type] ?? AUTO.default;
   const kind = s.transition && s.transition !== "auto" ? s.transition : list[index % list.length];
+  // your own clips play exactly as made: no zoom, drift or particles on top
+  if (s.type === "clip") return <AbsoluteFill>{children}</AbsoluteFill>;
   return (
     <Entrance kind={kind} seed={index}>
       <Drift seed={index} durationInFrames={Math.round(s.duration * fps)} amount={s.type === "lyric" ? 1 : 0.6}>
@@ -54,7 +56,7 @@ export const KidsVideo: React.FC<VideoProps> = ({ scenes, audio }) => {
     let v = 1;
     for (const p of plays) v = Math.min(v, Math.max(0, (p.at - t) / 0.6, (t - (p.at + p.dur)) / 0.6));
     const i = starts.findIndex((st, k) => t >= st && t < st + scenes[k].duration);
-    const duck = scenes[i]?.voice ? audio.bgmDuck : 1;
+    const duck = scenes[i]?.type === "clip" ? 0 : scenes[i]?.voice ? audio.bgmDuck : 1; // a clip has its own sound
     const fadeOut = Math.min(1, Math.max(0, (total - t) / 1.5));
     return audio.bgmVolume * v * duck * fadeOut;
   };
@@ -70,7 +72,8 @@ export const KidsVideo: React.FC<VideoProps> = ({ scenes, audio }) => {
           from={Math.round(starts[i] * fps)}
           // stay on screen ~0.5 s longer, underneath the next scene, so its transition reveals
           // this scene instead of a white background
-          durationInFrames={Math.round(s.duration * fps) + (i < scenes.length - 1 ? 15 : 0)}
+          // (not for a clip: its sound would keep playing under the next scene)
+          durationInFrames={Math.round(s.duration * fps) + (i < scenes.length - 1 && s.type !== "clip" ? 15 : 0)}
           name={`${i}:${s.type}`}
         >
           <SceneWrap s={s} index={i}>

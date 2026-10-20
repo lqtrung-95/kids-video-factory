@@ -6,6 +6,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { sceneStarts } from "../src/schema";
 import { arrange } from "../src/arrange";
+import { withBrand } from "./brand";
 import { PUBLIC, ROOT, load } from "./lib";
 
 const slugs = fs
@@ -23,7 +24,7 @@ const rows: Row[] = [];
 for (const slug of slugs) {
   let v;
   try {
-    v = load(slug);
+    v = withBrand(load(slug), true);
   } catch {
     continue;
   }

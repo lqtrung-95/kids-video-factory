@@ -17,6 +17,11 @@ public/*/
 !public/flags/
 !public/demo/
 !public/brand/
+# your own intro/outro videos are large — keep a copy elsewhere
+public/brand/*.mp4
+public/brand/*.mov
+public/brand/*.webm
+public/brand/*.m4v
 public/demo/*.wav
 
 # Demucs stems / alignment intermediates

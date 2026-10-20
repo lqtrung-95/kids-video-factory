@@ -11,6 +11,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { arrange } from "../src/arrange";
+import { withBrand } from "./brand";
 import { sceneStarts } from "../src/schema";
 import { ROOT, audioSeconds, load, log } from "./lib";
 
@@ -37,11 +38,11 @@ let clock = 0;
 list.forEach((slug, k) => {
   const src = path.join(ROOT, "out", slug, `${slug}.mp4`);
   if (!fs.existsSync(src)) throw new Error(`Render it first: ${path.relative(ROOT, src)}`);
-  const v = arrange(load(slug)); // same timeline as the rendered video (chorus breaks, sing-again)
+  const v = arrange(withBrand(load(slug), true)); // same timeline as the rendered video (chorus breaks, sing-again)
   v.meta.tags.forEach((t) => tags.add(t));
   const { starts, total } = sceneStarts(v.scenes);
-  const introIdx = v.scenes.findIndex((s) => s.type === "intro");
-  const subIdx = v.scenes.findIndex((s) => s.type === "subscribe");
+  const introIdx = v.scenes.findIndex((s) => s.type === "intro" || (s.type === "clip" && s.role === "intro"));
+  const subIdx = v.scenes.findIndex((s) => s.type === "subscribe" || (s.type === "clip" && s.role === "outro"));
   const from = k > 0 && introIdx === 0 ? v.scenes[0].duration : 0;
   const to = k < list.length - 1 && subIdx >= 0 ? starts[subIdx] : Math.min(total, audioSeconds(src));
   const part = path.join(tmp, `${String(k).padStart(3, "0")}.mp4`);
