@@ -15,6 +15,7 @@ import path from "node:path";
 import { bundle } from "@remotion/bundler";
 import { renderMedia, selectComposition } from "@remotion/renderer";
 import { sceneStarts, type Scene } from "../src/schema";
+import { master, normalizeProps } from "./audio";
 import { ROOT, load, log, slugify } from "./lib";
 
 const slug = process.argv[2];
@@ -93,11 +94,13 @@ if (listOnly) process.exit(0);
   const serveUrl = await bundle({ entryPoint: path.join(ROOT, "src", "index.ts") });
   const browserExecutable = process.env.REMOTION_BROWSER ?? null;
   const meta: object[] = [];
+  const levelled = normalizeProps(v); // same loudness balance as the long video
   for (const [k, b] of chosen.entries()) {
-    const inputProps = { ...v, short: { from: b.from, to: b.to, title: b.title } };
+    const inputProps = { ...levelled, short: { from: b.from, to: b.to, title: b.title } };
     const composition = await selectComposition({ serveUrl, id: "KidsShort", inputProps, browserExecutable });
     const file = path.join(outDir, `${String(k + 1).padStart(2, "0")}-${b.label}.mp4`);
     await renderMedia({ composition, serveUrl, codec: "h264", inputProps, outputLocation: file, crf: 20, timeoutInMilliseconds: 120000, browserExecutable });
+    master(file);
     log(`✓ ${path.relative(ROOT, file)}`);
     meta.push({
       file: path.basename(file),

@@ -1,123 +1,508 @@
 {
-  "meta": {
-    "title": "Hello Around the World | Say Hello in Different Languages | Song for Kids",
-    "description": "Sing along and learn how kids say hello around the world!\n\n00:00 Intro\n00:04 Hello Song\n00:28 Say Hello in Different Languages",
-    "tags": ["hello song", "songs for kids", "say hello in different languages", "english for kids", "nhac thieu nhi"],
-    "channel": "Meo with Pi",
-    "madeForKids": true
+ "meta": {
+  "title": "Hello Around the World | Say Hello in Different Languages | Song for Kids",
+  "description": "Sing along and learn how kids say hello around the world!\n\n00:00 Intro\n00:04 Hello Song\n00:28 Say Hello in Different Languages\n\n👨‍👩‍👧 Tip for parents: say hello together in a new language every day!",
+  "tags": [
+   "hello song",
+   "songs for kids",
+   "say hello in different languages",
+   "english for kids",
+   "nhac thieu nhi"
+  ],
+  "channel": "Meo with Pi",
+  "madeForKids": true,
+  "playlists": [
+   "Around the World"
+  ],
+  "musicStyle": "ukulele-pop"
+ },
+ "audio": {
+  "bgm": "demo/bgm.mp3",
+  "bgmVolume": 0.55
+ },
+ "scenes": [
+  {
+   "type": "intro",
+   "duration": 4,
+   "title": "Meo with Pi",
+   "subtitle": "KIDS CHANNEL",
+   "handle": "@MeowPi"
   },
-  "audio": { "bgm": "demo/bgm.mp3", "bgmVolume": 0.55 },
-  "scenes": [
-    { "type": "intro", "duration": 4, "title": "Meo with Pi", "subtitle": "KIDS CHANNEL", "handle": "@MeowPi" },
-
+  {
+   "type": "lyric",
+   "duration": 6,
+   "background": {
+    "kind": "globe"
+   },
+   "textPosition": "left",
+   "lines": [
     {
-      "type": "lyric", "duration": 6,
-      "background": { "kind": "globe" },
-      "textPosition": "left",
-      "lines": [{ "text": "Hello, hello," }, { "text": "everywhere we go!" }],
-      "characters": [
-        { "look": { "flag": "vn", "outfit": "tunic", "top": "#D62828", "bottom": "#FFFFFF", "accent": "#FFD166", "hairStyle": "long" } },
-        { "look": { "flag": "jp", "outfit": "dress", "top": "#F7A1C4", "bottom": "#C2185B", "accent": "#FFE9A8", "hairStyle": "bun" } },
-        { "look": { "flag": "fr", "top": "#2B4C8C", "bottom": "#1B1B1B", "hat": "beret", "hatColor": "#1B1B1B", "hair": "#8B5A2B" } },
-        { "look": { "flag": "th", "outfit": "dress", "top": "#E9B44C", "bottom": "#8E2C48", "accent": "#F6E7B0", "hairStyle": "bob" } },
-        { "look": { "flag": "kr", "outfit": "dress", "top": "#F06292", "bottom": "#3949AB", "accent": "#FFF59D", "hairStyle": "long", "hat": "bow", "hatColor": "#E53935" } },
-        { "look": { "flag": "es", "top": "#FFFFFF", "bottom": "#1B1B1B", "accent": "#D62828", "hair": "#2B1B12" } },
-        { "look": { "flag": "ke", "skin": "#8D5A3B", "hair": "#1B1B1B", "outfit": "dress", "top": "#2E7D32", "bottom": "#F9A825", "accent": "#FFCC80", "hairStyle": "pigtails" } },
-        { "look": { "flag": "br", "skin": "#C68E68", "top": "#FFDF00", "bottom": "#00923F", "hair": "#2B1B12" } }
-      ]
+     "text": "Hello, hello,"
     },
     {
-      "type": "lyric", "duration": 6,
-      "background": { "kind": "meadow" },
-      "textPosition": "bottom",
-      "lines": [{ "text": "Friends around the world," }, { "text": "let's all say hello!" }],
-      "characters": [
-        { "look": { "skin": "#8D5A3B", "hair": "#1B1B1B", "top": "#F26B21", "bottom": "#2F86C9", "hairStyle": "pigtails", "outfit": "dress", "accent": "#FFFFFF" } },
-        { "look": { "top": "#4DB35E", "bottom": "#6D4C41", "hair": "#F2C94C" } },
-        { "look": { "skin": "#C68E68", "top": "#9B4FCB", "bottom": "#1D3557", "hairStyle": "bob", "hair": "#1B1B1B", "outfit": "dress", "accent": "#FFD6F0" } },
-        { "look": { "top": "#2F86C9", "bottom": "#F7C31B", "hair": "#3B2417" } }
-      ]
+     "text": "everywhere we go!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "flag": "vn",
+      "outfit": "tunic",
+      "top": "#D62828",
+      "bottom": "#FFFFFF",
+      "accent": "#FFD166",
+      "hairStyle": "long"
+     }
     },
     {
-      "type": "lyric", "duration": 6,
-      "background": { "kind": "sea" },
-      "textPosition": "top",
-      "lines": [{ "text": "Some kids live by the sea," }, { "text": "where the big waves roll" }],
-      "characters": [
-        { "look": { "skin": "#8D5A3B", "hair": "#1B1B1B", "top": "#FFB703", "bottom": "#023047", "hairStyle": "bun", "outfit": "dress", "accent": "#FFFFFF" } },
-        { "look": { "skin": "#C68E68", "top": "#E63946", "bottom": "#F1FAEE", "hat": "beret", "hatColor": "#E76F51" } }
-      ]
+     "look": {
+      "flag": "jp",
+      "outfit": "dress",
+      "top": "#F7A1C4",
+      "bottom": "#C2185B",
+      "accent": "#FFE9A8",
+      "hairStyle": "bun"
+     }
     },
     {
-      "type": "lyric", "duration": 6,
-      "background": { "kind": "desert" },
-      "textPosition": "bottom",
-      "textStyle": "box",
-      "lines": [{ "text": "Some kids live in the desert," }, { "text": "where the warm winds blow" }],
-      "characters": [
-        { "look": { "skin": "#8D5A3B", "hair": "#1B1B1B", "top": "#C1121F", "bottom": "#FDF0D5", "outfit": "tunic", "accent": "#FFD166" } },
-        { "look": { "skin": "#8D5A3B", "hair": "#1B1B1B", "top": "#2A9D8F", "bottom": "#E9C46A", "outfit": "dress", "hairStyle": "pigtails", "accent": "#F4A261" } },
-        { "look": { "skin": "#C68E68", "hair": "#1B1B1B", "top": "#F4A261", "bottom": "#264653", "hat": "headscarf", "hatColor": "#FFFFFF" } }
-      ]
-    },
-
-    { "type": "title", "duration": 4, "small": ["Hello everyone", "welcome to"], "big": "Languages of the World" },
-
-    {
-      "type": "country", "duration": 5, "layout": "poster", "bg": "#B9E4B4",
-      "country": "Viet Nam", "flag": "vn", "greeting": "Xin chào",
-      "characters": [
-        { "look": { "flag": "vn", "outfit": "tunic", "top": "#D62828", "bottom": "#FFFFFF", "accent": "#FFD166", "hairStyle": "long", "hat": "conical", "hatColor": "#EAD8A4" } },
-        { "look": { "flag": "vn", "outfit": "tunic", "top": "#1D4E89", "bottom": "#FFFFFF", "accent": "#FFD166" } }
-      ]
+     "look": {
+      "flag": "fr",
+      "top": "#2B4C8C",
+      "bottom": "#1B1B1B",
+      "hat": "beret",
+      "hatColor": "#1B1B1B",
+      "hair": "#8B5A2B"
+     }
     },
     {
-      "type": "country", "duration": 5, "layout": "poster", "bg": "#F9C6D6",
-      "country": "Japan", "flag": "jp", "greeting": "Konnichiwa", "native": "こんにちは", "romanization": "Konnichiwa",
-      "characters": [
-        { "look": { "flag": "jp", "outfit": "dress", "top": "#F7A1C4", "bottom": "#C2185B", "accent": "#FFE9A8", "hairStyle": "bun", "hair": "#1B1B1B" } }
-      ]
+     "look": {
+      "flag": "th",
+      "outfit": "dress",
+      "top": "#E9B44C",
+      "bottom": "#8E2C48",
+      "accent": "#F6E7B0",
+      "hairStyle": "bob"
+     }
     },
     {
-      "type": "country", "duration": 5, "layout": "quad",
-      "country": "France", "flag": "fr", "greeting": "Bonjour",
-      "characters": [
-        { "look": { "flag": "fr", "top": "#FFFFFF", "bottom": "#1B1B1B", "accent": "#D62828", "hat": "beret", "hatColor": "#1B1B1B", "hair": "#8B5A2B" } },
-        { "look": { "flag": "fr", "outfit": "dress", "top": "#C1121F", "bottom": "#1B1B1B", "accent": "#FFFFFF", "hat": "headscarf", "hatColor": "#FFFFFF", "hair": "#8B5A2B" } }
-      ]
+     "look": {
+      "flag": "kr",
+      "outfit": "dress",
+      "top": "#F06292",
+      "bottom": "#3949AB",
+      "accent": "#FFF59D",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#E53935"
+     }
     },
     {
-      "type": "country", "duration": 5, "layout": "poster", "bg": "#FBE3A6",
-      "country": "Thailand", "flag": "th", "greeting": "Sawasdee", "native": "สวัสดี", "romanization": "Sawasdee",
-      "characters": [
-        { "look": { "flag": "th", "outfit": "dress", "top": "#E9B44C", "bottom": "#8E2C48", "accent": "#F6E7B0", "hairStyle": "long", "hair": "#2B1B12" } }
-      ]
+     "look": {
+      "flag": "es",
+      "top": "#FFFFFF",
+      "bottom": "#1B1B1B",
+      "accent": "#D62828",
+      "hair": "#2B1B12"
+     }
     },
     {
-      "type": "country", "duration": 5, "layout": "poster", "bg": "#CFE3FF",
-      "country": "Korea", "flag": "kr", "greeting": "Annyeonghaseyo", "native": "안녕하세요", "romanization": "Annyeonghaseyo",
-      "characters": [
-        { "look": { "flag": "kr", "outfit": "dress", "top": "#F06292", "bottom": "#3949AB", "accent": "#FFF59D", "hairStyle": "long", "hat": "bow", "hatColor": "#E53935", "hair": "#1B1B1B" } },
-        { "look": { "flag": "kr", "outfit": "tunic", "top": "#43A047", "bottom": "#90CAF9", "accent": "#FFFFFF", "hair": "#1B1B1B" } }
-      ]
+     "look": {
+      "flag": "ke",
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "top": "#2E7D32",
+      "bottom": "#F9A825",
+      "accent": "#FFCC80",
+      "hairStyle": "pigtails"
+     }
     },
     {
-      "type": "country", "duration": 5, "layout": "quad",
-      "country": "Spain", "flag": "es", "greeting": "¡Hola!",
-      "characters": [
-        { "look": { "flag": "es", "top": "#FFFFFF", "bottom": "#1B1B1B", "accent": "#D62828", "hat": "beret", "hatColor": "#1B1B1B", "hair": "#2B1B12" } },
-        { "look": { "flag": "es", "outfit": "dress", "top": "#D62828", "bottom": "#1B1B1B", "accent": "#FFD6D6", "hairStyle": "bun", "hair": "#1B1B1B", "hat": "flowerCrown" } }
-      ]
-    },
-
+     "look": {
+      "flag": "br",
+      "skin": "#C68E68",
+      "top": "#FFDF00",
+      "bottom": "#00923F",
+      "hair": "#2B1B12"
+     }
+    }
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 6,
+   "background": {
+    "kind": "meadow"
+   },
+   "textPosition": "bottom",
+   "lines": [
     {
-      "type": "outro", "duration": 4.5, "text": "Spread the love",
-      "characters": [
-        { "look": { "skin": "#8D5A3B", "hair": "#1B1B1B", "top": "#F26B21", "bottom": "#2F86C9", "hairStyle": "pigtails", "outfit": "dress", "accent": "#FFFFFF" } },
-        { "look": { "top": "#4DB35E", "bottom": "#6D4C41", "hair": "#F2C94C" } },
-        { "look": { "skin": "#C68E68", "top": "#9B4FCB", "bottom": "#1D3557", "hairStyle": "bob", "hair": "#1B1B1B", "outfit": "dress", "accent": "#FFD6F0" } }
-      ]
+     "text": "Friends around the world,"
     },
-    { "type": "subscribe", "duration": 4, "text": "SUBSCRIBE", "sub": "OUR CHANNEL", "handle": "@MeowPi" }
-  ]
+    {
+     "text": "let's all say hello!"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "hairStyle": "pigtails",
+      "outfit": "dress",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "skin": "#C68E68",
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "hairStyle": "bob",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "accent": "#FFD6F0"
+     }
+    },
+    {
+     "look": {
+      "top": "#2F86C9",
+      "bottom": "#F7C31B",
+      "hair": "#3B2417"
+     }
+    }
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 6,
+   "background": {
+    "kind": "sea"
+   },
+   "textPosition": "top",
+   "lines": [
+    {
+     "text": "Some kids live by the sea,"
+    },
+    {
+     "text": "where the big waves roll"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "top": "#FFB703",
+      "bottom": "#023047",
+      "hairStyle": "bun",
+      "outfit": "dress",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "skin": "#C68E68",
+      "top": "#E63946",
+      "bottom": "#F1FAEE",
+      "hat": "beret",
+      "hatColor": "#E76F51"
+     }
+    }
+   ]
+  },
+  {
+   "type": "lyric",
+   "duration": 6,
+   "background": {
+    "kind": "desert"
+   },
+   "textPosition": "bottom",
+   "textStyle": "box",
+   "lines": [
+    {
+     "text": "Some kids live in the desert,"
+    },
+    {
+     "text": "where the warm winds blow"
+    }
+   ],
+   "characters": [
+    {
+     "look": {
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "top": "#C1121F",
+      "bottom": "#FDF0D5",
+      "outfit": "tunic",
+      "accent": "#FFD166"
+     }
+    },
+    {
+     "look": {
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "top": "#2A9D8F",
+      "bottom": "#E9C46A",
+      "outfit": "dress",
+      "hairStyle": "pigtails",
+      "accent": "#F4A261"
+     }
+    },
+    {
+     "look": {
+      "skin": "#C68E68",
+      "hair": "#1B1B1B",
+      "top": "#F4A261",
+      "bottom": "#264653",
+      "hat": "headscarf",
+      "hatColor": "#FFFFFF"
+     }
+    }
+   ]
+  },
+  {
+   "type": "title",
+   "duration": 4,
+   "small": [
+    "Hello everyone",
+    "welcome to"
+   ],
+   "big": "Languages of the World"
+  },
+  {
+   "type": "country",
+   "duration": 5,
+   "layout": "poster",
+   "bg": "#B9E4B4",
+   "country": "Viet Nam",
+   "flag": "vn",
+   "greeting": "Xin chào",
+   "characters": [
+    {
+     "look": {
+      "flag": "vn",
+      "outfit": "tunic",
+      "top": "#D62828",
+      "bottom": "#FFFFFF",
+      "accent": "#FFD166",
+      "hairStyle": "long",
+      "hat": "conical",
+      "hatColor": "#EAD8A4"
+     }
+    },
+    {
+     "look": {
+      "flag": "vn",
+      "outfit": "tunic",
+      "top": "#1D4E89",
+      "bottom": "#FFFFFF",
+      "accent": "#FFD166"
+     }
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "duration": 5,
+   "layout": "poster",
+   "bg": "#F9C6D6",
+   "country": "Japan",
+   "flag": "jp",
+   "greeting": "Konnichiwa",
+   "native": "こんにちは",
+   "romanization": "Konnichiwa",
+   "characters": [
+    {
+     "look": {
+      "flag": "jp",
+      "outfit": "dress",
+      "top": "#F7A1C4",
+      "bottom": "#C2185B",
+      "accent": "#FFE9A8",
+      "hairStyle": "bun",
+      "hair": "#1B1B1B"
+     }
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "duration": 5,
+   "layout": "quad",
+   "country": "France",
+   "flag": "fr",
+   "greeting": "Bonjour",
+   "characters": [
+    {
+     "look": {
+      "flag": "fr",
+      "top": "#FFFFFF",
+      "bottom": "#1B1B1B",
+      "accent": "#D62828",
+      "hat": "beret",
+      "hatColor": "#1B1B1B",
+      "hair": "#8B5A2B"
+     }
+    },
+    {
+     "look": {
+      "flag": "fr",
+      "outfit": "dress",
+      "top": "#C1121F",
+      "bottom": "#1B1B1B",
+      "accent": "#FFFFFF",
+      "hat": "headscarf",
+      "hatColor": "#FFFFFF",
+      "hair": "#8B5A2B"
+     }
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "duration": 5,
+   "layout": "poster",
+   "bg": "#FBE3A6",
+   "country": "Thailand",
+   "flag": "th",
+   "greeting": "Sawasdee",
+   "native": "สวัสดี",
+   "romanization": "Sawasdee",
+   "characters": [
+    {
+     "look": {
+      "flag": "th",
+      "outfit": "dress",
+      "top": "#E9B44C",
+      "bottom": "#8E2C48",
+      "accent": "#F6E7B0",
+      "hairStyle": "long",
+      "hair": "#2B1B12"
+     }
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "duration": 5,
+   "layout": "poster",
+   "bg": "#CFE3FF",
+   "country": "Korea",
+   "flag": "kr",
+   "greeting": "Annyeonghaseyo",
+   "native": "안녕하세요",
+   "romanization": "Annyeonghaseyo",
+   "characters": [
+    {
+     "look": {
+      "flag": "kr",
+      "outfit": "dress",
+      "top": "#F06292",
+      "bottom": "#3949AB",
+      "accent": "#FFF59D",
+      "hairStyle": "long",
+      "hat": "bow",
+      "hatColor": "#E53935",
+      "hair": "#1B1B1B"
+     }
+    },
+    {
+     "look": {
+      "flag": "kr",
+      "outfit": "tunic",
+      "top": "#43A047",
+      "bottom": "#90CAF9",
+      "accent": "#FFFFFF",
+      "hair": "#1B1B1B"
+     }
+    }
+   ]
+  },
+  {
+   "type": "country",
+   "duration": 5,
+   "layout": "quad",
+   "country": "Spain",
+   "flag": "es",
+   "greeting": "¡Hola!",
+   "characters": [
+    {
+     "look": {
+      "flag": "es",
+      "top": "#FFFFFF",
+      "bottom": "#1B1B1B",
+      "accent": "#D62828",
+      "hat": "beret",
+      "hatColor": "#1B1B1B",
+      "hair": "#2B1B12"
+     }
+    },
+    {
+     "look": {
+      "flag": "es",
+      "outfit": "dress",
+      "top": "#D62828",
+      "bottom": "#1B1B1B",
+      "accent": "#FFD6D6",
+      "hairStyle": "bun",
+      "hair": "#1B1B1B",
+      "hat": "flowerCrown"
+     }
+    }
+   ]
+  },
+  {
+   "type": "outro",
+   "duration": 4.5,
+   "text": "Spread the love",
+   "characters": [
+    {
+     "look": {
+      "skin": "#8D5A3B",
+      "hair": "#1B1B1B",
+      "top": "#F26B21",
+      "bottom": "#2F86C9",
+      "hairStyle": "pigtails",
+      "outfit": "dress",
+      "accent": "#FFFFFF"
+     }
+    },
+    {
+     "look": {
+      "top": "#4DB35E",
+      "bottom": "#6D4C41",
+      "hair": "#F2C94C"
+     }
+    },
+    {
+     "look": {
+      "skin": "#C68E68",
+      "top": "#9B4FCB",
+      "bottom": "#1D3557",
+      "hairStyle": "bob",
+      "hair": "#1B1B1B",
+      "outfit": "dress",
+      "accent": "#FFD6F0"
+     }
+    }
+   ]
+  },
+  {
+   "type": "subscribe",
+   "duration": 4,
+   "text": "SUBSCRIBE",
+   "sub": "OUR CHANNEL",
+   "handle": "@MeowPi"
+  }
+ ]
 }

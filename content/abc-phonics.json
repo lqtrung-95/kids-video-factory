@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "ABC Phonics Song A to Z | A is for Apple | Song for Kids",
-  "description": "A is for Apple, B is for Ball! 🍎⚽ Sing the ABC phonics song, then learn every letter and its sound from A to Z.\n\nWhich letter starts YOUR name? Tell us in the comments! 👇",
+  "description": "A is for Apple, B is for Ball! 🍎⚽ Sing the ABC phonics song, then learn every letter and its sound from A to Z.\n\n👨‍👩‍👧 Tip for parents: pause on each letter and ask your little one to say the sound.",
   "tags": [
    "abc song",
    "phonics song",
@@ -17,7 +17,11 @@
    "hoc chu cai tieng anh"
   ],
   "channel": "Meo with Pi",
-  "madeForKids": true
+  "madeForKids": true,
+  "playlists": [
+   "Numbers, Letters & Shapes"
+  ],
+  "musicStyle": "ukulele-pop"
  },
  "audio": {},
  "scenes": [
@@ -547,6 +551,16 @@
    "sound": "/z/",
    "bg": "#DFF5E1",
    "say": "Z is for Zebra. Z, Z, zebra!"
+  },
+  {
+   "type": "title",
+   "duration": 6,
+   "small": [
+    "Your turn!",
+    "What letter starts"
+   ],
+   "big": "your name?",
+   "say": "Your turn! What letter does your name start with? Say it out loud! Great job!"
   },
   {
    "type": "outro",

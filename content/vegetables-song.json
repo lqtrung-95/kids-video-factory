@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Vegetables Song | Carrot, Broccoli, Corn | Healthy Food for Kids",
-  "description": "Crunchy carrots, little broccoli trees and sweet yellow corn! 🥕🥦🌽 Sing along, then learn 8 vegetables.\n\nWhat is YOUR favorite vegetable? Tell us in the comments! 👇",
+  "description": "Crunchy carrots, little broccoli trees and sweet yellow corn! 🥕🥦🌽 Sing along, then learn 8 vegetables.\n\n👨‍👩‍👧 Tip for parents: name the vegetables on the plate at dinner time.",
   "tags": [
    "vegetables song",
    "vegetables for kids",
@@ -16,7 +16,11 @@
    "be hoc tieng anh"
   ],
   "channel": "Meo with Pi",
-  "madeForKids": true
+  "madeForKids": true,
+  "playlists": [
+   "Learn English Words"
+  ],
+  "musicStyle": "country"
  },
  "audio": {},
  "scenes": [
@@ -368,13 +372,13 @@
   },
   {
    "type": "title",
-   "duration": 5,
+   "duration": 6,
    "small": [
     "Your turn!",
-    "What is your favorite"
+    "Crunch like"
    ],
-   "big": "vegetable?",
-   "say": "What is your favorite vegetable? Tell us in the comments!"
+   "big": "a carrot!",
+   "say": "Your turn! Let's pretend to eat a crunchy carrot! Crunch, crunch, crunch! Yum! Great job!"
   },
   {
    "type": "outro",

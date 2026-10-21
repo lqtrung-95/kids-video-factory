@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Colors of the Rainbow | Learn Colors Song | Song for Kids",
-  "description": "Red, orange, yellow, green, blue and purple! 🌈 Sing the rainbow song, then learn 8 colors with fruits, animals and toys.\n\nWhat is YOUR favorite color? Tell us in the comments! 👇",
+  "description": "Red, orange, yellow, green, blue and purple! 🌈 Sing the rainbow song, then learn 8 colors with fruits, animals and toys.\n\n👨‍👩‍👧 Tip for parents: go on a color hunt at home after the song.",
   "tags": [
    "colors song",
    "rainbow song",
@@ -15,7 +15,11 @@
    "hoc mau sac cho be"
   ],
   "channel": "Meo with Pi",
-  "madeForKids": true
+  "madeForKids": true,
+  "playlists": [
+   "Learn English Words"
+  ],
+  "musicStyle": "ukulele-pop"
  },
  "audio": {},
  "scenes": [
@@ -381,13 +385,13 @@
   },
   {
    "type": "title",
-   "duration": 5,
+   "duration": 6,
    "small": [
     "Your turn!",
-    "What is your favorite"
+    "Can you find something"
    ],
-   "big": "color?",
-   "say": "What is your favorite color? Tell us in the comments!"
+   "big": "red?",
+   "say": "Your turn! Look around you. Can you find something red? Point to it! Great job!"
   },
   {
    "type": "outro",

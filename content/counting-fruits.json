@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Counting Fruits 1 to 10 | Number Song | Song for Kids",
-    "description": "Count from one to ten with yummy fruits! 🍎🍌🍓 Sing along, then count with us: apples, bananas, strawberries and more.\n\nWhat is YOUR favorite fruit? Tell us in the comments! 👇",
+    "description": "Count from one to ten with yummy fruits! 🍎🍌🍓 Sing along, then count with us: apples, bananas, strawberries and more.\n\n👨‍👩‍👧 Tip for parents: count real fruits at home together after the song!",
     "tags": [
       "counting song",
       "numbers 1 to 10",
@@ -17,7 +17,11 @@
       "trai cay cho be"
     ],
     "channel": "Meo with Pi",
-    "madeForKids": true
+    "madeForKids": true,
+    "playlists": [
+      "Numbers, Letters & Shapes"
+    ],
+    "musicStyle": "ukulele-pop"
   },
   "audio": {
     "song": "counting-fruits/song.mp3",

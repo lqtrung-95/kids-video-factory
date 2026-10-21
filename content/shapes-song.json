@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Shapes Song | Circle, Square, Triangle | Learn Shapes for Kids",
-  "description": "Circle, square, triangle, star and heart! 🔵🟦🔺⭐❤️ Sing the shapes song, then learn 8 shapes with things all around us.\n\nWhat shapes can YOU find in your room? Tell us in the comments! 👇",
+  "description": "Circle, square, triangle, star and heart! 🔵🟦🔺⭐❤️ Sing the shapes song, then learn 8 shapes with things all around us.\n\n👨‍👩‍👧 Tip for parents: go on a shape hunt in your room together.",
   "tags": [
    "shapes song",
    "learn shapes",
@@ -16,7 +16,11 @@
    "hoc hinh khoi cho be"
   ],
   "channel": "Meo with Pi",
-  "madeForKids": true
+  "madeForKids": true,
+  "playlists": [
+   "Numbers, Letters & Shapes"
+  ],
+  "musicStyle": "ukulele-pop"
  },
  "audio": {},
  "scenes": [
@@ -368,13 +372,13 @@
   },
   {
    "type": "title",
-   "duration": 5,
+   "duration": 6,
    "small": [
     "Your turn!",
-    "What shapes can you find"
+    "Draw a circle"
    ],
-   "big": "in your room?",
-   "say": "What shapes can you find in your room? Tell us in the comments!"
+   "big": "in the air!",
+   "say": "Your turn! Draw a circle in the air with your finger! Round and round! Now a triangle! Great job!"
   },
   {
    "type": "outro",

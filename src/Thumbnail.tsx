@@ -1,7 +1,7 @@
 /**
- * YouTube thumbnail (1280×720): sunburst background, big two-line title, the video's subjects as
- * big stickers and two of the kids. One layout for every video so the channel is recognisable;
- * the colour theme changes per video. Overrides: meta.thumbnail.title / meta.thumbnail.items.
+ * YouTube thumbnail (1280×720): sunburst background, big multicoloured title, the video's subjects
+ * as big stickers and the kids. Same look for every video so the channel is recognisable.
+ * Overrides: meta.thumbnail.title / .items / .layout ("classic" | "hero" | "pop").
  */
 import React from "react";
 import { AbsoluteFill, Img, staticFile } from "remotion";
@@ -62,8 +62,27 @@ const splitTitle = (t: string): string[] => {
   return [w.slice(0, best).join(" "), w.slice(best).join(" ")];
 };
 
+/** At most 3 balanced lines (for the narrow title column of the "hero" layout). */
+const splitThree = (t: string): string[] => {
+  const w = t.split(/\s+/);
+  if (w.length <= 3) return w;
+  let best: string[] = [t];
+  let bestMax = Infinity;
+  for (let i = 1; i < w.length; i++)
+    for (let j = i + 1; j <= w.length; j++) {
+      const parts = [w.slice(0, i), w.slice(i, j), w.slice(j)].filter((p) => p.length).map((p) => p.join(" "));
+      const m = Math.max(...parts.map((p) => p.length));
+      if (m < bestMax) [best, bestMax] = [parts, m];
+    }
+  return best;
+};
+
+/** Font size so the longest line fits `width` px. */
+const titleSize = (lines: string[], width: number, max: number) =>
+  Math.min(max, Math.floor(width / (Math.max(...lines.map((l) => l.length)) * 0.56)));
+
 const Sticker: React.FC<{ it: Item; size: number; rot: number }> = ({ it, size, rot }) => (
-  <div style={{ transform: `rotate(${rot}deg)`, filter: "drop-shadow(0 0 0 #fff) drop-shadow(0 10px 0 rgba(0,0,0,0.18))" }}>
+  <div style={{ transform: `rotate(${rot}deg)`, filter: "drop-shadow(0 10px 0 rgba(0,0,0,0.18))" }}>
     {it.image ? (
       <Img src={staticFile(it.image)} style={{ width: size, height: size, objectFit: "contain", filter: "drop-shadow(0 0 6px #fff) drop-shadow(0 0 6px #fff)" }} />
     ) : (
@@ -72,77 +91,133 @@ const Sticker: React.FC<{ it: Item; size: number; rot: number }> = ({ it, size, 
   </div>
 );
 
+/** Title words in alternating colours with a white + dark sticker outline. */
+const Title: React.FC<{ lines: string[]; size: number; align?: "center" | "left" }> = ({ lines, size, align = "center" }) => {
+  let wi = 0;
+  return (
+    <>
+      {lines.map((l, i) => (
+        <div
+          key={i}
+          style={{
+            fontFamily: DISPLAY,
+            fontWeight: 700,
+            fontSize: size,
+            lineHeight: 1.02,
+            whiteSpace: "nowrap",
+            textAlign: align,
+            textShadow: outline("#FFFFFF", Math.round(size * 0.07)) + "," + outline("#1B1B1B", Math.round(size * 0.11)),
+            transform: `rotate(${i % 2 ? 1.5 : -1.5}deg)`,
+          }}
+        >
+          {l.split(" ").map((w, k, all) => (
+            <span key={k} style={{ color: WORD_COLORS[wi++ % WORD_COLORS.length] }}>
+              {w}
+              {k < all.length - 1 ? " " : ""}
+            </span>
+          ))}
+        </div>
+      ))}
+    </>
+  );
+};
+
+const Sunburst: React.FC<{ theme: (typeof THEMES)[number]; x: number; y: number }> = ({ theme, x, y }) => (
+  <>
+    <AbsoluteFill style={{ background: `repeating-conic-gradient(from 0deg at ${x}% ${y}%, ${theme.a} 0deg 10deg, ${theme.b} 10deg 20deg)` }} />
+    <AbsoluteFill style={{ background: `radial-gradient(circle at ${x}% ${y}%, ${theme.glow} 0%, transparent 45%)` }} />
+  </>
+);
+
+/**
+ * Three layouts. meta.thumbnail.layout picks the main one (default "classic"); 05-render also saves
+ * the other two so you can run YouTube Studio's "Test & compare":
+ *  classic — title on top, three subjects, a kid in each corner
+ *  hero    — one huge subject on the right, title on the left, one kid
+ *  pop     — subjects on top, title in a white banner at the bottom, another colour theme
+ */
 export const Thumbnail: React.FC<VideoProps> = (v) => {
   const title = (v.meta.thumbnail?.title ?? v.meta.title.split("|")[0]).trim();
-  const theme = THEMES[hash(title) % THEMES.length];
-  const lines = splitTitle(title);
-  const longest = Math.max(...lines.map((l) => l.length));
-  const size = Math.min(lines.length > 1 ? 132 : 160, Math.floor(1180 / (longest * 0.56)));
+  const layout = v.meta.thumbnail?.layout ?? "classic";
+  const h = hash(title);
   const items = thumbItems(v);
   const firstLyric = v.scenes.find((s) => s.type === "lyric") as Extract<Scene, { type: "lyric" }> | undefined;
   const kids = (firstLyric?.characters.length ? firstLyric.characters : DEFAULT_KIDS).slice(0, 2);
-  let wi = 0;
 
-  return (
-    <AbsoluteFill style={{ background: theme.a, overflow: "hidden" }}>
-      {/* sunburst */}
-      <AbsoluteFill
-        style={{
-          background: `repeating-conic-gradient(from 0deg at 50% 62%, ${theme.a} 0deg 10deg, ${theme.b} 10deg 20deg)`,
-        }}
-      />
-      <AbsoluteFill style={{ background: `radial-gradient(circle at 50% 62%, ${theme.glow} 0%, transparent 45%)` }} />
+  if (layout === "hero") {
+    const theme = THEMES[(h + 1) % THEMES.length];
+    const lines = splitThree(title);
+    return (
+      <AbsoluteFill style={{ background: theme.a, overflow: "hidden" }}>
+        <Sunburst theme={theme} x={72} y={50} />
+        <AbsoluteFill style={{ justifyContent: "flex-start", paddingLeft: 40, paddingTop: 36 }}>
+          {/* the title keeps to the top-left; the kid has the bottom-left corner */}
+          <Title lines={lines} size={Math.min(titleSize(lines, 620, 140), Math.floor(400 / (lines.length * 1.05)))} align="left" />
+        </AbsoluteFill>
+        <div style={{ position: "absolute", right: 20, top: 90 }}>{items[0] ? <Sticker it={items[0]} size={540} rot={6} /> : null}</div>
+        <div style={{ position: "absolute", left: 40, bottom: -40 }}>
+          <Kid c={kids[0]} size={320} />
+        </div>
+      </AbsoluteFill>
+    );
+  }
 
-      {/* title */}
-      <AbsoluteFill style={{ alignItems: "center", paddingTop: lines.length > 1 ? 18 : 40 }}>
-        {lines.map((l, i) => (
-          <div
-            key={i}
-            style={{
-              fontFamily: DISPLAY,
-              fontWeight: 700,
-              fontSize: size,
-              lineHeight: 1.02,
-              whiteSpace: "nowrap",
-              textShadow: outline("#FFFFFF", 9) + "," + outline("#1B1B1B", 14),
-              transform: `rotate(${i % 2 ? 1.5 : -1.5}deg)`,
-            }}
-          >
-            {l.split(" ").map((w, k) => (
-              <span key={k} style={{ color: WORD_COLORS[wi++ % WORD_COLORS.length] }}>
-                {w}
-                {k < l.split(" ").length - 1 ? " " : ""}
-              </span>
-            ))}
+  if (layout === "pop") {
+    const theme = THEMES[(h + 2) % THEMES.length];
+    const lines = splitTitle(title);
+    return (
+      <AbsoluteFill style={{ background: theme.a, overflow: "hidden" }}>
+        <Sunburst theme={theme} x={50} y={36} />
+        <div style={{ position: "absolute", left: 0, right: 0, top: 30, display: "flex", justifyContent: "center", alignItems: "center", gap: 14 }}>
+          {items.map((it, i) => (
+            <Sticker key={i} it={it} size={i === 1 ? 320 : 260} rot={[-10, 0, 10][i]} />
+          ))}
+        </div>
+        {kids.map((c, i) => (
+          <div key={i} style={{ position: "absolute", top: 120, [i ? "right" : "left"]: -20 }}>
+            <Kid c={c} size={340} mirror={i === 1} />
           </div>
         ))}
+        <div
+          style={{
+            position: "absolute",
+            left: 50,
+            right: 50,
+            bottom: 26,
+            padding: "16px 20px 22px",
+            borderRadius: 40,
+            background: "#FFFFFF",
+            boxShadow: "0 10px 0 rgba(0,0,0,0.18)",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+          }}
+        >
+          <Title lines={lines} size={titleSize(lines, 1080, lines.length > 1 ? 96 : 120)} />
+        </div>
       </AbsoluteFill>
+    );
+  }
 
-      {/* subjects */}
-      <div
-        style={{
-          position: "absolute",
-          left: 0,
-          right: 0,
-          bottom: 30,
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "flex-end",
-          gap: items.length > 2 ? 10 : 40,
-        }}
-      >
+  // classic
+  const theme = THEMES[h % THEMES.length];
+  const lines = splitTitle(title);
+  return (
+    <AbsoluteFill style={{ background: theme.a, overflow: "hidden" }}>
+      <Sunburst theme={theme} x={50} y={62} />
+      <AbsoluteFill style={{ alignItems: "center", paddingTop: lines.length > 1 ? 18 : 40 }}>
+        <Title lines={lines} size={titleSize(lines, 1180, lines.length > 1 ? 132 : 160)} />
+      </AbsoluteFill>
+      <div style={{ position: "absolute", left: 0, right: 0, bottom: 30, display: "flex", justifyContent: "center", alignItems: "flex-end", gap: items.length > 2 ? 10 : 40 }}>
         {items.map((it, i) => (
           <Sticker key={i} it={it} size={items.length > 2 ? (i === 1 ? (lines.length > 1 ? 320 : 340) : lines.length > 1 ? 270 : 280) : 340} rot={[-8, 4, 9][i]} />
         ))}
       </div>
-
-      {/* kids in the corners */}
       {kids.map((c, i) => (
         <div key={i} style={{ position: "absolute", bottom: -30, [i ? "right" : "left"]: -10 }}>
           <Kid c={c} size={440} mirror={i === 1} />
         </div>
       ))}
-
     </AbsoluteFill>
   );
 };

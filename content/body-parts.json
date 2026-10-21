@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "My Body Song | Head, Eyes, Ears, Nose | Body Parts for Kids",
-  "description": "Touch your head and touch your nose! 👀👂👃👐 A movement song about body parts, then 8 cards to point along with.\n\nCan YOU touch your nose with your tongue? Tell us in the comments! 👇",
+  "description": "Touch your head and touch your nose! 👀👂👃👐 A movement song about body parts, then 8 cards to point along with.\n\n👨‍👩‍👧 Tip for parents: point to each body part together while you sing.",
   "tags": [
    "body parts song",
    "parts of the body",
@@ -16,7 +16,11 @@
    "bo phan co the cho be"
   ],
   "channel": "Meo with Pi",
-  "madeForKids": true
+  "madeForKids": true,
+  "playlists": [
+   "Dance & Move"
+  ],
+  "musicStyle": "dance"
  },
  "audio": {},
  "scenes": [
@@ -370,13 +374,12 @@
   },
   {
    "type": "title",
-   "duration": 5,
+   "duration": 6,
    "small": [
-    "Your turn!",
-    "Can you touch your nose"
+    "Your turn!"
    ],
-   "big": "with your tongue?",
-   "say": "Can you touch your nose with your tongue? Tell us in the comments!"
+   "big": "Touch your nose!",
+   "say": "Your turn! Touch your nose! Now touch your ears! Now wiggle your toes! Great job!"
   },
   {
    "type": "outro",

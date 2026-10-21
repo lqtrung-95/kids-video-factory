@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Feelings Song | Happy, Sad, Angry, Sleepy | Emotions for Kids",
-  "description": "Happy, sad, angry, scared, sleepy and silly! 😀😢😠😴 A gentle song that helps little ones name their feelings, plus 8 emotion cards with faces to copy.\n\nHow do YOU feel today? Tell us in the comments! 👇",
+  "description": "Happy, sad, angry, scared, sleepy and silly! 😀😢😠😴 A gentle song that helps little ones name their feelings, plus 8 emotion cards with faces to copy.\n\n👨‍👩‍👧 Tip for parents: ask your child how they feel today and make the face together.",
   "tags": [
    "feelings song",
    "emotions for kids",
@@ -15,7 +15,11 @@
    "cam xuc cho be"
   ],
   "channel": "Meo with Pi",
-  "madeForKids": true
+  "madeForKids": true,
+  "playlists": [
+   "Daily Routines & Feelings"
+  ],
+  "musicStyle": "ukulele-pop"
  },
  "audio": {},
  "scenes": [
@@ -367,13 +371,13 @@
   },
   {
    "type": "title",
-   "duration": 5,
+   "duration": 6,
    "small": [
     "Your turn!",
-    "How do YOU feel"
+    "Show me a"
    ],
-   "big": "today?",
-   "say": "How do you feel today? Tell us in the comments!"
+   "big": "happy face!",
+   "say": "Your turn! Show me a happy face! Now a sad face! Now a surprised face! Wow! Great job!"
   },
   {
    "type": "outro",

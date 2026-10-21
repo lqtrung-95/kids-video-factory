@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Days of the Week Song | Monday to Sunday | Song for Kids",
-  "description": "Monday, Tuesday, Wednesday too! 📅 Sing the days of the week, then learn all seven days with something fun to do on each one.\n\nWhat is YOUR favorite day? Tell us in the comments! 👇",
+  "description": "Monday, Tuesday, Wednesday too! 📅 Sing the days of the week, then learn all seven days with something fun to do on each one.\n\n👨‍👩‍👧 Tip for parents: say today's day together every morning.",
   "tags": [
    "days of the week song",
    "days of the week",
@@ -16,7 +16,11 @@
    "thu trong tuan tieng anh"
   ],
   "channel": "Meo with Pi",
-  "madeForKids": true
+  "madeForKids": true,
+  "playlists": [
+   "Learn English Words"
+  ],
+  "musicStyle": "ukulele-pop"
  },
  "audio": {},
  "scenes": [
@@ -354,13 +358,12 @@
   },
   {
    "type": "title",
-   "duration": 5,
+   "duration": 6,
    "small": [
-    "Your turn!",
-    "What is your favorite"
+    "Your turn!"
    ],
-   "big": "day of the week?",
-   "say": "What is your favorite day of the week? Tell us in the comments!"
+   "big": "Say the days!",
+   "say": "Your turn! Say the days with me! Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday! Great job!"
   },
   {
    "type": "outro",

@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Wash Your Hands Song | Scrub Scrub Scrub! | Healthy Habits for Kids",
-  "description": "Wet, soap, scrub, rinse and dry! 🧼🫧💧 A bubbly song that teaches little ones how to wash their hands, plus a step-by-step guide.\n\nDid YOU wash your hands today? Tell us in the comments! 👇",
+  "description": "Wet, soap, scrub, rinse and dry! 🧼🫧💧 A bubbly song that teaches little ones how to wash their hands, plus a step-by-step guide.\n\n👨‍👩‍👧 Tip for parents: sing it every time you wash hands together.",
   "tags": [
    "wash your hands song",
    "handwashing for kids",
@@ -16,7 +16,11 @@
    "be hoc tieng anh"
   ],
   "channel": "Meo with Pi",
-  "madeForKids": true
+  "madeForKids": true,
+  "playlists": [
+   "Daily Routines & Feelings"
+  ],
+  "musicStyle": "bright-pop"
  },
  "audio": {},
  "scenes": [
@@ -366,6 +370,16 @@
    "bg": "#FFD9C7",
    "side": "left",
    "say": "All clean! Great job!"
+  },
+  {
+   "type": "title",
+   "duration": 6,
+   "small": [
+    "Your turn!",
+    "Let's scrub"
+   ],
+   "big": "our hands!",
+   "say": "Your turn! Rub your hands together! Scrub, scrub, scrub! Front and back! Great job!"
   },
   {
    "type": "outro",

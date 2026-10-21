@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Weather Song | Sunny, Rainy, Windy, Snowy | Song for Kids",
-  "description": "Sunny, rainy, windy or snowy? ☀️🌧️💨❄️ Sing the weather song, then learn 8 kinds of weather and what to wear or do.\n\nWhat's the weather like where YOU are? Tell us in the comments! 👇",
+  "description": "Sunny, rainy, windy or snowy? ☀️🌧️💨❄️ Sing the weather song, then learn 8 kinds of weather and what to wear or do.\n\n👨‍👩‍👧 Tip for parents: look out the window together and name today's weather.",
   "tags": [
    "weather song",
    "weather for kids",
@@ -16,7 +16,11 @@
    "be hoc tieng anh"
   ],
   "channel": "Meo with Pi",
-  "madeForKids": true
+  "madeForKids": true,
+  "playlists": [
+   "Learn English Words"
+  ],
+  "musicStyle": "reggae"
  },
  "audio": {},
  "scenes": [
@@ -367,13 +371,13 @@
   },
   {
    "type": "title",
-   "duration": 5,
+   "duration": 6,
    "small": [
     "Your turn!",
-    "What's the weather"
+    "Make the rain"
    ],
-   "big": "where you are?",
-   "say": "What's the weather like where you are today? Tell us in the comments!"
+   "big": "with your fingers!",
+   "say": "Your turn! Make the rain with your fingers! Pitter, patter, pitter, patter! Great job!"
   },
   {
    "type": "outro",

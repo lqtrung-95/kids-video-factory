@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Animal Freeze Dance | Hop, Stomp, Wiggle & FREEZE! | Song for Kids",
-  "description": "Hop like a bunny, stomp like an elephant, wiggle like a worm... and FREEZE! 🐰🐘🐛 A movement song and freeze dance game to get kids up and moving.\n\nWhich animal dance is YOUR favorite? Tell us in the comments! 👇",
+  "description": "Hop like a bunny, stomp like an elephant, wiggle like a worm... and FREEZE! 🐰🐘🐛 A movement song and freeze dance game to get kids up and moving.\n\n👨‍👩‍👧 Tip for parents: play it loud, dance together, and freeze when the music stops!",
   "tags": [
    "freeze dance",
    "animal dance song",
@@ -16,7 +16,12 @@
    "bai hat van dong cho be"
   ],
   "channel": "Meo with Pi",
-  "madeForKids": true
+  "madeForKids": true,
+  "playlists": [
+   "Animal Songs",
+   "Dance & Move"
+  ],
+  "musicStyle": "dance"
  },
  "audio": {},
  "scenes": [

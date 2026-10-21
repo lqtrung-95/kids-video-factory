@@ -82,14 +82,14 @@ Kết quả nằm trong `out/<slug>/`:
 | Điệp khúc chen giữa | Điệp khúc (có karaoke) quay lại giữa các nhóm thẻ học, tối đa 3 lần | `src/arrange.ts` |
 | Hát lại | "Let's sing it again!" rồi hát lại cả bài trước phần chào tạm biệt | `src/arrange.ts` |
 | Chapters | Mỗi nhóm thẻ một chapter (Dog 🐶, Numbers 1–3, Sing Along Again 🎤…) | `src/arrange.ts` |
-| Thumbnail | Tiêu đề chữ to nhiều màu, 3 hình chủ đề, 2 bé, nền tia nắng (màu đổi theo video) | `src/Thumbnail.tsx` |
+| Thumbnail | 3 bố cục: `classic` (tiêu đề trên, 3 hình, 2 bé), `hero` (một hình thật to), `pop` (hình trên, tiêu đề trong khung trắng). Bố cục chính lưu thành `thumbnail.jpg`, 2 bố cục còn lại thành `thumbnail-hero.jpg` và `thumbnail-pop.jpg` để dùng với **Test & compare** trong YouTube Studio | `src/Thumbnail.tsx` |
 | Hiệu ứng | Chuyển cảnh (pop/slide/iris/zoom/swing), camera trôi nhẹ, hạt bay theo nền, pháo giấy ở điệp khúc, các bé lắc lư theo nhịp | `src/components/Motion.tsx` |
 
 Các phần chen giữa và hát lại chỉ được thêm lúc render, không ghi vào JSON. Tuỳ chỉnh từng video trong JSON:
 
 ```jsonc
 "extras": { "singAgain": false, "chorusBreaks": false, "maxBreaks": 2 },
-"meta": { "thumbnail": { "title": "Months of the Year", "items": ["🌸", "🎂", "🎄"] } }
+"meta": { "thumbnail": { "title": "Months of the Year", "items": ["🌸", "🎂", "🎄"], "layout": "hero" } }
 // mỗi cảnh: "transition": "iris" | "pop" | "slide" | "slideUp" | "zoom" | "swing"
 //           "fx": "bubbles" | "petals" | "sparkles" | "confetti" | "snow" | "hearts" | "notes" | "none"
 ```
@@ -143,10 +143,51 @@ Nếu lời vẫn lệch ở vài chữ, mở `content/<slug>.json` và sửa `s
 
 Các loại cảnh khác: `intro`, `lyric` (nền: sky, meadow, sea, desert, globe, blocks, image, video), `title`, `outro`, `subscribe`. Định nghĩa đầy đủ trong `src/schema.ts`. Nhân vật là các bé vẽ vector chỉnh qua `look` (da, tóc, trang phục, mũ, cờ), hoặc ảnh AI qua `characters: [{ "image": "slug/x.png" }]`.
 
-## 6. Shorts và video tổng hợp
+## 6. Shorts, video tổng hợp, livestream, playlist
 
-- **Shorts:** `npx tsx scripts/07-shorts.ts <slug>` (thêm `--list` để chỉ xem kế hoạch cắt). Script tự cắt các Short dọc dưới 59 giây: một Short bài hát và mỗi nhóm thẻ một Short. Dùng Shorts để kéo người xem về video dài.
-- **Video tổng hợp:** `npx tsx scripts/08-compile.ts <tên> <slug> <slug> … [--repeat=2]` ghép nhiều video thành một video 20–60 phút có chapters. Video dài là nơi kênh thiếu nhi có nhiều thời gian xem nhất.
+- **Shorts:** `npx tsx scripts/07-shorts.ts <slug>` (thêm `--list` để chỉ xem kế hoạch cắt). Script tự cắt các Short dọc dưới 59 giây: một Short bài hát và mỗi nhóm thẻ một Short. Âm lượng được cân giống video dài.
+- **Video tổng hợp** (20–60 phút, có chapters). Video dài là nơi kênh thiếu nhi có nhiều thời gian xem nhất.
+  ```bash
+  npx tsx scripts/08-compile.ts <tên> <slug> <slug> … [--repeat=2]     # tự chọn video
+  npx tsx scripts/08-compile.ts --theme="Animal Songs"                  # mọi video đã render thuộc playlist đó
+  npx tsx scripts/08-compile.ts --all                                    # mọi video đã render
+  ```
+- **Livestream 24/7:** thêm `--hours=3` để tạo một video phát vòng dài 3 giờ. Video này không có chapters.
+  - Cách phát: YouTube Studio → Go live → Stream, rồi phát file đó qua OBS.
+  - Nên khởi động lại stream vài ngày một lần.
+  - Livestream cho trẻ em không có chat.
+- **Playlist:** mỗi video có `meta.playlists` (Animal Songs, Numbers Letters & Shapes, Daily Routines & Feelings, Dance & Move, Learn English Words, Around the World).
+  - Khi upload, `06-upload` tự tạo playlist trên kênh nếu chưa có và thêm video vào.
+  - Playlist giúp video này phát nối video kia. Với video Made for Kids, người xem không tự lưu vào playlist được, nên playlist của kênh rất quan trọng.
+
+## 6b. Nhạc: mỗi video một style
+
+Mỗi video có `meta.musicStyle`. Bước 4 tự chọn style ít được dùng nhất, để kênh không bị nghe giống nhau và không bị YouTube coi là nội dung làm hàng loạt.
+
+| Style | Dùng cho |
+|---|---|
+| `ukulele-pop` | xoay vòng |
+| `bright-pop` | xoay vòng |
+| `reggae` | xoay vòng |
+| `country` | xoay vòng |
+| `marching` | xoay vòng |
+| `kid-voice` | xoay vòng |
+| `dance` | tự dùng cho bài vận động |
+| `lullaby` | tự dùng cho bài ru ngủ, bedtime |
+
+Danh sách nằm trong `scripts/music.ts`. Muốn chọn tay thì đặt `"musicStyle": "reggae"` trong `meta`. Bước 4 ghi lời và style vào `content/<slug>.mureka-lyrics.txt` và `.mureka-style.txt`.
+
+## 6c. Lồng tiếng nhiều ngôn ngữ (multi-language audio)
+
+```bash
+npx tsx scripts/09-dub.ts <slug> --lang=vi,es      # vi, es, pt, id, hi, fr, de, th, ja, ko
+```
+
+- Script dịch lời dẫn bằng Groq hoặc Claude, nhưng **giữ nguyên các từ tiếng Anh đang dạy** (ví dụ: "Đây là con chó! Tiếng Anh là DOG!").
+- Lời dịch được thu bằng giọng bản xứ (edge-tts miễn phí), rồi ghép thành một **track âm thanh đầy đủ** khớp đúng timeline của video: `out/<slug>/<slug>.vi.m4a`. Bài hát và nhạc giữ nguyên, chỉ lời dẫn đổi ngôn ngữ.
+- Upload: YouTube Studio → Languages → Add language → **Add audio**. Tính năng này chỉ có nếu kênh được YouTube cấp. Người xem chọn ngôn ngữ trong phần cài đặt của trình phát.
+- Lời dịch được lưu trong JSON (`scene.dub.vi`). Sửa tay rồi chạy lại để thu lại.
+- Cần render video (bước 5) trước, để track khớp timeline.
 
 ## 7. Chi phí và bản quyền nhạc
 
@@ -169,8 +210,13 @@ Các loại cảnh khác: `intro`, `lyric` (nền: sky, meadow, sea, desert, glo
 - [ ] Trong YouTube Studio:
   - [ ] Chọn **Made for Kids**.
   - [ ] Tick **Altered or synthetic content**, vì nhạc và giọng do AI tạo.
-  - [ ] Thêm end screen ở 20 giây cuối.
+  - [ ] Thêm video vào playlist (`06-upload` làm tự động).
+  - [ ] Bật **Test & compare** với `thumbnail-hero.jpg` và `thumbnail-pop.jpg`.
+  - [ ] Thêm track lồng tiếng nếu có (`<slug>.vi.m4a`).
 - [ ] Dán mô tả có chapters từ `out/<slug>/youtube.json` và dùng `thumbnail.jpg`.
+- [ ] **Không** kêu gọi bình luận, like, bấm chuông hay end screen, trong lời dẫn lẫn mô tả. Video Made for Kids tắt bình luận, end screen, thẻ, thông báo, miniplayer và nút lưu vào playlist.
+  - Thay vào đó, thẻ "Your turn!" mời bé **làm theo ngay**: kêu như con vật, làm động tác, nói theo.
+  - Mô tả có dòng "👨‍👩‍👧 Tip for parents" gợi ý một hoạt động để bố mẹ làm cùng bé.
 - [ ] Lời bài hát là sáng tác mới. Không dùng lời của bài thiếu nhi còn bản quyền.
 - [ ] Đăng đều đặn với số lượng vừa phải. YouTube đang siết "inauthentic content" (nội dung làm hàng loạt). Mỗi video cần có ý tưởng và bài hát riêng, và nên đổi style nhạc giữa các video.
 
@@ -192,7 +238,7 @@ content/            <slug>.json (+ lời cho Mureka), examples/ — nguồn sự
 public/<slug>/      song.mp3, instrumental.mp3, voice-XX.mp3, scene-XX.png (không đưa lên git)
 public/flags, fonts, demo   tài nguyên dùng chung
 src/                Remotion: Video.tsx, Thumbnail.tsx, Short.tsx, arrange.ts, schema.ts, scenes/, components/
-scripts/            01…08 các bước, make.ts (chạy cả chuỗi), status.ts, audio.ts, brand.ts, align*.py, tts.py
+scripts/            01…09 các bước, make.ts (chạy cả chuỗi), status.ts, audio.ts, brand.ts, music.ts, llm.ts, align*.py, tts.py
 public/brand/       intro.mp4 / outro.mp4 riêng của kênh (tuỳ chọn, không đưa lên git)
 out/<slug>/         video, thumbnail, youtube.json (không đưa lên git)
 docs/VIDEOS.md      danh sách video, ý tưởng, kế hoạch

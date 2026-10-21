@@ -1,6 +1,8 @@
 [Verse 1]
 One, two, three, let's count with me!
 Yummy fruits from the fruit tree!
+
+[Verse 2]
 Four, five, six, pick, pick, pick!
 Put them in the basket quick!
 
@@ -8,12 +10,14 @@ Put them in the basket quick!
 Count the fruits, one by one,
 counting fruits is so much fun!
 
-[Verse 2]
+[Verse 3]
 Seven, eight, nine and ten,
 let's count them all again!
+
+[Verse 4]
 Apples, pears and cherries too,
 so many fruits for me and you!
 
-[Chorus]
+[Verse 5]
 Count the fruits, one by one,
 counting fruits is so much fun!

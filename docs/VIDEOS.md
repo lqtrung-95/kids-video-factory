@@ -51,14 +51,35 @@ Lời và style để dán vào Mureka nằm trong `content/<slug>.mureka-lyrics
 
 ## Ghi chú khi tạo nhạc
 
-- Style mặc định: `happy children's song, nursery rhyme, ukulele, glockenspiel, claps, cheerful female vocal with kids choir, 110 bpm, clear diction, simple melody`.
-- **Nên đổi style giữa các video**, để kênh không bị nghe giống nhau và tránh bị YouTube xem là nội dung làm hàng loạt. Gợi ý:
-  - Bài vận động: `upbeat dance, drums, 120 bpm`
-  - Bài ru ngủ: `gentle lullaby, soft piano, music box, 80 bpm`
-  - Đổi màu nhạc: `reggae`, `country`, `soft rock for kids`
-  - Đổi giọng: giọng nam, hoặc giọng trẻ con hát chính
+- Mỗi video có style riêng trong `meta.musicStyle` (xem `scripts/music.ts`). Style tương ứng đã nằm sẵn trong `content/<slug>.mureka-style.txt`, chỉ cần dán vào Mureka.
+- Style của các bài còn chờ nhạc:
+
+| Bài | Style |
+|---|---|
+| weather | `reggae` |
+| vegetables | `country` |
+| opposites | `kid-voice` |
+| months | `marching` |
+| community helpers | `bright-pop` |
+| wash your hands | `bright-pop` |
+| bedtime | `lullaby` |
+| family | `ukulele-pop` |
+
 - Mỗi dòng lời nên dưới khoảng 37 ký tự, nếu dài hơn chữ trên màn hình sẽ bị xuống dòng.
 - Chọn bản dài khoảng 1:05–1:25 và hát đủ lời. Bản dài 2 phút thường bị lặp lại.
+
+## Playlist trên kênh
+
+Mỗi video ghi playlist của nó trong `meta.playlists`. `06-upload` tự tạo playlist nếu chưa có và thêm video vào. `08-compile --theme="…"` dùng các playlist này để làm video tổng hợp.
+
+| Playlist | Video |
+|---|---|
+| Animal Songs | animal sounds, jungle, ocean, freeze dance |
+| Numbers, Letters & Shapes | counting fruits, counting in space, ABC, shapes, opposites |
+| Daily Routines & Feelings | morning routine, wash your hands, bedtime, feelings, family |
+| Dance & Move | freeze dance, body parts |
+| Learn English Words | vehicles, colors, days, months, weather, vegetables, community helpers, family |
+| Around the World | animal sounds, hello around the world |
 
 ## Ý tưởng tiếp theo
 
@@ -68,9 +89,13 @@ Lời và style để dán vào Mureka nằm trong `content/<slug>.mureka-lyrics
 - Bài theo dịp: Halloween (tháng 10), Christmas (tháng 12), Tết / Lunar New Year (tháng 1–2)
 - Các video tổng hợp 20–30 phút sau khi có 8–10 bài, bằng `08-compile.ts`
 
-## Việc kỹ thuật còn có thể làm
+## Việc kỹ thuật
 
-- [ ] Cân âm lượng cho Shorts (`07-shorts`), hiện mới áp dụng cho video dài
+- [x] Cân âm lượng cho video dài và Shorts
+- [x] Bỏ mọi câu kêu gọi bình luận (video Made for Kids), thay bằng thẻ "Your turn!" để bé làm theo
+- [x] Xoay vòng style nhạc theo từng video
+- [x] Video tổng hợp theo playlist, video phát vòng cho livestream (`--hours`)
+- [x] 3 bố cục thumbnail để dùng với Test & compare
+- [x] Track lồng tiếng nhiều ngôn ngữ (`09-dub`)
 - [ ] Chữ lời karaoke to hơn khoảng 20–30% cho dễ đọc trên điện thoại
 - [ ] Dùng hình AI cho các thẻ đang dùng emoji (khoảng $0.3–0.5 mỗi video)
-- [ ] Tự gắn nhãn "nội dung AI" khi upload, nếu thư viện YouTube API có hỗ trợ

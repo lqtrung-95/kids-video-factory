@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "My Family Song | Mommy, Daddy, Brother, Sister | Song for Kids",
-  "description": "Mommy, Daddy, brother, sister, baby, Grandma and Grandpa! 👨‍👩‍👧‍👦❤️ A warm song about family, then learn the family words in English.\n\nWho is in YOUR family? Tell us in the comments! 👇",
+  "description": "Mommy, Daddy, brother, sister, baby, Grandma and Grandpa! 👨‍👩‍👧‍👦❤️ A warm song about family, then learn the family words in English.\n\n👨‍👩‍👧 Tip for parents: look at family photos and name each person in English.",
   "tags": [
    "family song",
    "family members",
@@ -16,7 +16,12 @@
    "be hoc tieng anh"
   ],
   "channel": "Meo with Pi",
-  "madeForKids": true
+  "madeForKids": true,
+  "playlists": [
+   "Learn English Words",
+   "Daily Routines & Feelings"
+  ],
+  "musicStyle": "ukulele-pop"
  },
  "audio": {},
  "scenes": [
@@ -365,13 +370,13 @@
   },
   {
    "type": "title",
-   "duration": 5,
+   "duration": 6,
    "small": [
     "Your turn!",
-    "Who is in"
+    "Give your family"
    ],
-   "big": "your family?",
-   "say": "Who is in your family? Tell us in the comments!"
+   "big": "a big hug!",
+   "say": "Your turn! Give your family a big hug and say: I love you! Great job!"
   },
   {
    "type": "outro",

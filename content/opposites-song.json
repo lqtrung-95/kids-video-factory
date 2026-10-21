@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Opposites Song | Big & Small, Hot & Cold | Song for Kids",
-  "description": "Big and small, hot and cold, fast and slow! 🐘🐭🔥🧊 Sing the opposites song, then learn 5 pairs of opposites.\n\nWhat is the opposite of HAPPY? Tell us in the comments! 👇",
+  "description": "Big and small, hot and cold, fast and slow! 🐘🐭🔥🧊 Sing the opposites song, then learn 5 pairs of opposites.\n\n👨‍👩‍👧 Tip for parents: find opposites around the house: big and small, hot and cold!",
   "tags": [
    "opposites song",
    "opposites for kids",
@@ -16,7 +16,11 @@
    "be hoc tieng anh"
   ],
   "channel": "Meo with Pi",
-  "madeForKids": true
+  "madeForKids": true,
+  "playlists": [
+   "Numbers, Letters & Shapes"
+  ],
+  "musicStyle": "kid-voice"
  },
  "audio": {},
  "scenes": [
@@ -387,13 +391,13 @@
   },
   {
    "type": "title",
-   "duration": 5,
+   "duration": 6,
    "small": [
     "Your turn!",
-    "What is the opposite"
+    "Make yourself"
    ],
-   "big": "of happy?",
-   "say": "What is the opposite of happy? Tell us in the comments!"
+   "big": "big… and small!",
+   "say": "Your turn! Make yourself big, big, big! Now small, small, small! Great job!"
   },
   {
    "type": "outro",

@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Beep Beep! Vehicle Sounds Song | Cars, Trains & Fire Trucks | Song for Kids",
-  "description": "Beep beep! Choo choo! Wee-oo! 🚗🚂🚒 Sing along, then play the guessing game: listen to the sound and guess the vehicle!\n\nWhich vehicle do YOU like best? Tell us in the comments! 👇",
+  "description": "Beep beep! Choo choo! Wee-oo! 🚗🚂🚒 Sing along, then play the guessing game: listen to the sound and guess the vehicle!\n\n👨‍👩‍👧 Tip for parents: name the vehicles you see on your next walk.",
   "tags": [
    "vehicle sounds",
    "vehicles for kids",
@@ -18,7 +18,11 @@
    "phuong tien giao thong cho be"
   ],
   "channel": "Meo with Pi",
-  "madeForKids": true
+  "madeForKids": true,
+  "playlists": [
+   "Learn English Words"
+  ],
+  "musicStyle": "ukulele-pop"
  },
  "audio": {},
  "scenes": [
@@ -391,13 +395,13 @@
   },
   {
    "type": "title",
-   "duration": 5,
+   "duration": 6,
    "small": [
     "Your turn!",
-    "What is your favorite"
+    "Drive your car!"
    ],
-   "big": "vehicle?",
-   "say": "Which vehicle do you like best? Tell us in the comments!"
+   "big": "Beep beep!",
+   "say": "Your turn! Hold your steering wheel and drive! Beep, beep! Vroom, vroom! Great job!"
   },
   {
    "type": "outro",

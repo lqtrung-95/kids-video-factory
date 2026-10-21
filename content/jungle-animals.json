@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Jungle Animal Sounds | Guess the Animal! | Lion, Monkey, Elephant",
-  "description": "Roar! Hiss! Ooh ooh ah ah! 🦁🐒🐍🐘 Sing the jungle song, then play the guessing game: listen to the sound and guess the animal!\n\nWhich jungle animal can YOU copy? Tell us in the comments! 👇",
+  "description": "Roar! Hiss! Ooh ooh ah ah! 🦁🐒🐍🐘 Sing the jungle song, then play the guessing game: listen to the sound and guess the animal!\n\n👨‍👩‍👧 Tip for parents: take turns making the animal sounds and guess together!",
   "tags": [
    "jungle animals",
    "animal sounds",
@@ -16,7 +16,11 @@
    "be hoc tieng anh"
   ],
   "channel": "Meo with Pi",
-  "madeForKids": true
+  "madeForKids": true,
+  "playlists": [
+   "Animal Songs"
+  ],
+  "musicStyle": "ukulele-pop"
  },
  "audio": {},
  "scenes": [
@@ -383,13 +387,13 @@
   },
   {
    "type": "title",
-   "duration": 5,
+   "duration": 6,
    "small": [
     "Your turn!",
-    "Which jungle animal"
+    "Can you roar"
    ],
-   "big": "can you copy?",
-   "say": "Which jungle animal sound can you make? Tell us in the comments!"
+   "big": "like a lion?",
+   "say": "Your turn! Can you roar like a lion? Ready? Roar! Great job!"
   },
   {
    "type": "outro",

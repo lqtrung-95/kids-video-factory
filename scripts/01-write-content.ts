@@ -63,11 +63,15 @@ Video structure (always in this order):
 3. a "title" scene introducing the learning part (with a "say").
 4. LEARNING part: ${LEARNING[style]}
    Each learning scene: duration 5 (narration step stretches it if needed).
-5. outro scene (a topic-fitting phrase) and a subscribe scene.
+5. a "title" scene "Your turn!" (duration 6) that asks the kids to DO something out loud right now — make the sound,
+   do the move, say the words, point at something ("Your turn! Can you roar like a lion? Ready? Roar! Great job!").
+   The video is "Made for Kids": YouTube turns OFF comments, end screens and notifications, so NEVER ask viewers to
+   comment, like, subscribe in words, or click anything.
+6. outro scene (a topic-fitting phrase) and a subscribe scene.
 
 Durations of lyric scenes are placeholders (5-6s); the alignment step recomputes them from the real song.
 For lyric scenes also write an "imagePrompt" describing a background illustration for that line (no text, no close-up faces) — it is optional to use.
-meta.title ≤ 90 chars in the channel's style "X | Y | Song for Kids"; meta.description: 1 short paragraph + a question that invites comments; 10-15 tags mixing English and Vietnamese (e.g. "nhac thieu nhi", "be hoc tieng anh").
+meta.title ≤ 90 chars in the channel's style "X | Y | Song for Kids"; meta.description: 1 short paragraph + one line "👨‍👩‍👧 Tip for parents: …" (an activity to do together — never ask for comments); 10-15 tags mixing English and Vietnamese (e.g. "nhac thieu nhi", "be hoc tieng anh").
 audio: {} (filled later).`;
 
 const user = `Topic: ${topic}

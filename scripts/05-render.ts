@@ -37,10 +37,15 @@ const scale = preview ? 0.5 : Number(process.argv.find((a) => a.startsWith("--sc
   const browserExecutable = process.env.REMOTION_BROWSER ?? null;
   const composition = await selectComposition({ serveUrl, id: "KidsVideo", inputProps: props, browserExecutable });
 
-  // thumbnail: its own layout (big title, subjects, kids) — src/Thumbnail.tsx
-  const thumb = await selectComposition({ serveUrl, id: "Thumbnail", inputProps: v, browserExecutable });
-  await renderStill({ composition: thumb, serveUrl, inputProps: v, frame: 0, output: path.join(outDir, "thumbnail.jpg"), imageFormat: "jpeg", jpegQuality: 92, browserExecutable });
-  log("thumbnail.jpg ✓");
+  // thumbnails: the main one + the other layouts for YouTube Studio's "Test & compare" (src/Thumbnail.tsx)
+  const main = v.meta.thumbnail?.layout ?? "classic";
+  for (const layout of ["classic", "hero", "pop"] as const) {
+    const tv = { ...v, meta: { ...v.meta, thumbnail: { ...v.meta.thumbnail, layout } } };
+    const thumb = await selectComposition({ serveUrl, id: "Thumbnail", inputProps: tv, browserExecutable });
+    const file = layout === main ? "thumbnail.jpg" : `thumbnail-${layout}.jpg`;
+    await renderStill({ composition: thumb, serveUrl, inputProps: tv, frame: 0, output: path.join(outDir, file), imageFormat: "jpeg", jpegQuality: 92, browserExecutable });
+  }
+  log(`thumbnail.jpg (${main}) + 2 variants for Test & compare ✓`);
 
   const out = path.join(outDir, `${slug}${preview ? "-preview" : ""}.mp4`);
   let last = -1;

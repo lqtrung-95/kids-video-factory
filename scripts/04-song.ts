@@ -2,8 +2,8 @@
  * Step 4 — the song.
  *   npx tsx scripts/04-song.ts <slug>
  *
- * 1st run (no song yet): writes content/<slug>.lyrics.txt + a Suno style prompt.
- *     → In Suno (paid plan for commercial use): Create → Custom → paste lyrics + style,
+ * 1st run (no song yet): writes content/<slug>.mureka-lyrics.txt + .mureka-style.txt.
+ *     → In Mureka (paid plan = commercial rights): Create → Custom → paste lyrics + style,
  *       pick the best take, download MP3 to public/<slug>/song.mp3
  * 2nd run (song present): aligns lyrics to the audio (scripts/align.py) and re-times every
  *     lyric scene so scene cuts land on the lines and karaoke follows the singer.
@@ -12,6 +12,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { ROOT, assetDir, audioSeconds, load, log, rel, save } from "./lib";
+import { MUSIC_STYLES, murekaLyrics, pickStyle } from "./music";
 
 const slug = process.argv[2];
 if (!slug) throw new Error("Usage: tsx scripts/04-song.ts <slug>");
@@ -26,21 +27,20 @@ const lines = lyricIdx.flatMap((i) => (v.scenes[i] as Extract<(typeof v.scenes)[
 fs.writeFileSync(lyricsFile, lines.join("\n") + "\n");
 
 const song = path.join(assetDir(slug), "song.mp3");
+
+// what to paste into Mureka (or Suno): lyrics with [Verse]/[Chorus] tags + this video's music style
+const style = pickStyle(v, slug);
+if (v.meta.musicStyle !== style) {
+  v.meta.musicStyle = style;
+  save(slug, v);
+}
+fs.writeFileSync(path.join(ROOT, "content", `${slug}.mureka-lyrics.txt`), murekaLyrics(v));
+fs.writeFileSync(path.join(ROOT, "content", `${slug}.mureka-style.txt`), MUSIC_STYLES[style] + "\n");
+
 if (!fs.existsSync(song)) {
-  fs.writeFileSync(
-    path.join(ROOT, "content", `${slug}.suno.txt`),
-    [
-      "STYLE (paste into 'Style of Music'):",
-      "happy children's song, nursery rhyme, ukulele, glockenspiel, claps, cheerful female vocal with kids choir, 110 bpm, clear diction, simple melody",
-      "",
-      "LYRICS (paste into 'Lyrics' — keep exactly, one scene line per line):",
-      "[Intro]",
-      ...lines,
-      "[Outro]",
-    ].join("\n"),
-  );
-  log(`lyrics → content/${slug}.lyrics.txt, Suno prompt → content/${slug}.suno.txt`);
-  log(`make the song in Suno, save it as public/${slug}/song.mp3, then run this step again.`);
+  log(`music style: ${style}`);
+  log(`Mureka → Create → Custom: paste content/${slug}.mureka-lyrics.txt into Lyrics and content/${slug}.mureka-style.txt into Style,`);
+  log(`pick the best take (≈1:05–1:25, all lines sung), download MP3 → public/${slug}/song.mp3, then run this step again.`);
   process.exit(0);
 }
 

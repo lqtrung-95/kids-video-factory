@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Good Morning Routine Song | Brush Your Teeth, Get Dressed! | Song for Kids",
-  "description": "Wake up, stretch, brush your teeth and get dressed! ☀️🪥👕 A happy morning routine song that helps little ones get ready for the day, step by step.\n\nWhat do YOU do every morning? Tell us in the comments! 👇",
+  "description": "Wake up, stretch, brush your teeth and get dressed! ☀️🪥👕 A happy morning routine song that helps little ones get ready for the day, step by step.\n\n👨‍👩‍👧 Tip for parents: play it in the morning while you get ready together.",
   "tags": [
    "morning routine song",
    "brush your teeth song",
@@ -16,7 +16,11 @@
    "thoi quen tot cho be"
   ],
   "channel": "Meo with Pi",
-  "madeForKids": true
+  "madeForKids": true,
+  "playlists": [
+   "Daily Routines & Feelings"
+  ],
+  "musicStyle": "ukulele-pop"
  },
  "audio": {},
  "scenes": [
@@ -402,13 +406,13 @@
   },
   {
    "type": "title",
-   "duration": 5,
+   "duration": 6,
    "small": [
     "Your turn!",
-    "What do YOU do"
+    "Let's brush"
    ],
-   "big": "every morning?",
-   "say": "What do you do every morning? Tell us in the comments!"
+   "big": "our teeth!",
+   "say": "Your turn! Let's pretend to brush our teeth! Brush, brush, brush! Now wash your face! Splash! Great job!"
   },
   {
    "type": "outro",

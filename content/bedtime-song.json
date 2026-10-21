@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Good Night Song | Bedtime Routine Lullaby | Song for Kids",
-  "description": "Bath, pajamas, teeth, story, hug… and sweet dreams! 🌙😴 A gentle bedtime song and routine to help little ones wind down at night.\n\nWhat's YOUR favorite bedtime story? Tell us in the comments! 👇",
+  "description": "Bath, pajamas, teeth, story, hug… and sweet dreams! 🌙😴 A gentle bedtime song and routine to help little ones wind down at night.\n\n👨‍👩‍👧 Tip for parents: play it as part of your bedtime routine, then read a story together.",
   "tags": [
    "bedtime song",
    "lullaby",
@@ -16,7 +16,11 @@
    "be hoc tieng anh"
   ],
   "channel": "Meo with Pi",
-  "madeForKids": true
+  "madeForKids": true,
+  "playlists": [
+   "Daily Routines & Feelings"
+  ],
+  "musicStyle": "lullaby"
  },
  "audio": {},
  "scenes": [

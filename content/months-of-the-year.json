@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Months of the Year Song | January to December | Song for Kids",
-  "description": "January, February, March… 🎆🌸☀️🎃🎄 Sing the 12 months of the year, then learn each month in order.\n\nWhich month is YOUR birthday? Tell us in the comments! 👇",
+  "description": "January, February, March… 🎆🌸☀️🎃🎄 Sing the 12 months of the year, then learn each month in order.\n\n👨‍👩‍👧 Tip for parents: find your child's birthday month and sing it together.",
   "tags": [
    "months of the year song",
    "months of the year",
@@ -23,7 +23,11 @@
     "🎂",
     "🎄"
    ]
-  }
+  },
+  "playlists": [
+   "Learn English Words"
+  ],
+  "musicStyle": "marching"
  },
  "audio": {},
  "scenes": [
@@ -411,13 +415,12 @@
   },
   {
    "type": "title",
-   "duration": 5,
+   "duration": 6,
    "small": [
-    "Your turn!",
-    "When is"
+    "Your turn!"
    ],
-   "big": "your birthday?",
-   "say": "Which month is your birthday? Tell us in the comments!"
+   "big": "Say the months!",
+   "say": "Your turn! Say the months with me! January, February, March, April, May, June, July, August, September, October, November, December! Great job!"
   },
   {
    "type": "outro",

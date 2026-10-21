@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Community Helpers Song | Doctor, Firefighter, Teacher | Jobs for Kids",
-  "description": "Doctors, firefighters, teachers, farmers, chefs and pilots! 🧑‍⚕️🧑‍🚒🧑‍🏫🧑‍🌾 Sing a thank-you song for the people who help us, then learn 8 jobs in English.\n\nWhat do YOU want to be when you grow up? Tell us in the comments! 👇",
+  "description": "Doctors, firefighters, teachers, farmers, chefs and pilots! 🧑‍⚕️🧑‍🚒🧑‍🏫🧑‍🌾 Sing a thank-you song for the people who help us, then learn 8 jobs in English.\n\n👨‍👩‍👧 Tip for parents: ask your child what they want to be when they grow up!",
   "tags": [
    "community helpers",
    "jobs for kids",
@@ -16,7 +16,11 @@
    "be hoc tieng anh"
   ],
   "channel": "Meo with Pi",
-  "madeForKids": true
+  "madeForKids": true,
+  "playlists": [
+   "Learn English Words"
+  ],
+  "musicStyle": "bright-pop"
  },
  "audio": {},
  "scenes": [
@@ -365,13 +369,13 @@
   },
   {
    "type": "title",
-   "duration": 5,
+   "duration": 6,
    "small": [
     "Your turn!",
-    "What do you want to be"
+    "Let's be"
    ],
-   "big": "when you grow up?",
-   "say": "What do you want to be when you grow up? Tell us in the comments!"
+   "big": "firefighters!",
+   "say": "Your turn! Let's be firefighters! Wee-oo, wee-oo! Spray the water! Great job!"
   },
   {
    "type": "outro",

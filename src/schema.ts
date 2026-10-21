@@ -48,6 +48,7 @@ const base = {
   voice: z.string().optional(), // narration mp3 played at scene start
   voiceOffset: z.number().default(0.4),
   imagePrompt: z.string().optional(), // used by scripts/generate-images.ts
+  dub: z.record(z.string(), z.string()).optional(), // narration in other languages: { "vi": "…", "es": "…" } (09-dub)
   // motion (optional — chosen automatically when left out)
   transition: z.enum(["auto", "pop", "slide", "iris", "zoom", "swing", "slideUp"]).default("auto"),
   fx: z.enum(["auto", "none", "bubbles", "petals", "sparkles", "confetti", "snow", "hearts", "notes"]).default("auto"),
@@ -208,7 +209,15 @@ export const videoSchema = z.object({
     channel: z.string().default("Meo with Pi"),
     madeForKids: z.boolean().default(true),
     // optional thumbnail overrides (defaults: title before "|", pictures taken from the scenes)
-    thumbnail: z.object({ title: z.string().optional(), items: z.array(z.string()).optional() }).optional(),
+    thumbnail: z
+      .object({
+        title: z.string().optional(),
+        items: z.array(z.string()).optional(),
+        layout: z.enum(["classic", "hero", "pop"]).optional(), // the main thumbnail; the others are rendered as A/B variants
+      })
+      .optional(),
+    playlists: z.array(z.string()).default([]), // YouTube playlists this video goes into (06-upload, 08-compile --theme)
+    musicStyle: z.string().optional(), // id from scripts/music.ts — picked once, so the channel rotates styles
   }),
   audio: z
     .object({

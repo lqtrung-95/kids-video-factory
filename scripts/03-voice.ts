@@ -60,11 +60,19 @@ async function tts(text: string, out: string) {
   for (const [i, s] of v.scenes.entries()) {
     if (!s.say) continue;
     const out = path.join(dir, `voice-${String(i).padStart(2, "0")}.mp3`);
-    if (force || !fs.existsSync(out)) await tts(s.say, out);
+    // re-record when the text changed since last time (the text is kept next to the mp3)
+    const said = `${out}.txt`;
+    const stale = !fs.existsSync(out) || (fs.existsSync(said) ? fs.readFileSync(said, "utf8") !== `${voice}|${s.say}` : true);
+    if (force || stale) {
+      await tts(s.say, out);
+      fs.writeFileSync(said, `${voice}|${s.say}`);
+    }
     s.voice = rel(out);
     const len = audioSeconds(out);
     if (s.type === "action" && s.action === "freeze" && /freeze/i.test(s.say)) s.freezeAt = +(s.voiceOffset + len - 0.45).toFixed(2);
-    const need = s.voiceOffset + len + (s.type === "action" && s.action === "freeze" ? 2.2 : 0.9);
+    // freeze cards and "Your turn!" cards leave time for the kids to do it
+    const pause = s.type === "action" && s.action === "freeze" ? 2.2 : s.type === "title" && /your turn/i.test(s.say) ? 2.5 : 0.9;
+    const need = s.voiceOffset + len + pause;
     if (s.type !== "lyric" && s.duration < need) s.duration = Math.round(need * 10) / 10;
     log(`${rel(out)}  "${s.say}"  → scene ${i} ${s.duration}s`);
   }

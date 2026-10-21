@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Counting in Space 1 to 10 | Rockets, Planets & Stars | Number Song",
-  "description": "3, 2, 1… blast off! 🚀🪐⭐ Sing the space song, then count from one to ten with planets, rockets, stars and astronauts.\n\nWould YOU like to fly to space? Tell us in the comments! 👇",
+  "description": "3, 2, 1… blast off! 🚀🪐⭐ Sing the space song, then count from one to ten with planets, rockets, stars and astronauts.\n\n👨‍👩‍👧 Tip for parents: count down from ten together and jump for blast off!",
   "tags": [
    "counting song",
    "numbers 1 to 10",
@@ -17,7 +17,11 @@
    "be hoc tieng anh"
   ],
   "channel": "Meo with Pi",
-  "madeForKids": true
+  "madeForKids": true,
+  "playlists": [
+   "Numbers, Letters & Shapes"
+  ],
+  "musicStyle": "ukulele-pop"
  },
  "audio": {},
  "scenes": [
@@ -376,13 +380,13 @@
   },
   {
    "type": "title",
-   "duration": 5,
+   "duration": 6,
    "small": [
     "Your turn!",
-    "Would you like to"
+    "Count down with me!"
    ],
-   "big": "fly to space?",
-   "say": "Would you like to fly to space? Tell us in the comments!"
+   "big": "3, 2, 1… blast off!",
+   "say": "Your turn! Count down with me! Three, two, one... Blast off! Great job!"
   },
   {
    "type": "outro",

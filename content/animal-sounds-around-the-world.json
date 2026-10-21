@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Animal Sounds Around the World | What Does the Dog Say? | Song for Kids",
-    "description": "Woof, Gâu gâu, Wan wan, Meong meong! 🐶🐱🦆🐓 Did you know animals 'speak' differently in every country? Sing along and travel the world with Meo with Pi to hear how dogs, cats, ducks and roosters sound in Vietnam, Japan, Korea, France and Spain.\n\nWhat does the dog say in YOUR language? Tell us in the comments! 👇",
+    "description": "Woof, Gâu gâu, Wan wan, Meong meong! 🐶🐱🦆🐓 Did you know animals 'speak' differently in every country? Sing along and travel the world with Meo with Pi to hear how dogs, cats, ducks and roosters sound in Vietnam, Japan, Korea, France and Spain.\n\n👨‍👩‍👧 Tip for parents: ask your child what the dog says in YOUR language!",
     "tags": [
       "animal sounds",
       "animal sounds in different languages",
@@ -18,7 +18,12 @@
       "rooster sound"
     ],
     "channel": "Meo with Pi",
-    "madeForKids": true
+    "madeForKids": true,
+    "playlists": [
+      "Animal Songs",
+      "Around the World"
+    ],
+    "musicStyle": "ukulele-pop"
   },
   "audio": {
     "song": "animal-sounds-around-the-world/song.mp3",
@@ -1982,15 +1987,15 @@
     },
     {
       "duration": 9.7,
-      "say": "Now it's your turn! What does the dog say in your language? Tell us in the comments!",
+      "say": "Now it's your turn! Can you bark like a puppy? Ready? Woof, woof! Great job!",
       "voice": "animal-sounds-around-the-world/voice-33.mp3",
       "voiceOffset": 0.4,
       "type": "title",
       "small": [
         "Your turn!",
-        "What does the dog say"
+        "Can you bark"
       ],
-      "big": "in your language?"
+      "big": "like a puppy?"
     },
     {
       "duration": 4.5,

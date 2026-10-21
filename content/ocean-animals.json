@@ -1,7 +1,7 @@
 {
  "meta": {
   "title": "Under the Sea Song | Ocean Animals for Kids | Whale, Dolphin, Octopus",
-  "description": "Dive under the sea! 🐳🐬🐙🦀 Sing along, then meet 8 ocean animals and learn a fun fact about each one.\n\nWhich sea animal do YOU like best? Tell us in the comments! 👇",
+  "description": "Dive under the sea! 🐳🐬🐙🦀 Sing along, then meet 8 ocean animals and learn a fun fact about each one.\n\n👨‍👩‍👧 Tip for parents: ask your child which sea animal they would like to be.",
   "tags": [
    "ocean animals",
    "sea animals for kids",
@@ -17,7 +17,11 @@
    "dong vat bien cho be"
   ],
   "channel": "Meo with Pi",
-  "madeForKids": true
+  "madeForKids": true,
+  "playlists": [
+   "Animal Songs"
+  ],
+  "musicStyle": "ukulele-pop"
  },
  "audio": {},
  "scenes": [
@@ -369,13 +373,13 @@
   },
   {
    "type": "title",
-   "duration": 5,
+   "duration": 6,
    "small": [
     "Your turn!",
-    "Which sea animal"
+    "Swim like"
    ],
-   "big": "do you like best?",
-   "say": "Which ocean animal do you like best? Tell us in the comments!"
+   "big": "a fish!",
+   "say": "Your turn! Swim like a fish! Swish, swish! Now snap like a crab! Snip, snip! Great job!"
   },
   {
    "type": "outro",
